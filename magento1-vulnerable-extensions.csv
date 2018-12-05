@@ -1,0 +1,52 @@
+Name,Fixed in,Relevant URI,Reference
+Amasty_Geoip,1.1.6,,pavel.barbarich@amasty.com to gwillem@gmail.com
+Amasty_GeoipRedirect,1.0.23,,https://amasty.com/magento-geoip-redirect.html
+Amasty_ProductFeed,3.3.4,,https://amasty.com/blog/update-amasty-product-feed-extension/
+Amasty_Rma,1.3.11,,https://www.getastra.com/blog/cms/magento-security/vulnerability-magento-rma-extension/
+AW_Advancednewsletter,2.3.5,,https://labs.integrity.pt/advisories/cve-2014-1634/index.html
+AW_AdvancedReports,2.8.2,/advancedreports/chart/tunnel/,https://www.facebook.com/Aheadworks/photos/notice-we-fixed-the-vulnerability-connected-with-php-object-injection-discovered/2126624844064804/
+AW_AheadMetrics,,/aheadmetrics/auth/index/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+AW_Blog,1.3.10,,https://appcheck-ng.com/critical-security-flaw-patched-in-magento-blog-extension-cve-2015-3428/
+AW_Followupemail,3.6.6,,https://blog.aheadworks.com/security-issue-follow-up-email-vulnerability/
+BSS_ReorderProduct,1.2.4,/bssreorderproduct/list/add/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+Campaigner,1.1.6,/emaildirect/abandoned/restore/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+Ced_Layaway,,/layaway/view/add/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+CommerceThemes_GuestToReg,,/GuestToReg/index/post/,https://twitter.com/gwillem/status/1065986386795380736
+EM_Ajaxcart,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability
+EM_AjaxProducts,1.0.0,/ajaxproducts/index/index,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+EM_Multideal,,/multidealpro/index/edit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+EM_ProductsFilterWidget,,/minifilterproducts/index/ajax/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+EM_Quickshop,,/quickshop/index/view/,https://magento.com/security/vulnerabilities/sql-injection-vulnerability
+FME_Jobs,2.12.8,,Ryan Hoerr
+FME_Productattachments,2.5.3,productattachments/index/download,https://twitter.com/stevemarkperry/status/1067783411039911937
+Fooman_TcpdfLib,6.2,,https://mailchi.mp/fooman/important-security-update-for-pdf-customiser
+HE_TwoFactorAuth,2018-10-18,,https://github.com/nexcess/magento-sentry-two-factor-authentication/pull/28/commits/c34a60fe013c1d0ea77fba74ce705dcec5d95cba
+IWD_All,,iwdall/adminhtml_support/send,Max Chadwick
+Made_Cache,1.5.2,/madecache/varnish/esi/,https://github.com/madepeople/Made_Cache/commit/bbea7a966cf52114337891dffe67a5af97afa34f
+MageStore_AffiliatePlus,4.5,,https://www.getastra.com/blog/cms/magento-module-xss-affiliate-plus-update/
+Magestore_Pdfinvoiceplus,2.4,,https://www.getastra.com/blog/cms/magento-security/high-risk-vulnerability-pdf-invoice-plus-magento-extension-vulnerability/
+Magmi,0.7.22,/magmi/,http://magmi.org/magmi-security-issue-solved/
+Magpleasure_Filesystem,,,http://www.magpleasure.com/blog/quick-survey-should-we-leave-the-file-system-extension-alive.html
+MD_Quickview,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability
+Mirasvit_Helpdesk,1.5.3,,https://mirasvit.com/blog/helpdesk-mx-for-magento-1-security-issue.html
+Mirasvit_SEO,1.3.16,,https://mirasvit.com/doc/extension_seosuite/current/changelog
+MW_Affiliate,,mw_aref=,martin@magemojo.com to gwillem@gmail.com
+Netgo_Gwishlist,,/netgocust/Gwishlist/updategwishlist/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+Ophira_Qquoteadv,5.4.5,/qquoteadv/download/downloadCustomOption/,https://cart2quote.zendesk.com/hc/en-us/articles/115000616303--FIXED-Security-Vulnerability-in-downloadCustomOptionAction
+PO_Prescription,,/Prescription/amendQuoteItemQty/;/Prescription/strictVerifyById/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+Smartwave_QuickView,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability
+Sns_Quickview,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability
+TBT_Rewards,1.12.1,/rewards/notifications/unsubscribe/;/rewards/customer/notifications/unsubscribe/,https://support.magerewards.com/article/2326-magerewards-1-12-1-is-now-available
+Ves_Tabshome,,/tabshome/index/ajax/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+Ves_VendorsCredit,,/vendors/credit_withdraw/;/vendors/credit/withdraw/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+VladimirPopov_WebForms,2.8.0,/webforms/,https://mageme.com/magento-form-builder.html
+Webcooking_SimpleBundle,1.6.9,/simplebundle/Cart/add,https://restaurant.web-cooking.net/marketing/magento-simple-bundle.html
+Webgility,346,/webgility/upgrade.php,https://gwillem.gitlab.io/2018/10/30/webgility-backdoor/
+?,,/megamenu/index/getitems/,jeroen@magehost.pro to gwillem@gmail.com
+?,,/ajax/Showroom/submit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+?,,/ajaxcart/cart/deleteBuyBackProgram,Peter O'Callaghan
+?,,/appointment/index/index/,Peter O'Callaghan
+?,,/AvisVerifies/dialog/index/,Peter O'Callaghan
+?,,/favourites/index/add/,Peter O'Callaghan
+?,,/freegift/cart/gurlgift/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+?,,/pdffree/Product/pdfsave/,Peter O'Callaghan
