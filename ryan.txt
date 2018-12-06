@@ -1,3 +1,0 @@
-
-Fooman_PdfCustomizer                      2.12.8     RCE (PHP Object Injection) via TCPDF   2018-10-02                     
-En Webforms, andere versie?
