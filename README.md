@@ -71,4 +71,5 @@ Use the date of the fix in YYYY-MM-DD notation.
 - Max Chadwick
 - Ryan Hoerr
 - Jeroen Vermeulen
+- Martin Pachol
 - Willem de Groot
