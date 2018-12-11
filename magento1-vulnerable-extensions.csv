@@ -1,10 +1,10 @@
 Name,Fixed in,Relevant URI,Reference
 Amasty_Acart,1.17.4,,https://amasty.com/magento-abandoned-cart-email.html
 Amasty_Blog,2.3.4,,https://amasty.com/magento-blog-pro.html
-Amasty_Feed,3.3.4,,https://amasty.com/blog/update-amasty-product-feed-extension/
+Amasty_Customform,1.7.3,,https://amasty.com/magento-form-builder.html
 Amasty_FavoriteProducts?,1.2.10,,https://amasty.com/favorite-products.html
-Amasty_FormBuilder,1.7.3,,https://amasty.com/magento-form-builder.html
-Amasty_FollowUpEmail,1.8.2,,https://amasty.com/magento-follow-up-email.html
+Amasty_Feed,3.3.4,,https://amasty.com/blog/update-amasty-product-feed-extension/
+Amasty_Followup,1.8.2,,https://amasty.com/magento-follow-up-email.html
 Amasty_Geoip,1.1.6,,pavel.barbarich@amasty.com to gwillem@gmail.com
 Amasty_GeoipRedirect,1.0.23,,https://amasty.com/magento-geoip-redirect.html
 Amasty_Helpdesk?,1.0.9,,https://amasty.com/magento-help-desk.html
@@ -57,11 +57,11 @@ Ves_VendorsCredit,,/vendors/credit_withdraw/;/vendors/credit/withdraw/,https://g
 VladimirPopov_WebForms,2.8.0,/webforms/,https://mageme.com/magento-form-builder.html
 Webcooking_SimpleBundle,1.6.9,/simplebundle/Cart/add,https://restaurant.web-cooking.net/marketing/magento-simple-bundle.html
 Webgility,346,/webgility/upgrade.php,https://gwillem.gitlab.io/2018/10/30/webgility-backdoor/
-?,,/megamenu/index/getitems/,jeroen@magehost.pro to gwillem@gmail.com
 ?,,/ajax/Showroom/submit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
 ?,,/ajaxcart/cart/deleteBuyBackProgram,Peter O'Callaghan
 ?,,/appointment/index/index/,Peter O'Callaghan
 ?,,/AvisVerifies/dialog/index/,Peter O'Callaghan
 ?,,/favourites/index/add/,Peter O'Callaghan
 ?,,/freegift/cart/gurlgift/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+?,,/megamenu/index/getitems/,jeroen@magehost.pro to gwillem@gmail.com
 ?,,/pdffree/Product/pdfsave/,Peter O'Callaghan
