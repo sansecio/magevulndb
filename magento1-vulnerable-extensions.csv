@@ -1,12 +1,27 @@
 Name,Fixed in,Relevant URI,Reference
+Amasty_Acart,1.17.4,,https://amasty.com/magento-abandoned-cart-email.html
+Amasty_Blog,2.3.4,,https://amasty.com/magento-blog-pro.html
+Amasty_Customform,1.7.3,,https://amasty.com/magento-form-builder.html
+Amasty_FavoriteProducts?,1.2.10,,https://amasty.com/favorite-products.html
+Amasty_Feed,3.3.4,,https://amasty.com/blog/update-amasty-product-feed-extension/
+Amasty_Followup,1.8.2,,https://amasty.com/magento-follow-up-email.html
 Amasty_Geoip,1.1.6,,pavel.barbarich@amasty.com to gwillem@gmail.com
 Amasty_GeoipRedirect,1.0.23,,https://amasty.com/magento-geoip-redirect.html
-Amasty_ProductFeed,3.3.4,,https://amasty.com/blog/update-amasty-product-feed-extension/
+Amasty_Helpdesk?,1.0.9,,https://amasty.com/magento-help-desk.html
+Amasty_Loyalty,1.14.2,,https://amasty.com/magento-loyalty-program.html
+Amasty_Ogrid,1.10.4,,https://amasty.com/extended-order-grid.html
+Amasty_Promo,1.3.7,,https://amasty.com/promo-banners.html
+Amasty_Reviews,1.3.13,,https://amasty.com/magento-ajax-reviews.html
 Amasty_Rma,1.3.11,,https://www.getastra.com/blog/cms/magento-security/vulnerability-magento-rma-extension/
+Amasty_Shiprules,2.5.4,,https://amasty.com/shipping-table-rates.html
+Amasty_Sorting,1.4.9,,https://amasty.com/improved-sorting.html
+Amasty_Stockstatus,3.10.7,,https://amasty.com/custom-stock-status.html
+Amasty_StoreCredit,1.2.2,,https://amasty.com/magento-store-credit.html
+Amasty_Sugarcrm?,1.6.6,,https://amasty.com/magento-sugarcrm-bridge.html
 AW_Advancednewsletter,2.3.5,,https://labs.integrity.pt/advisories/cve-2014-1634/index.html
 AW_AdvancedReports,2.8.2,/advancedreports/chart/tunnel/,https://www.facebook.com/Aheadworks/photos/notice-we-fixed-the-vulnerability-connected-with-php-object-injection-discovered/2126624844064804/
 AW_AheadMetrics,,/aheadmetrics/auth/index/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
-AW_Blog,1.3.10,,https://appcheck-ng.com/critical-security-flaw-patched-in-magento-blog-extension-cve-2015-3428/
+AW_Blog,1.3.18,,https://ecommerce.aheadworks.com/magento-extension-updates/blog.html
 AW_Followupemail,3.6.6,,https://blog.aheadworks.com/security-issue-follow-up-email-vulnerability/
 BSS_ReorderProduct,1.2.4,/bssreorderproduct/list/add/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
 Campaigner,1.1.6,/emaildirect/abandoned/restore/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
@@ -42,11 +57,11 @@ Ves_VendorsCredit,,/vendors/credit_withdraw/;/vendors/credit/withdraw/,https://g
 VladimirPopov_WebForms,2.8.0,/webforms/,https://mageme.com/magento-form-builder.html
 Webcooking_SimpleBundle,1.6.9,/simplebundle/Cart/add,https://restaurant.web-cooking.net/marketing/magento-simple-bundle.html
 Webgility,346,/webgility/upgrade.php,https://gwillem.gitlab.io/2018/10/30/webgility-backdoor/
-?,,/megamenu/index/getitems/,jeroen@magehost.pro to gwillem@gmail.com
 ?,,/ajax/Showroom/submit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
 ?,,/ajaxcart/cart/deleteBuyBackProgram,Peter O'Callaghan
 ?,,/appointment/index/index/,Peter O'Callaghan
 ?,,/AvisVerifies/dialog/index/,Peter O'Callaghan
 ?,,/favourites/index/add/,Peter O'Callaghan
 ?,,/freegift/cart/gurlgift/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/
+?,,/megamenu/index/getitems/,jeroen@magehost.pro to gwillem@gmail.com
 ?,,/pdffree/Product/pdfsave/,Peter O'Callaghan
