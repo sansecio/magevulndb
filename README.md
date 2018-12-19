@@ -70,6 +70,7 @@ Use the date of the fix in YYYY-MM-DD notation.
 - Peter O'Callaghan
 - Max Chadwick
 - Ryan Hoerr
-- Jeroen Vermeulen
+- Jeroen Vermeulen - MageHost.pro
 - Martin Pachol
 - Willem de Groot
+- Roland Walraven - MageHost.pro
