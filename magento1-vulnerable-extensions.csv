@@ -41,7 +41,7 @@ Made_Cache,1.5.2,/madecache/varnish/esi/,https://github.com/madepeople/Made_Cach
 MageStore_AffiliatePlus,4.5,,https://www.getastra.com/blog/cms/magento-module-xss-affiliate-plus-update/
 Magestore_Pdfinvoiceplus,2.4,,https://www.getastra.com/blog/cms/magento-security/high-risk-vulnerability-pdf-invoice-plus-magento-extension-vulnerability/
 Magmi,0.7.22,/magmi/,http://magmi.org/magmi-security-issue-solved/
-Magpleasure_Common,0.8.12,/admin/magpleasure/ajaxform/save/,https://www.alterweb.nl/techtalk/magpleasure_common-security-issue
+Magpleasure_Common,0.8.13,/admin/magpleasure/ajaxform/save/,https://www.alterweb.nl/techtalk/magpleasure_common-security-issue
 Magpleasure_Filesystem,,,http://www.magpleasure.com/blog/quick-survey-should-we-leave-the-file-system-extension-alive.html
 MD_Quickview,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability
 Mirasvit_Helpdesk,1.5.3,,https://mirasvit.com/blog/helpdesk-mx-for-magento-1-security-issue.html
