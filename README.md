@@ -12,6 +12,14 @@ Intended audience: developers, administrators, security auditors
 
 # [The List](magento1-vulnerable-extensions.csv)
 
+The list contains these columns:
+
+1. Vendor_Name of the module (as reported by `n98-magerun dev:module:list` or `Mage::getConfig()->getNode()->modules`)
+1. The earliest safe version to use. Older entries are considered insecure. 
+1. Part of the URL that attackers use to exploit this module. Can be used to search logfiles for malicious activity. (optional)
+1. Reference URL describing the problem. If no public statement is available, then the name of the researcher who discovered it.
+1. URL with upgrade instructions (optional)
+
 # Context
 
 Magento is an attractive target for payment skimmers and the number of attacks has increased steadily since 2015. In 2018, attackers are shifting from Magento core exploits (eg, Shoplift, brute force attacks on admin passwords) to [3rd party software components](https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/). This poses a practical problem: there is no central place where one can (programmatically) find out whether a particular module version has known security issues. This repository solves that!
