@@ -33,7 +33,7 @@ EM_Multideal,,/multidealpro/index/edit/,https://gwillem.gitlab.io/2018/10/23/mag
 EM_ProductsFilterWidget,,/minifilterproducts/index/ajax/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://www.emthemes.com/commercial-magento-extensions/em-filterproductswidget.html
 EM_Quickshop,,/quickshop/index/view/,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://www.emthemes.com/em-quickshop.html
 FME_Jobs,,,Ryan Hoerr,https://www.fmeextensions.com/magento-open-jobs-manager.html
-FME_Productattachments,2.5.3,productattachments/index/download,https://twitter.com/stevemarkperry/status/1067783411039911937,https://www.fmeextensions.com/magento-product-attachments-file-uploads-extension.html
+FME_Productattachments,2.5.3,productattachments/index/download,https://steveperrycreative.com/fme-product-attachment-2-5-2-magento-1-extension-vulnerability/,https://www.fmeextensions.com/magento-product-attachments-file-uploads-extension.html
 Fooman_TcpdfLib,6.2,,,https://mailchi.mp/fooman/important-security-update-for-pdf-customiser
 HE_TwoFactorAuth,2018-10-18,,https://github.com/nexcess/magento-sentry-two-factor-authentication/pull/28/commits/c34a60fe013c1d0ea77fba74ce705dcec5d95cba,https://github.com/nexcess/magento-sentry-two-factor-authentication
 IWD_All,,iwdall/adminhtml_support/send,Max Chadwick,https://www.iwdagency.com/help/getting-started/installing-iwd-all
