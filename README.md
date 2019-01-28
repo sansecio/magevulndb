@@ -24,10 +24,37 @@ The list contains these columns:
 
 Magento is an attractive target for payment skimmers and the number of attacks has increased steadily since 2015. In 2018, attackers are shifting from Magento core exploits (eg, Shoplift, brute force attacks on admin passwords) to [3rd party software components](https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/). This poses a practical problem: there is no central place where one can (programmatically) find out whether a particular module version has known security issues. This repository solves that!
 
+# Usage
+You can quickly scan your site against this blacklist using a Magerun module or a single-line command. Both require command line or SSH access to the server. Magerun is recommended as it can be easily scheduled or used on an ongoing basis, and provides better output. Both approaches load the latest vulnerability data on every run.
+
+### Magerun module (recommended)
+
+1. [Install n98-magerun](https://github.com/netz98/n98-magerun)
+2. Install the Magento1 Module Blacklist plugin:
+```
+mkdir -p ~/.n98-magerun/modules
+cd ~/.n98-magerun/modules
+git clone https://github.com/gwillem/magento1-module-blacklist.git
+```
+3. Scan your Magento install:
+```
+n98-magerun.phar dev:module:security
+```
+
+You can also use the `-q` flag to limit output to findings only.
+```
+n98-magerun.phar dev:module:security -q
+```
+
+### Quick run
+
+To quickly check a Magento installation for vulnerable modules, run this command in SSH **at your Magento site root**:
+
+    php -r "require_once('app/Mage.php');Mage::app();$config=Mage::getConfig()->getNode()->modules;$found=array();$list=fopen('https://raw.githubusercontent.com/gwillem/magento1-module-blacklist/master/magento1-vulnerable-extensions.csv','r');while($list&&list($name,$version)=list($row['module'],$row['fixed_in'],,$row['reference'],$row['update'])=fgetcsv($list)){if(isset($name,$version,$config->{$name},$config->{$name}->version)&&(empty($version)||version_compare($config->{$name}->version,$version,'<'))){$found[]=$row;}}if($found){echo 'Found possible vulnerable modules: '.print_r($found,1);}else{echo 'No known vulnerable modules detected.';}"
+
 # Todo
 
 - [ ] Import past security incidents
-- [ ] Release n98-magerun module that checks for insecure modules, similar to the module version checker @ http://tools.hypernode.com/
 - [ ] Integrate with Ext-DN
 
 # Contributing
