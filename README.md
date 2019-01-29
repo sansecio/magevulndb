@@ -1,14 +1,12 @@
 ![](https://buq.eu/stuff/blacklist.png)
 
-# Magento1 Module Blacklist
+# Magento Module Blacklist
 
 List of Magento 1 integrations with known security issues. Looking for [Magento 2](https://github.com/Roave/SecurityAdvisories)?
 
-**Objective: easily identify insecure 3rd party software in your Magento code base:**
+**Objective: easily identify insecure 3rd party software in your Magento code base.**
 
 ![n98-magerun dev:module:security](https://buq.eu/screenshots/kUOyTTWeDIUXUrGU1kqAmqu5.png)
-
-Intended users: developers, administrators, security auditors
 
 # [The List](magento1-vulnerable-extensions.csv)
 
@@ -113,4 +111,4 @@ The information and code of this repository is provided free of charge, without 
 
 # Contact
 
-[gwillem@gmail.com](mailto:gwillem@gmail.com?subject=magento-module-blacklist repo)
+[gwillem@gmail.com](mailto:gwillem@gmail.com?subject=magento-module-blacklist)
