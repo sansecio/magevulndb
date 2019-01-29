@@ -4,11 +4,11 @@
 
 List of Magento 1 integrations with known security issues. Looking for [Magento 2](https://github.com/Roave/SecurityAdvisories)?
 
-Objectives:
-1. Easily identify insecure 3rd party software in your code base. 
-1. Run `n98-magerun dev:module:security` to see insecure installed modules. 
+**Objective: easily identify insecure 3rd party software in your Magento code base:**
 
-Intended audience: developers, administrators, security auditors
+![n98-magerun dev:module:security](https://buq.eu/screenshots/kUOyTTWeDIUXUrGU1kqAmqu5.png)
+
+Intended users: developers, administrators, security auditors
 
 # [The List](magento1-vulnerable-extensions.csv)
 
@@ -22,9 +22,10 @@ The list contains these columns:
 
 # Context
 
-Magento is an attractive target for payment skimmers and the number of attacks has increased steadily since 2015. In 2018, attackers are shifting from Magento core exploits (eg, Shoplift, brute force attacks on admin passwords) to [3rd party software components](https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/). This poses a practical problem: there is no central place where one can (programmatically) find out whether a particular module version has known security issues. This repository solves that!
+Magento is an attractive target for payment skimmers and the number of attacks has increased steadily since 2015. In 2018, attackers shifted from Magento core exploits (eg, Shoplift, brute force attacks on admin passwords) to [3rd party software components](https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/). This poses a practical problem: there is no central place where one can (programmatically) find out whether a particular module version has known security issues. This repository solves that!
 
 # Usage
+
 You can quickly scan your site against this blacklist using a Magerun module or a single-line command. Both require command line or SSH access to the server. Magerun is recommended as it can be easily scheduled or used on an ongoing basis, and provides better output. Both approaches load the latest vulnerability data on every run.
 
 ### Magerun module (recommended)
@@ -34,7 +35,7 @@ You can quickly scan your site against this blacklist using a Magerun module or 
 ```
 mkdir -p ~/.n98-magerun/modules
 cd ~/.n98-magerun/modules
-git clone https://github.com/gwillem/magento1-module-blacklist.git
+git clone https://github.com/gwillem/magento-module-blacklist.git
 ```
 3. Scan your Magento install:
 ```
@@ -46,23 +47,18 @@ You can also use the `-q` flag to limit output to findings only.
 n98-magerun.phar dev:module:security -q
 ```
 
-### Quick run
+### No magerun installed?
 
 To quickly check a Magento installation for vulnerable modules, run this command in SSH **at your Magento site root**:
 
     php -r "require_once('app/Mage.php');Mage::app();$config=Mage::getConfig()->getNode()->modules;$found=array();$list=fopen('https://raw.githubusercontent.com/gwillem/magento1-module-blacklist/master/magento1-vulnerable-extensions.csv','r');while($list&&list($name,$version)=list($row['module'],$row['fixed_in'],,$row['reference'],$row['update'])=fgetcsv($list)){if(isset($name,$version,$config->{$name},$config->{$name}->version)&&(empty($version)||version_compare($config->{$name}->version,$version,'<'))){$found[]=$row;}}if($found){echo 'Found possible vulnerable modules: '.print_r($found,1);}else{echo 'No known vulnerable modules detected.';}"
-
-# Todo
-
-- [ ] Import past security incidents
-- [ ] Integrate with Ext-DN
 
 # Contributing
 
 Contributions welcome. Requirements:
 
 - Either "name" or "uri" (in case of exploitation in the wild) is required.
-- A verifiable source is required.
+- A reputable, verifiable source is required.
 
 Only security issues that have *verified proof* or are being *actively exploited* in the wild should be considered. 
 
@@ -100,12 +96,21 @@ Seperate them with a ";"
 
 Use the date of the fix in YYYY-MM-DD notation.
 
-# Contributors:
+# Acknowledgements
 
+These Magento/security professionals have contributed valuable research and code:
+
+- Ryan Hoerr - ParadoxLabs
 - Peter O'Callaghan
-- Max Chadwick
-- Ryan Hoerr
+- Max Chadwick - Something Digital
 - Jeroen Vermeulen - MageHost.pro
-- Martin Pachol
-- Willem de Groot
 - Roland Walraven - MageHost.pro
+- Martin Pachol - MageMojo
+
+# License
+
+The information and code of this repository is provided free of charge, without warranty or assumed liability of any kind. Merchants and development agencies are free to use this data to assess their own stores. It is not allowed to use or include this data in commercial products or offerings. 
+
+# Contact
+
+[gwillem@gmail.com](mailto:gwillem@gmail.com?subject=magento-module-blacklist repo)

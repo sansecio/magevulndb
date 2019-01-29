@@ -5,7 +5,7 @@
  * Execute as:
  *  n98-magerun.phar dev:module:security [-q]
  *
- * @see    https://github.com/gwillem/magento1-module-blacklist
+ * @see    https://github.com/gwillem/magento-module-blacklist
  * @author Ryan Hoerr <rhoerr@gmail.com>
  */
 
@@ -17,7 +17,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class SecurityScanCommand extends AbstractMagentoCommand
 {
-    const BLACKLIST_URL = 'https://raw.githubusercontent.com/gwillem/magento1-module-blacklist/master/magento1-vulnerable-extensions.csv';
+    const BLACKLIST_URL = 'https://raw.githubusercontent.com/gwillem/magento-module-blacklist/master/magento1-vulnerable-extensions.csv';
     
     /**
      * @return void

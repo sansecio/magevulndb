@@ -13,7 +13,7 @@ Mage::app();
 
 $config = Mage::getConfig()->getNode()->modules;
 $found = array();
-$list = fopen('https://raw.githubusercontent.com/gwillem/magento1-module-blacklist/master/magento1-vulnerable-extensions.csv', 'r');
+$list = fopen('https://raw.githubusercontent.com/gwillem/magento-module-blacklist/master/magento1-vulnerable-extensions.csv', 'r');
 while ($list && list($name, $version) = list($row['module'], $row['fixed_in'], , $row['reference'], $row['update']) = fgetcsv($list)) {
 	if (isset($name, $version, $config->{$name}->version)
 		&& (empty($version) || version_compare($config->{$name}->version, $version, '<'))) {
