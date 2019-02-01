@@ -1,10 +1,6 @@
-![](https://buq.eu/stuff/blacklist.png)
+# Magento Vulnerability Database
 
-# Magento Module Blacklist
-
-List of Magento 1 integrations with known security issues. Looking for [Magento 2](https://github.com/Roave/SecurityAdvisories)?
-
-**Objective: easily identify insecure 3rd party software in your Magento code base.**
+List of Magento 1 integrations with known security issues. **Objective: easily identify insecure 3rd party software in your Magento code base.** See my blog for the rationale: [Bad extensions now main source of Magento hacks & a solution](https://gwillem.gitlab.io/2019/01/29/magento-module-blacklist/)
 
 ![n98-magerun dev:module:security](https://buq.eu/screenshots/kUOyTTWeDIUXUrGU1kqAmqu5.png)
 
@@ -24,16 +20,16 @@ Magento is an attractive target for payment skimmers and the number of attacks h
 
 # Usage
 
-You can quickly scan your site against this blacklist using a Magerun module or a single-line command. Both require command line or SSH access to the server. Magerun is recommended as it can be easily scheduled or used on an ongoing basis, and provides better output. Both approaches load the latest vulnerability data on every run.
+You can quickly scan your site against this repository using a Magerun module or a single-line command. Both require command line or SSH access to the server. Magerun is recommended as it can be easily scheduled or used on an ongoing basis, and provides better output. Both approaches load the latest vulnerability data on every run.
 
 ### Magerun module (recommended)
 
 1. [Install n98-magerun](https://github.com/netz98/n98-magerun)
-2. Install the Magento1 Module Blacklist plugin:
+2. Install the Magento Vulnerability Database plugin:
 ```
 mkdir -p ~/.n98-magerun/modules
 cd ~/.n98-magerun/modules
-git clone https://github.com/gwillem/magento-module-blacklist.git
+git clone https://github.com/gwillem/magevulndb.git
 ```
 3. Scan your Magento install:
 ```
@@ -49,7 +45,7 @@ n98-magerun.phar dev:module:security -q
 
 To quickly check a Magento installation for vulnerable modules, run this command in SSH **at your Magento site root**:
 
-    php -r "require_once('app/Mage.php');Mage::app();$config=Mage::getConfig()->getNode()->modules;$found=array();$list=fopen('https://raw.githubusercontent.com/gwillem/magento1-module-blacklist/master/magento1-vulnerable-extensions.csv','r');while($list&&list($name,$version)=list($row['module'],$row['fixed_in'],,$row['reference'],$row['update'])=fgetcsv($list)){if(isset($name,$version,$config->{$name},$config->{$name}->version)&&(empty($version)||version_compare($config->{$name}->version,$version,'<'))){$found[]=$row;}}if($found){echo 'Found possible vulnerable modules: '.print_r($found,1);}else{echo 'No known vulnerable modules detected.';}"
+    php -r "require_once('app/Mage.php');Mage::app();$config=Mage::getConfig()->getNode()->modules;$found=array();$list=fopen('https://raw.githubusercontent.com/gwillem/magevulndb/master/magento1-vulnerable-extensions.csv','r');while($list&&list($name,$version)=list($row['module'],$row['fixed_in'],,$row['reference'],$row['update'])=fgetcsv($list)){if(isset($name,$version,$config->{$name},$config->{$name}->version)&&(empty($version)||version_compare($config->{$name}->version,$version,'<'))){$found[]=$row;}}if($found){echo 'Found possible vulnerable modules: '.print_r($found,1);}else{echo 'No known vulnerable modules detected.';}"
 
 # Contributing
 
@@ -111,4 +107,4 @@ The information and code of this repository is provided free of charge, without 
 
 # Contact
 
-[gwillem@gmail.com](mailto:gwillem@gmail.com?subject=magento-module-blacklist)
+[gwillem@gmail.com](mailto:gwillem@gmail.com?subject=magevulndb)
