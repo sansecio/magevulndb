@@ -1,0 +1,14 @@
+Source: magento-module-blacklist
+Priority: optional
+Maintainer: Willem de Groot <willem@byte.nl>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Section: libs
+Homepage: https://github.com/gwillem/magento-module-blacklist
+Vcs-Git: git@github.com:gwillem/magento-module-blacklist.git
+
+Package: magento-module-blacklist
+Section: libs
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Magerun module to quickly scan your Magento 1 shop against a blacklist
