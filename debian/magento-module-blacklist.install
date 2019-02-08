@@ -1,4 +1,0 @@
-# https://www.debian.org/doc/manuals/maint-guide/dother.en.html#install
-
-src/ /usr/local/share/n98-magerun/modules/MagentoModuleBlacklist/
-n98-magerun.yaml /usr/local/share/n98-magerun/modules/MagentoModuleBlacklist/

@@ -1,4 +1,4 @@
-magento-module-blacklist (20190130.155345) xenial; urgency=medium
+magevulndb (20190130.155345) xenial; urgency=medium
 
   * Add Debian packaging
 
