@@ -23,6 +23,8 @@ while ($list && list($name, $version) = list($row['module'], $row['fixed_in'], ,
 
 if ($found) {
 	echo 'Found possible vulnerable modules: '.print_r($found, 1);
-} else {
-	echo 'No known vulnerable modules detected.';
+	exit(1);
 }
+
+echo 'No known vulnerable modules detected.';
+exit(0);
