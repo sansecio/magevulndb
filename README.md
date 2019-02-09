@@ -45,7 +45,7 @@ n98-magerun.phar dev:module:security -q
 
 To quickly check a Magento installation for vulnerable modules, run this command in SSH **at your Magento site root**:
 
-    php -r "require_once('app/Mage.php');Mage::app();$config=Mage::getConfig()->getNode()->modules;$found=array();$list=fopen('https://raw.githubusercontent.com/gwillem/magevulndb/master/magento1-vulnerable-extensions.csv','r');while($list&&list($name,$version)=list($row['module'],$row['fixed_in'],,$row['reference'],$row['update'])=fgetcsv($list)){if(isset($name,$version,$config->{$name},$config->{$name}->version)&&(empty($version)||version_compare($config->{$name}->version,$version,'<'))){$found[]=$row;}}if($found){echo 'Found possible vulnerable modules: '.print_r($found,1);}else{echo 'No known vulnerable modules detected.';}"
+    php -r 'require_once("app/Mage.php");Mage::app();$config=Mage::getConfig()->getNode()->modules;$found=array();$list=fopen("https://raw.githubusercontent.com/gwillem/magevulndb/master/magento1-vulnerable-extensions.csv","r");while($list&&list($name,$version)=list($row["module"],$row["fixed_in"],,$row["reference"],$row["update"])=fgetcsv($list)){if(isset($name,$version,$config->{$name},$config->{$name}->version)&&(empty($version)||version_compare($config->{$name}->version,$version,"<"))){$found[]=$row;}}if($found){echo "Found possible vulnerable modules: ".print_r($found,1);}else{echo "No known vulnerable modules detected.";}'
 
 # Contributing
 
