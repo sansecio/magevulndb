@@ -41,11 +41,22 @@ You can also use the `-q` flag to limit output to findings only.
 n98-magerun.phar dev:module:security -q
 ```
 
+You can check the exit code, for example to fail a build when a vulnerable module is detected:
+
+* exit code `0`: no known vulnerabilities found
+* exit code `1`: known vulnerabilities found
+* exit code `2`: vulnerability data could not be loaded
+
 ### No magerun installed?
 
 To quickly check a Magento installation for vulnerable modules, run this command in SSH **at your Magento site root**:
 
-    php -r "require_once('app/Mage.php');Mage::app();$config=Mage::getConfig()->getNode()->modules;$found=array();$list=fopen('https://raw.githubusercontent.com/gwillem/magevulndb/master/magento1-vulnerable-extensions.csv','r');while($list&&list($name,$version)=list($row['module'],$row['fixed_in'],,$row['reference'],$row['update'])=fgetcsv($list)){if(isset($name,$version,$config->{$name},$config->{$name}->version)&&(empty($version)||version_compare($config->{$name}->version,$version,'<'))){$found[]=$row;}}if($found){echo 'Found possible vulnerable modules: '.print_r($found,1);}else{echo 'No known vulnerable modules detected.';}"
+    php -r "require_once('app/Mage.php');Mage::app();$config=Mage::getConfig()->getNode()->modules;$found=array();$list=fopen('https://raw.githubusercontent.com/gwillem/magevulndb/master/magento1-vulnerable-extensions.csv','r');while($list&&list($name,$version)=list($row['module'],$row['fixed_in'],,$row['reference'],$row['update'])=fgetcsv($list)){if(isset($name,$version,$config->{$name},$config->{$name}->version)&&(empty($version)||version_compare($config->{$name}->version,$version,'<'))){$found[]=$row;}}if($found){echo 'Found possible vulnerable modules: '.print_r($found,1);exit(1);}echo 'No known vulnerable modules detected.';exit(0);}"
+
+You can check the exit code, for example to fail a build when a vulnerable module is detected:
+
+* exit code `0`: no known vulnerabilities found
+* exit code `1`: known vulnerabilities found
 
 # Contributing
 
