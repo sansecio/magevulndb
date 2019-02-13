@@ -31,15 +31,16 @@ class SecurityScanCommand extends AbstractMagentoCommand
    /**
     * @param \Symfony\Component\Console\Input\InputInterface $input
     * @param \Symfony\Component\Console\Output\OutputInterface $output
-    * @return void
+    * @return int exit code: 0 no known vulnerabilities found, 1 vulnerabilities found, 2 data could not be loaded
     */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->detectMagento($output);
-        
+
         if ($this->initMagento()) {
             $modules   = \Mage::getConfig()->getNode()->modules;
             $blacklist = fopen(static::BLACKLIST_URL, 'r');
+            $exitCode  = 0;
             $hitCount  = 0;
             
             if ($blacklist === false) {
@@ -47,7 +48,7 @@ class SecurityScanCommand extends AbstractMagentoCommand
                     '<error>Unable to load the latest vulnerability data.</error>',
                     OutputInterface::VERBOSITY_QUIET
                 );
-                return;
+                return 2;
             }
             
             while ($row = fgetcsv($blacklist)) {
@@ -80,7 +81,8 @@ class SecurityScanCommand extends AbstractMagentoCommand
                     }
                     
                     $output->writeln('');
-                    
+
+                    $exitCode = 1;
                     $hitCount++;
                 }
             }
@@ -88,6 +90,8 @@ class SecurityScanCommand extends AbstractMagentoCommand
             if ($hitCount === 0) {
                 $output->writeln('No known vulnerable modules detected.');
             }
+
+            return $exitCode;
         }
     }
 }

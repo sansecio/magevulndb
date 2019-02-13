@@ -37,7 +37,7 @@ FME_Jobs,,,Ryan Hoerr,https://www.fmeextensions.com/magento-open-jobs-manager.ht
 FME_Productattachments,2.5.3,productattachments/index/download,https://steveperrycreative.com/fme-product-attachment-2-5-2-magento-1-extension-vulnerability/,https://www.fmeextensions.com/magento-product-attachments-file-uploads-extension.html
 Fooman_TcpdfLib,6.2,,,https://mailchi.mp/fooman/important-security-update-for-pdf-customiser
 Glace_Easyforms,,/js/easyforms/upload/,roland@magehost.pro,
-HE_TwoFactorAuth,2018-10-18,,https://github.com/nexcess/magento-sentry-two-factor-authentication/pull/28/commits/c34a60fe013c1d0ea77fba74ce705dcec5d95cba,https://github.com/nexcess/magento-sentry-two-factor-authentication
+HE_TwoFactorAuth,1.0.5,,https://github.com/nexcess/magento-sentry-two-factor-authentication/pull/28/commits/c34a60fe013c1d0ea77fba74ce705dcec5d95cba,https://github.com/nexcess/magento-sentry-two-factor-authentication
 IWD_All,2.2.4,iwdall/adminhtml_support/send,Max Chadwick,https://www.iwdagency.com/help/getting-started/installing-iwd-all
 IWD_StoreLocator,1.8.11,/storelocator/json/search/,http://www.iwdagency.com/help/dealer-store-locator/m1-store-locator-changelog,https://www.iwdagency.com/dealer-store-locator-m1.html
 Made_Cache,1.5.2,/madecache/varnish/esi/,https://github.com/madepeople/Made_Cache/commit/bbea7a966cf52114337891dffe67a5af97afa34f,https://github.com/madepeople/Made_Cache
