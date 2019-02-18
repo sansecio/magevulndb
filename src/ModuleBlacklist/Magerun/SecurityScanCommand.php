@@ -17,7 +17,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class SecurityScanCommand extends AbstractMagentoCommand
 {
-    const BLACKLIST_URL = 'https://raw.githubusercontent.com/gwillem/magento-module-blacklist/master/magento1-vulnerable-extensions.csv';
+    const BLACKLIST_URL = 'https://raw.githubusercontent.com/gwillem/magevulndb/master/magento1-vulnerable-extensions.csv';
     
     /**
      * @return void
