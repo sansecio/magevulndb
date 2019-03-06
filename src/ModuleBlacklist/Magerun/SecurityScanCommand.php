@@ -127,6 +127,8 @@ class SecurityScanCommand extends AbstractMagentoCommand
     {
         $module = $this->getModuleByRoute($row->getFrontname());
 
+        // No match if there's no module matching the frontname, or if we know what module it is for.
+        // Those will match by module name, if they're related.
         if ($module === null || ($row->getName() !== '?' && !empty($row->getName()))) {
             return false;
         }
@@ -205,6 +207,26 @@ class SecurityScanCommand extends AbstractMagentoCommand
     }
 
     /**
+     * Get the frontname from the given (assumed) Magento route URL.
+     *
+     * @param string $route
+     * @return string
+     */
+    protected function getFrontname($route)
+    {
+        // Strip off any leading index.php and slashes. A frontname shouldn't contain either.
+        $route = str_replace('index.php', '', $route);
+        $route = trim($route, '/?');
+
+        // If this looks like a multi-part route, the frontname is the first part.
+        if (strpos($route, '/') !== false) {
+            $route = substr($route, 0, strpos($route, '/'));
+        }
+
+        return $route;
+    }
+
+    /**
      * Turn a MageVulnDb M1 CSV row into a keyed Varien_Object.
      *
      * @param array $csvRow
@@ -216,14 +238,12 @@ class SecurityScanCommand extends AbstractMagentoCommand
             return false;
         }
 
-        $route = trim($csvRow[2], '/');
-
         return new \Varien_Object(array(
             'name'       => $csvRow[0],
             'version'    => $this->getModuleVersion($csvRow[0]),
             'fixed_in'   => $csvRow[1],
-            'route'      => $route,
-            'frontname'  => strpos($route, '/') ? substr($route, 0, strpos($route, '/')) : $route,
+            'route'      => $csvRow[2],
+            'frontname'  => $this->getFrontname($csvRow[2]),
             'credit'     => $csvRow[3],
             'update_url' => $csvRow[4],
         ));
