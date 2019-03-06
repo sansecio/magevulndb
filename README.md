@@ -81,6 +81,10 @@ We register the newest only and advice everybody to upgrade to the latest versio
 
 The name as registered in the code (and output by `n98-magerun dev:module:list`) is leading. If a module is known under several (code) names, then we should create duplicate entries, so that automated tools will not ignore such an entry.
 
+### What if I don't know the module name?
+
+If you have a URL that is being attacked but don't know what module it belongs to, submit it but leave the name "`?`". It will be backfilled when the actual module is identified.
+
 ### There are multiple sources, which should I use?
 
 If the vendor has issued a security statement, that should be leading. Otherwise, a statement by a security researcher (Blog/Twitter) can be used. If a vendor has issued a statement that is false or misleading, an independent statement should take precedence. 
@@ -89,9 +93,9 @@ If the vendor has issued a security statement, that should be leading. Otherwise
 
 Indeed, but the main advantage of a simple CSV with few columns is that it's easy to browse, maintain and extend. Other projects have stalled because there is too much overhead in vulnerability administration. The primary objective of this repository is to support a n98-magerun command. If people want more information, they can look it up via the referenced source. 
 
-### What is the URL column for?
+### What is the Relevant URI column for?
 
-This can be used by tools to filter "suspicious" web traffic from the logs. Ie, check if malicious activity has already taken place. 
+This can be used by tools to filter "suspicious" web traffic from the logs, for example to check if malicious activity has already taken place. The URI should be enough to uniquely match the module's vulnerable URL(s), if possible.    
 
 ### What if there are multiple relevant URLs?
 
