@@ -128,6 +128,7 @@ These Magento/security professionals have contributed valuable research and code
 - Jeroen Vermeulen - MageHost.pro
 - Roland Walraven - MageHost.pro
 - Martin Pachol - MageMojo
+- Jisse Reitsma - Yireo
 
 # License
 
