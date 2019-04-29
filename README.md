@@ -71,7 +71,7 @@ Only security issues that have *verified proof* or are being *actively exploited
 
 ### Why a new repository?
 
-There are many good initiatives already, however they either lack a simple web GUI, are too complicated to maintain or do not cover all extensions out there. For Magento 2, there is already excellent support via composer, please refer to [Roave's SecurityAdvisories](https://github.com/Roave/SecurityAdvisories) for automated composer integration.
+There are many good initiatives already, however they either lack a simple web GUI, are too complicated to maintain or do not cover all extensions out there. For Magento 2, there is already excellent support via composer, please refer to [Roave's SecurityAdvisories](https://github.com/Roave/SecurityAdvisories) for automated composer integration. Still, Roave's approach requires you to run a composer command to check for new updates. With this Magerun command, you can leave the composer files untouched. Obviously, it also works on Magento 1 and 2 installs that are not managed by composer at all.
 
 ### What if a module has multiple security issues over time?
 
