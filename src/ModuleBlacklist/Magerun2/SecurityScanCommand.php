@@ -52,18 +52,14 @@ class SecurityScanCommand extends AbstractMagentoCommand
     private $moduleVersion;
 
     /**
-     * SecurityScanCommand constructor.
-     *
-     * @param string $name
+     * @return void
      */
-    public function __construct(
-        string $name = null
-    ) {
+    protected function initDependencies()
+    {
         $objectManager = ObjectManager::getInstance();
         $this->blacklist = $objectManager->get(Blacklist::class);
         $this->moduleList = $objectManager->get(ModuleListInterface::class);
         $this->moduleVersion = $objectManager->get(ModuleVersion::class);
-        return parent::__construct($name);
     }
 
     /**
@@ -88,33 +84,35 @@ class SecurityScanCommand extends AbstractMagentoCommand
     {
         $this->detectMagento($output);
 
-        if ($this->initMagento()) {
-            $hitCount = 0;
+        if (!$this->initMagento()) {
+            return 2;
+        }   
 
-            if ($this->blacklist->hasEntries() === false) {
-                $output->writeln(
-                    '<error>Unable to load the latest vulnerability data.</error>',
-                    OutputInterface::VERBOSITY_QUIET
-                );
+        $this->initDependencies();
 
-                return 2;
-            }
+        $hitCount = 0;
 
-            foreach ($this->blacklist->getEntries() as $entry) {
-                if ($this->reportVulnerableModule($output, $entry) || $this->reportVulnerableRoute($output, $entry)) {
-                    $hitCount++;
-                }
-            }
+        if ($this->blacklist->hasEntries() === false) {
+            $output->writeln(
+                '<error>Unable to load the latest vulnerability data.</error>',
+                OutputInterface::VERBOSITY_QUIET
+            );
 
-            if ($hitCount === 0) {
-                $output->writeln('No known vulnerable modules detected.');
-                return 0;
-            }
-
-            return 1;
+            return 2;
         }
 
-        return 2;
+        foreach ($this->blacklist->getEntries() as $entry) {
+            if ($this->reportVulnerableModule($output, $entry) || $this->reportVulnerableRoute($output, $entry)) {
+                $hitCount++;
+            }   
+        }
+
+        if ($hitCount === 0) {
+            $output->writeln('No known vulnerable modules detected.');
+            return 0;
+        }
+
+        return 1;
     }
 
     /**
