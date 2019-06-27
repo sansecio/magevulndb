@@ -58,8 +58,10 @@ class SecurityScanCommand extends AbstractMagentoCommand
             }
 
             while ($row = $this->getRowObject(fgetcsv($blacklist))) {
-                if ($this->checkIsInstalledModule($output, $row) || $this->checkIsInstalledRoute($output, $row)) {
+                if ($this->checkIsInstalledModule($output, $row)) {
                     $hitCount++;
+                } else {
+                    $this->checkIsInstalledRoute($output, $row);
                 }
             }
 
@@ -79,7 +81,7 @@ class SecurityScanCommand extends AbstractMagentoCommand
      *
      * @param \Symfony\Component\Console\Output\OutputInterface $output
      * @param \Varien_Object $row
-     * @return int
+     * @return bool
      */
     protected function checkIsInstalledModule(OutputInterface $output, \Varien_Object $row)
     {
@@ -135,7 +137,7 @@ class SecurityScanCommand extends AbstractMagentoCommand
 
         $output->writeln(
             sprintf(
-                '<error>Potential vulnerable module found: %s%s</error>',
+                '<comment>Potential vulnerable module found: %s%s</comment>',
                 $module,
                 $output->isQuiet() ? sprintf(' (route match: %s)', $row->getFrontname()) : ''
             ),
