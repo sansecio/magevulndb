@@ -102,9 +102,11 @@ class SecurityScanCommand extends AbstractMagentoCommand
         }
 
         foreach ($this->blacklist->getEntries() as $entry) {
-            if ($this->reportVulnerableModule($output, $entry) || $this->reportVulnerableRoute($output, $entry)) {
+            if ($this->reportVulnerableModule($output, $entry)) {
                 $hitCount++;
-            }   
+            } else {
+                $this->reportVulnerableRoute($output, $entry);
+            }
         }
 
         if ($hitCount === 0) {
@@ -120,7 +122,7 @@ class SecurityScanCommand extends AbstractMagentoCommand
      *
      * @param OutputInterface $output
      * @param Entry $entry
-     * @return int
+     * @return bool
      */
     protected function reportVulnerableModule(OutputInterface $output, Entry $entry)
     {
@@ -179,7 +181,7 @@ class SecurityScanCommand extends AbstractMagentoCommand
 
         $output->writeln(
             sprintf(
-                '<error>Potential vulnerable module found: %s%s</error>',
+                '<comment>Potential vulnerable module found: %s%s</comment>',
                 $module,
                 $output->isQuiet() ? sprintf(' (route match: %s)', $entry->getFrontname()) : ''
             ),
