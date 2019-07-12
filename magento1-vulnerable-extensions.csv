@@ -49,6 +49,7 @@ EM_AjaxProducts,1.0.0,/ajaxproducts/index/index,https://gwillem.gitlab.io/2018/1
 EM_Multideal,,/multidealpro/index/edit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://www.emthemes.com/em-multideal.html
 EM_ProductsFilterWidget,,/minifilterproducts/index/ajax/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://www.emthemes.com/commercial-magento-extensions/em-filterproductswidget.html
 EM_Quickshop,,/quickshop/index/view/,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://www.emthemes.com/em-quickshop.html
+Facebook_AdsExtension,2.6.3,,https://github.com/facebookincubator/facebook-for-magento/releases/tag/v2.6.3,https://github.com/facebookincubator/facebook-for-magento
 FME_Jobs,,,Ryan Hoerr,https://www.fmeextensions.com/magento-open-jobs-manager.html
 FME_Productattachments,2.5.3,productattachments/index/download,https://steveperrycreative.com/fme-product-attachment-2-5-2-magento-1-extension-vulnerability/,https://www.fmeextensions.com/magento-product-attachments-file-uploads-extension.html
 Fooman_TcpdfLib,6.2,,,https://mailchi.mp/fooman/important-security-update-for-pdf-customiser
