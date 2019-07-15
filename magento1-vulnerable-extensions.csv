@@ -70,6 +70,7 @@ MW_Affiliate,,mw_aref=,martin@magemojo.com to gwillem@gmail.com,
 Netgo_Gwishlist,,/netgocust/Gwishlist/updategwishlist/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://github.com/wesleyalmd/mageGwishlist/
 Ophira_Qquoteadv,5.4.5,/qquoteadv/download/downloadCustomOption/,https://cart2quote.zendesk.com/hc/en-us/articles/115000616303--FIXED-Security-Vulnerability-in-downloadCustomOptionAction,https://www.cart2quote.com/
 PO_Prescription,,/Prescription/amendQuoteItemQty/;/Prescription/strictVerifyById/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
+Raveinfosys_Deleteorder,,,https://xn--gran-8qa.fi/magento-1-raveinfosys-deleteorders-security-flaw/,https://marketplace.magento.com/raveinfosys-raveinfosys-deleteorder.html
 Sm_Megamenu,3.0.1,/megamenu/index/getitems/,,https://www.magentech.com/magento/magento-extensions/item/246-sm-mega-menu-responsive-magento-module
 Smartwave_QuickView,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864
 Sns_Quickview,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://themeforest.net/user/snstheme/portfolio?term=Magento
@@ -79,7 +80,6 @@ Ves_VendorsCredit,,/vendors/credit_withdraw/;/vendors/credit/withdraw/,https://g
 VladimirPopov_WebForms,2.8.0,/webforms/,,https://mageme.com/magento-form-builder.html
 Webcooking_SimpleBundle,1.6.9,/simplebundle/Cart/add,,https://restaurant.web-cooking.net/marketing/magento-simple-bundle.html
 Webgility,346,/webgility/upgrade.php,https://gwillem.gitlab.io/2018/10/30/webgility-backdoor/,https://marketplace.magento.com/webgility-webgility-ecc.html
-Raveinfosys_Deleteorder,,,https://xn--gran-8qa.fi/magento-1-raveinfosys-deleteorders-security-flaw/,https://marketplace.magento.com/raveinfosys-raveinfosys-deleteorder.html
 ?,,/ajax/Showroom/submit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
 ?,,/ajaxcart/cart/deleteBuyBackProgram,Peter O'Callaghan,
 ?,,/appointment/index/index/,Peter O'Callaghan,
