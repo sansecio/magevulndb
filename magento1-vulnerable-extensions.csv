@@ -79,7 +79,7 @@ Ves_VendorsCredit,,/vendors/credit_withdraw/;/vendors/credit/withdraw/,https://g
 VladimirPopov_WebForms,2.8.0,/webforms/,,https://mageme.com/magento-form-builder.html
 Webcooking_SimpleBundle,1.6.9,/simplebundle/Cart/add,,https://restaurant.web-cooking.net/marketing/magento-simple-bundle.html
 Webgility,346,/webgility/upgrade.php,https://gwillem.gitlab.io/2018/10/30/webgility-backdoor/,https://marketplace.magento.com/webgility-webgility-ecc.html
-Raveinfosys_Deleteorder,,https://xn--gran-8qa.fi/magento-1-raveinfosys-deleteorders-security-flaw/,https://marketplace.magento.com/raveinfosys-raveinfosys-deleteorder.html
+Raveinfosys_Deleteorder,,,https://xn--gran-8qa.fi/magento-1-raveinfosys-deleteorders-security-flaw/,https://marketplace.magento.com/raveinfosys-raveinfosys-deleteorder.html
 ?,,/ajax/Showroom/submit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
 ?,,/ajaxcart/cart/deleteBuyBackProgram,Peter O'Callaghan,
 ?,,/appointment/index/index/,Peter O'Callaghan,
