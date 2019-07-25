@@ -49,6 +49,7 @@ EM_AjaxProducts,1.0.0,/ajaxproducts/index/index,https://gwillem.gitlab.io/2018/1
 EM_Multideal,,/multidealpro/index/edit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://www.emthemes.com/em-multideal.html
 EM_ProductsFilterWidget,,/minifilterproducts/index/ajax/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://www.emthemes.com/commercial-magento-extensions/em-filterproductswidget.html
 EM_Quickshop,,/quickshop/index/view/,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://www.emthemes.com/em-quickshop.html
+Facebook_AdsExtension,2.6.3,,https://github.com/facebookincubator/facebook-for-magento/releases/tag/v2.6.3,https://github.com/facebookincubator/facebook-for-magento
 FME_Jobs,,,Ryan Hoerr,https://www.fmeextensions.com/magento-open-jobs-manager.html
 FME_Productattachments,2.5.3,productattachments/index/download,https://steveperrycreative.com/fme-product-attachment-2-5-2-magento-1-extension-vulnerability/,https://www.fmeextensions.com/magento-product-attachments-file-uploads-extension.html
 Fooman_TcpdfLib,6.2,,,https://mailchi.mp/fooman/important-security-update-for-pdf-customiser
@@ -67,8 +68,10 @@ _Mirasvit_Helpdesk,1.5.14,,https://mirasvit.com/doc/extension_helpdesk/current/c
 _Mirasvit_SEO,1.3.16,,https://mirasvit.com/doc/extension_seosuite/current/changelog,https://mirasvit.com/magento-extensions/advanced-seo-suite.html
 MW_Affiliate,,mw_aref=,martin@magemojo.com to gwillem@gmail.com,
 Netgo_Gwishlist,,/netgocust/Gwishlist/updategwishlist/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://github.com/wesleyalmd/mageGwishlist/
+Netreviews_Avisverifies,,/AvisVerifies/dialog/index/,https://xn--gran-8qa.fi/magento-1-netreviews-avisverifies-security-flaw/,https://marketplace.magento.com/netreviews-verifiedreviews.html
 Ophira_Qquoteadv,5.4.5,/qquoteadv/download/downloadCustomOption/,https://cart2quote.zendesk.com/hc/en-us/articles/115000616303--FIXED-Security-Vulnerability-in-downloadCustomOptionAction,https://www.cart2quote.com/
 PO_Prescription,,/Prescription/amendQuoteItemQty/;/Prescription/strictVerifyById/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
+Raveinfosys_Deleteorder,,,https://xn--gran-8qa.fi/magento-1-raveinfosys-deleteorders-security-flaw/,https://marketplace.magento.com/raveinfosys-raveinfosys-deleteorder.html
 Sm_Megamenu,3.0.1,/megamenu/index/getitems/,,https://www.magentech.com/magento/magento-extensions/item/246-sm-mega-menu-responsive-magento-module
 Smartwave_QuickView,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864
 Sns_Quickview,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://themeforest.net/user/snstheme/portfolio?term=Magento
@@ -81,7 +84,6 @@ Webgility,346,/webgility/upgrade.php,https://gwillem.gitlab.io/2018/10/30/webgil
 ?,,/ajax/Showroom/submit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
 ?,,/ajaxcart/cart/deleteBuyBackProgram,Peter O'Callaghan,
 ?,,/appointment/index/index/,Peter O'Callaghan,
-?,,/AvisVerifies/dialog/index/,Peter O'Callaghan,
 ?,,/favourites/index/add/,Peter O'Callaghan,
 ?,,/freegift/cart/gurlgift/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
 ?,,/pdffree/Product/pdfsave/,Peter O'Callaghan,
