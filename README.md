@@ -77,8 +77,13 @@ Contributions welcome. Requirements:
 
 - Either "name" or "uri" (in case of exploitation in the wild) is required.
 - A reputable, verifiable source is required.
+- In case of admin URL disclosure: the issue is not fixed by disabling the [security compatibility mode](https://magento.stackexchange.com/questions/88435/admin-routing-compatibility-mode-for-extensions-enable-or-disable)
 
 Only security issues that have *verified proof* or are being *actively exploited* in the wild should be considered. 
+
+Please consider *responsible disclosure* before submitting zero-day vulnerabilities. If no immediate abuse is likely, please notify the vendor first and allow 30 days for a patch & release statement. 
+
+
 
 # FAQ
 
