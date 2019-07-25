@@ -118,6 +118,10 @@ Seperate them with a ";"
 
 Use the date of the fix in YYYY-MM-DD notation.
 
+### What if the vendor provides a fix but does not update the version number?
+
+Some Magento 1 modules, such as Mirasvit ([discussion](https://github.com/gwillem/magevulndb/pull/40)) do not use the standard version numbering, so vulnerable versions cannot be automatically detected. To eliminate false alarms, all such modules are prefixed with an underscore, so the automatic module parser will not recognize them. It is suboptimal but better than not storing information at all. 
+
 # Acknowledgements
 
 These Magento/security professionals have contributed valuable research and code:
