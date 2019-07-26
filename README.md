@@ -138,6 +138,7 @@ These Magento/security professionals have contributed valuable research and code
 - Roland Walraven - MageHost.pro
 - Martin Pachol - MageMojo
 - Jisse Reitsma - Yireo
+- [Niko Granö](https://xn--gran-8qa.fi) - [Lamia.fi](https://lamia.fi/en/)
 
 # License
 
