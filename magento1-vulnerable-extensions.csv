@@ -71,7 +71,7 @@ Netgo_Gwishlist,,/netgocust/Gwishlist/updategwishlist/,https://gwillem.gitlab.io
 Netreviews_Avisverifies,,/AvisVerifies/dialog/index/,https://xn--gran-8qa.fi/magento-1-netreviews-avisverifies-security-flaw/,https://marketplace.magento.com/netreviews-verifiedreviews.html
 Ophira_Qquoteadv,5.4.5,/qquoteadv/download/downloadCustomOption/,https://cart2quote.zendesk.com/hc/en-us/articles/115000616303--FIXED-Security-Vulnerability-in-downloadCustomOptionAction,https://www.cart2quote.com/
 PO_Prescription,,/Prescription/amendQuoteItemQty/;/Prescription/strictVerifyById/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
-Raveinfosys_Deleteorder,,,https://xn--gran-8qa.fi/magento-1-raveinfosys-deleteorders-security-flaw/,https://marketplace.magento.com/raveinfosys-raveinfosys-deleteorder.html
+Raveinfosys_Deleteorder,1.1.3,,https://xn--gran-8qa.fi/magento-1-raveinfosys-deleteorders-security-flaw/,https://marketplace.magento.com/raveinfosys-raveinfosys-deleteorder.html
 Sm_Megamenu,3.0.1,/megamenu/index/getitems/,,https://www.magentech.com/magento/magento-extensions/item/246-sm-mega-menu-responsive-magento-module
 Smartwave_QuickView,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864
 Sns_Quickview,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://themeforest.net/user/snstheme/portfolio?term=Magento
