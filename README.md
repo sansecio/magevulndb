@@ -77,8 +77,13 @@ Contributions welcome. Requirements:
 
 - Either "name" or "uri" (in case of exploitation in the wild) is required.
 - A reputable, verifiable source is required.
+- In case of admin URL disclosure: the issue is not fixed by disabling the [security compatibility mode](https://magento.stackexchange.com/questions/88435/admin-routing-compatibility-mode-for-extensions-enable-or-disable)
 
 Only security issues that have *verified proof* or are being *actively exploited* in the wild should be considered. 
+
+Please consider *responsible disclosure* before submitting zero-day vulnerabilities. If no immediate abuse is likely, please notify the vendor first and allow 30 days for a patch & release statement. 
+
+
 
 # FAQ
 
@@ -118,6 +123,10 @@ Seperate them with a ";"
 
 Use the date of the fix in YYYY-MM-DD notation.
 
+### What if the vendor provides a fix but does not update the version number?
+
+Some Magento 1 modules, such as Mirasvit ([discussion](https://github.com/gwillem/magevulndb/pull/40)) do not use the standard version numbering, so vulnerable versions cannot be automatically detected. To eliminate false alarms, all such modules are prefixed with an underscore, so the automatic module parser will not recognize them. It is suboptimal but better than not storing information at all. 
+
 # Acknowledgements
 
 These Magento/security professionals have contributed valuable research and code:
@@ -129,6 +138,7 @@ These Magento/security professionals have contributed valuable research and code
 - Roland Walraven - MageHost.pro
 - Martin Pachol - MageMojo
 - Jisse Reitsma - Yireo
+- [Niko Granö](https://xn--gran-8qa.fi) - [Lamia.fi](https://lamia.fi/en/)
 
 # License
 
