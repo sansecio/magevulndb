@@ -27,7 +27,7 @@ AW_Blog,1.3.18,,https://ecommerce.aheadworks.com/magento-extension-updates/blog.
 AW_Followupemail,3.6.6,,https://blog.aheadworks.com/security-issue-follow-up-email-vulnerability/,https://ecommerce.aheadworks.com/magento-extensions/follow-up-email.html
 BL_CustomGrid,0.9.3.0,,https://xn--gran-8qa.fi/magento-1-bl-customgrid-security-flaw/,https://github.com/Niko9911/mage-enhanced-admin-grids/releases/tag/0.9.3.0
 BSS_ReorderProduct,1.2.4,/bssreorderproduct/list/add/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://bsscommerce.com/magento-reorder-product-extension.html
-BusinessKing_OutofStockSubscription,1.2.1,/outofstocksubscription/,roland@magehost.pro,http://www.businessapplicationking.com/product-out-of-stock-subscription.html
+BusinessKing_OutofStockSubscription,,/outofstocksubscription/,roland@magehost.pro,http://www.businessapplicationking.com/product-out-of-stock-subscription.html
 Campaigner,1.1.6,/emaildirect/abandoned/restore/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
 Ced_Layaway,,/layaway/view/add/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,Abandoned
 CommerceExtensions_Advancedcustomerimportexport,0.3.0,/advancedcustomerimportexport/,https://www.alterweb.nl/techtalk/commerce-extensions-import-export-security-issue,https://www.commerceextensions.com/advanced-customer-import-export-csv-xml.html
