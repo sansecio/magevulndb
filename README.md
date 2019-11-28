@@ -1,14 +1,16 @@
 # Magento Vulnerability Database
 
-List of Magento 1 integrations with known security issues. **Objective: easily identify insecure 3rd party software in your Magento code base.** See my blog for the rationale: [Bad extensions now main source of Magento hacks & a solution](https://gwillem.gitlab.io/2019/01/29/magento-module-blacklist/)
+List of Magento 1 and 2 integrations with known security issues. **Objective: easily identify insecure 3rd party software in your Magento code base.** See my blog for the rationale: [Bad extensions now main source of Magento hacks & a solution](https://gwillem.gitlab.io/2019/01/29/magento-module-blacklist/)
 
 ![n98-magerun dev:module:security](https://buq.eu/screenshots/kUOyTTWeDIUXUrGU1kqAmqu5.png)
 
-# [The List](magento1-vulnerable-extensions.csv)
+# [Magento 1 list](magento1-vulnerable-extensions.csv) / [Magento 2 list](magento2-vulnerable-extensions.csv)
 
 The list contains these columns:
 
-1. Vendor_Name of the module (as reported by `n98-magerun dev:module:list` or `Mage::getConfig()->getNode()->modules`)
+1. `Vendor_Name` of the module
+    - Reported under M1 using `n98-magerun dev:module:list` or `Mage::getConfig()->getNode()->modules`
+    - Reported under M2 using `bin/magento module:status`
 1. The earliest safe version to use. Older entries are considered insecure. 
 1. Part of the URL that attackers use to exploit this module. Can be used to search logfiles for malicious activity. (optional)
 1. Reference URL describing the problem. If no public statement is available, then the name of the researcher who discovered it.
@@ -24,13 +26,22 @@ You can quickly scan your site against this repository using a Magerun module or
 
 ### Magerun module (recommended)
 
-1. [Install n98-magerun](https://github.com/netz98/n98-magerun)
+1. [Install n98-magerun](https://github.com/netz98/n98-magerun) for Magento 1 or Magento 2.
 2. Install the Magento Vulnerability Database plugin:
+For Magento 1:
 ```
 mkdir -p ~/.n98-magerun/modules
 cd ~/.n98-magerun/modules
 git clone https://github.com/gwillem/magevulndb.git
 ```
+For Magento 2:
+```
+mkdir -p ~/.n98-magerun2/modules
+cd ~/.n98-magerun2/modules
+git clone https://github.com/gwillem/magevulndb.git
+```
+
+
 3. Scan your Magento install:
 ```
 n98-magerun.phar dev:module:security
@@ -47,9 +58,9 @@ You can check the exit code, for example to fail a build when a vulnerable modul
 * exit code `1`: known vulnerabilities found
 * exit code `2`: vulnerability data could not be loaded
 
-### No magerun installed?
+### No magerun installed under Magento 1?
 
-To quickly check a Magento installation for vulnerable modules, run this command in SSH **at your Magento site root**:
+To quickly check a Magento installation for vulnerable modules, run this command in SSH **at your Magento 1 site root**:
 
     php -r 'require_once("app/Mage.php");Mage::app();$config=Mage::getConfig()->getNode()->modules;$found=array();$list=fopen("https://raw.githubusercontent.com/gwillem/magevulndb/master/magento1-vulnerable-extensions.csv","r");while($list&&list($name,$version)=list($row["module"],$row["fixed_in"],,$row["reference"],$row["update"])=fgetcsv($list)){if(isset($name,$version,$config->{$name},$config->{$name}->version)&&(empty($version)||version_compare($config->{$name}->version,$version,"<"))){$found[]=$row;}}if($found){echo "Found possible vulnerable modules: ".print_r($found,1);}else{echo "No known vulnerable modules detected.";}'
 
@@ -58,20 +69,27 @@ You can check the exit code, for example to fail a build when a vulnerable modul
 * exit code `0`: no known vulnerabilities found
 * exit code `1`: known vulnerabilities found
 
+This script only works under Magento 1. For Magento 2, use Magerun instead.
+
 # Contributing
 
 Contributions welcome. Requirements:
 
 - Either "name" or "uri" (in case of exploitation in the wild) is required.
 - A reputable, verifiable source is required.
+- In case of admin URL disclosure: the issue is not fixed by disabling the [security compatibility mode](https://magento.stackexchange.com/questions/88435/admin-routing-compatibility-mode-for-extensions-enable-or-disable)
 
 Only security issues that have *verified proof* or are being *actively exploited* in the wild should be considered. 
+
+Please consider *responsible disclosure* before submitting zero-day vulnerabilities. If no immediate abuse is likely, please notify the vendor first and allow 30 days for a patch & release statement. 
+
+
 
 # FAQ
 
 ### Why a new repository?
 
-There are many good initiatives already, however they either lack a simple web GUI, are too complicated to maintain or do not cover all extensions out there. For Magento 2, there is already excellent support via composer, please refer to [Roave's SecurityAdvisories](https://github.com/Roave/SecurityAdvisories) for automated composer integration.
+There are many good initiatives already, however they either lack a simple web GUI, are too complicated to maintain or do not cover all extensions out there. For Magento 2, there is already excellent support via composer, please refer to [Roave's SecurityAdvisories](https://github.com/Roave/SecurityAdvisories) for automated composer integration. Still, Roave's approach requires you to run a composer command to check for new updates. With this Magerun command, you can leave the composer files untouched. Obviously, it also works on Magento 1 and 2 installs that are not managed by composer at all.
 
 ### What if a module has multiple security issues over time?
 
@@ -105,6 +123,10 @@ Seperate them with a ";"
 
 Use the date of the fix in YYYY-MM-DD notation.
 
+### What if the vendor provides a fix but does not update the version number?
+
+Some Magento 1 modules, such as Mirasvit ([discussion](https://github.com/gwillem/magevulndb/pull/40)) do not use the standard version numbering, so vulnerable versions cannot be automatically detected. To eliminate false alarms, all such modules are prefixed with an underscore, so the automatic module parser will not recognize them. It is suboptimal but better than not storing information at all. 
+
 # Acknowledgements
 
 These Magento/security professionals have contributed valuable research and code:
@@ -115,6 +137,8 @@ These Magento/security professionals have contributed valuable research and code
 - Jeroen Vermeulen - MageHost.pro
 - Roland Walraven - MageHost.pro
 - Martin Pachol - MageMojo
+- Jisse Reitsma - Yireo
+- [Niko Granö](https://xn--gran-8qa.fi) - [Lamia.fi](https://lamia.fi/en/)
 
 # License
 

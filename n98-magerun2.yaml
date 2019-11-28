@@ -1,0 +1,6 @@
+autoloaders:
+  ModuleBlacklist: %module%/src
+
+commands:
+  customCommands:
+    - ModuleBlacklist\Magerun2\SecurityScanCommand
