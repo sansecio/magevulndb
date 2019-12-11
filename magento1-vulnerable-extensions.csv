@@ -45,6 +45,7 @@ CommerceExtensions_Wishlistimportexport,0.3.0,/wishlistimportexport/,https://www
 CommerceLab_News,,/clnews/,https://www.magecloud.net/marketplace/extension/news-by-commercelab/,
 CommerceLab_GreatNews,,/clnews/,https://www.magecloud.net/marketplace/extension/news-by-commercelab/,
 CommerceThemes_GuestToReg,,/GuestToReg/index/post/,https://twitter.com/gwillem/status/1065986386795380736,Abandoned
+dealer4dealer_xcore,,/api/sales/order/info,https://github.com/dealer4dealer/magento1-soapapi/pull/35,https://github.com/dealer4dealer/magento1-soapapi/pull/35
 EM_Ajaxcart,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://www.emthemes.com/em-ajaxcart.html
 EM_AjaxProducts,1.0.0,/ajaxproducts/index/index,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://www.emthemes.com/free-magento-extensions/ajax-products-load-more-magento-extension.html
 EM_Multideal,,/multidealpro/index/edit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://www.emthemes.com/em-multideal.html
