@@ -139,6 +139,7 @@ These Magento/security professionals have contributed valuable research and code
 - Martin Pachol - MageMojo
 - Jisse Reitsma - Yireo
 - [Niko Granö](https://xn--gran-8qa.fi) - [Lamia.fi](https://lamia.fi/en/)
+- Martien Mortiaux - [AlterWeb.nl](https://www.alterweb.nl/)
 
 # License
 

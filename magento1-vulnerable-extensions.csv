@@ -22,7 +22,7 @@ Amasty_Table,2.5.4,,,https://amasty.com/shipping-table-rates.html
 AW_Advancednewsletter,2.3.5,,https://labs.integrity.pt/advisories/cve-2014-1634/index.html,https://ecommerce.aheadworks.com/magento-extensions/advanced-newsletter.html
 AW_Advancedreports,2.8.2,/advancedreports/chart/tunnel/,https://www.facebook.com/Aheadworks/photos/notice-we-fixed-the-vulnerability-connected-with-php-object-injection-discovered/2126624844064804/,https://ecommerce.aheadworks.com/magento-extensions/advanced-reports.html
 AW_AheadMetrics,,/aheadmetrics/auth/index/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,Abandoned
-AW_Autorelated,,/admin_awautorelated/adminhtml_blocksgrid/massStatus,https://www.alterweb.nl/techtalk/aheadworks-autorelated-security-issue,https://ecommerce.aheadworks.com/magento-extension-updates/automatic-related-products-2.html
+AW_Autorelated,2.5.1,/admin_awautorelated/adminhtml_blocksgrid/massStatus,https://www.alterweb.nl/techtalk/aheadworks-autorelated-security-issue,https://ecommerce.aheadworks.com/magento-extension-updates/automatic-related-products-2.html
 AW_Blog,1.3.18,,https://ecommerce.aheadworks.com/magento-extension-updates/blog.html,https://ecommerce.aheadworks.com/magento-extensions/blog.html
 AW_Followupemail,3.6.7,,http://ka.lpe.sh/2016/11/17/multiple-security-vulnerabilities-aheadworks-follow-up-email-extension/,https://ecommerce.aheadworks.com/magento-extensions/follow-up-email.html
 BL_CustomGrid,0.9.3.0,,https://xn--gran-8qa.fi/magento-1-bl-customgrid-security-flaw/,https://github.com/Niko9911/mage-enhanced-admin-grids/releases/tag/0.9.3.0
