@@ -15,3 +15,8 @@ Magestore_Storelocator,1.0.2,,,https://blog.magestore.com/store-locator-extensio
 Magestore_Storepickup,1.2.1,,,https://blog.magestore.com/store-locator-extension-patch/
 Mirasvit_Blog,1.0.21,,,https://github.com/mirasvit/module-blog
 Mirasvit_Giftr,1.2.23,,https://mirasvit.com/docs/module-gift-registry/current/changelog,https://mirasvit.com/magento-2-extensions/gift-registry.html
+Xtento_OrderExport,2.11.3,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderExport/version/m2,https://www.xtento.com/magento-extensions/magento-order-export-module.html
+Xtento_OrderImport,2.1.4,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderImport/version/m2,https://www.xtento.com/magento-extensions/magento-order-import-extension.html
+Xtento_ProductExport,2.12.7,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_ProductExport/version/m2,https://www.xtento.com/magento-extensions/magento-product-feed-export-module.html
+Xtento_StockImport,2.8.4,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_StockImport/version/m2,https://www.xtento.com/magento-extensions/magento-stock-inventory-import-module.html
+Xtento_TrackingImport,2.8.0,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_TrackingImport/version/m2,https://www.xtento.com/magento-extensions/magento-tracking-number-import-module.html
