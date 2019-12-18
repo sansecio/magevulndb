@@ -82,6 +82,11 @@ Ves_VendorsCredit,,/vendors/credit_withdraw/;/vendors/credit/withdraw/,https://g
 VladimirPopov_WebForms,2.8.0,/webforms/,,https://mageme.com/magento-form-builder.html
 Webcooking_SimpleBundle,1.6.9,/simplebundle/Cart/add,,https://restaurant.web-cooking.net/marketing/magento-simple-bundle.html
 Webgility,346,/webgility/upgrade.php,https://gwillem.gitlab.io/2018/10/30/webgility-backdoor/,https://marketplace.magento.com/webgility-webgility-ecc.html
+Xtento_OrderExport,1.9.51,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderExport/version/m1,https://www.xtento.com/magento-extensions/magento-order-export-module.html
+Xtento_OrderImport,1.1.4,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderImport/version/m1,https://www.xtento.com/magento-extensions/magento-order-import-extension.html
+Xtento_ProductExport,1.9.53,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_ProductExport/version/m1,https://www.xtento.com/magento-extensions/magento-product-feed-export-module.html
+Xtento_StockImport,2.8.0,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_StockImport/version/m1,https://www.xtento.com/magento-extensions/magento-stock-inventory-import-module.html
+Xtento_TrackingImport,2.5.4,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_TrackingImport/version/m1,https://www.xtento.com/magento-extensions/magento-tracking-number-import-module.html
 ?,,/ajax/Showroom/submit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
 ?,,/ajaxcart/cart/deleteBuyBackProgram,Peter O'Callaghan,
 ?,,/appointment/index/index/,Peter O'Callaghan,
