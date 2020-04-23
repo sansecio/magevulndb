@@ -11,7 +11,7 @@ Cardgate_Payment,2.0.31,/cardgate/payment/callback,https://github.com/cardgate/m
 Fooman_PdfCustomiser,8.1.8,,https://twitter.com/foomanNZ/status/1118496841488748546,
 Fooman_Tcpdf,6.2.25.2,,,https://mailchi.mp/fooman/important-security-update-for-pdf-customiser-3218933
 Magefan_LoginAsCustomer,2.2.3,,https://github.com/magefan/module-login-as-customer/commit/1da0bcef0f811a27aa1783c1e9e3595aa065f4e9,https://github.com/magefan/module-login-as-customer/releases/tag/2.2.3
-Mageplaza_LayeredNavigation,,,John Knowles,https://www.mageplaza.com/magento-2-layered-navigation-extension/
+Mageplaza_LayeredNavigation,2.3.6,,https://www.mageplaza.com/releases/layered-navigation/,https://www.mageplaza.com/magento-2-layered-navigation-extension/
 Magestore_Storelocator,1.0.2,,,https://blog.magestore.com/store-locator-extension-patch/
 Magestore_Storepickup,1.2.1,,,https://blog.magestore.com/store-locator-extension-patch/
 Mirasvit_Blog,1.0.21,,,https://github.com/mirasvit/module-blog
