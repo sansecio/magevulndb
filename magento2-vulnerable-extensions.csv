@@ -6,17 +6,17 @@ Amasty_Storelocator,1.4.7,,Francis M. Gallagher,https://amasty.com/store-locator
 Amasty_Storeswitcher?,1.0.13,,,https://amasty.com/store-switcher-for-magento-2.html
 AW_Blog,2.4.6,,https://ecommerce.aheadworks.com/magento-extension-updates/blog,https://ecommerce.aheadworks.com/magento-2-extensions/blog
 Bss_MultiWishlist,1.2.0,,https://xn--gran-8qa.fi/bss-multiwishlist-xss-injection/,https://bsscommerce.com/magento-2-multiple-wishlists-extension.html
+BlueFormBuilder_Core,,,https://anothernetsecblog.com/magento-2-extension-security/,
 Campaigner_Integration,,,Max Chadwick,
 Cardgate_Payment,2.0.31,/cardgate/payment/callback,https://github.com/cardgate/magento2/issues/54,https://github.com/cardgate/magento2/releases
 Fooman_PdfCustomiser,8.1.8,,https://twitter.com/foomanNZ/status/1118496841488748546,
 Fooman_Tcpdf,6.2.25.2,,,https://mailchi.mp/fooman/important-security-update-for-pdf-customiser-3218933
+Lof_ChatSystem,,,https://anothernetsecblog.com/magento-2-extension-security/,
+Lof_Formbuilder,,,https://anothernetsecblog.com/magento-2-extension-security/,
 Magefan_LoginAsCustomer,2.2.3,,https://github.com/magefan/module-login-as-customer/commit/1da0bcef0f811a27aa1783c1e9e3595aa065f4e9,https://github.com/magefan/module-login-as-customer/releases/tag/2.2.3
 Mageplaza_LayeredNavigation,2.3.6,,https://www.mageplaza.com/releases/layered-navigation/,https://www.mageplaza.com/magento-2-layered-navigation-extension/
 Magestore_Storelocator,1.0.2,,,https://blog.magestore.com/store-locator-extension-patch/
 Magestore_Storepickup,1.2.1,,,https://blog.magestore.com/store-locator-extension-patch/
 Mirasvit_Blog,1.0.21,,,https://github.com/mirasvit/module-blog
 Mirasvit_Giftr,1.2.23,,https://mirasvit.com/docs/module-gift-registry/current/changelog,https://mirasvit.com/magento-2-extensions/gift-registry.html
-Lof_Formbuilder,,,https://anothernetsecblog.com/magento-2-extension-security/,
-BlueFormBuilder_Core,,,https://anothernetsecblog.com/magento-2-extension-security/,
 VladimirPopov_WebForms,2.9.18,,https://anothernetsecblog.com/magento-2-extension-security/,
-Lof_ChatSystem,,,https://anothernetsecblog.com/magento-2-extension-security/,
