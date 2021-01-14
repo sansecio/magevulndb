@@ -19,6 +19,7 @@ Amasty_Stockstatus,3.10.7,,,https://amasty.com/custom-stock-status.html
 Amasty_StoreCredit,1.2.2,,,https://amasty.com/magento-store-credit.html
 Amasty_Sugarcrm?,1.6.6,,,https://amasty.com/magento-sugarcrm-bridge.html
 Amasty_Table,2.5.4,,,https://amasty.com/shipping-table-rates.html
+AppZab_GuestToReg,,/GuestToReg/index/post,https://twitter.com/sansecio/status/1257675676674654209?s=20,
 AW_Advancednewsletter,2.3.5,,https://labs.integrity.pt/advisories/cve-2014-1634/index.html,https://ecommerce.aheadworks.com/magento-extensions/advanced-newsletter.html
 AW_Advancedreports,2.8.2,/advancedreports/chart/tunnel/,https://www.facebook.com/Aheadworks/photos/notice-we-fixed-the-vulnerability-connected-with-php-object-injection-discovered/2126624844064804/,https://ecommerce.aheadworks.com/magento-extensions/advanced-reports.html
 AW_AheadMetrics,,/aheadmetrics/auth/index/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,Abandoned
@@ -65,6 +66,7 @@ Magmi,0.7.22,/magmi/,http://magmi.org/magmi-security-issue-solved/,http://wiki.m
 Magpleasure_Common,0.8.13,/admin/magpleasure/ajaxform/save/,https://www.alterweb.nl/techtalk/magpleasure_common-security-issue,Abandoned
 Magpleasure_Filesystem,,,http://www.magpleasure.com/blog/quick-survey-should-we-leave-the-file-system-extension-alive.html,
 MD_Quickview,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,
+Mico_Mupload,2.0.0,/mupload/uploader/save,https://github.com/gwillem/magevulndb/pull/72,https://www.micosolutions.com/upload-ultimate-for-magento
 _Mirasvit_Helpdesk,1.5.14,,https://mirasvit.com/doc/extension_helpdesk/current/changelog,https://mirasvit.com/magento-extensions/helpdesk.html
 _Mirasvit_SEO,1.3.16,,https://mirasvit.com/doc/extension_seosuite/current/changelog,https://mirasvit.com/magento-extensions/advanced-seo-suite.html
 MW_Affiliate,,mw_aref=,martin@magemojo.com to gwillem@gmail.com,
@@ -82,11 +84,13 @@ Ves_VendorsCredit,,/vendors/credit_withdraw/;/vendors/credit/withdraw/,https://g
 VladimirPopov_WebForms,2.8.0,/webforms/,,https://mageme.com/magento-form-builder.html
 Webcooking_SimpleBundle,1.6.9,/simplebundle/Cart/add,,https://restaurant.web-cooking.net/marketing/magento-simple-bundle.html
 Webgility,346,/webgility/upgrade.php,https://gwillem.gitlab.io/2018/10/30/webgility-backdoor/,https://marketplace.magento.com/webgility-webgility-ecc.html
+Wyomind_Elasticsearch,4.9.2,,https://www.wyomind.com/elastic-search-magento.html#changelog,https://www.wyomind.com/elastic-search-magento.html
 Xtento_OrderExport,1.9.51,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderExport/version/m1,https://www.xtento.com/magento-extensions/magento-order-export-module.html
 Xtento_OrderImport,1.1.4,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderImport/version/m1,https://www.xtento.com/magento-extensions/magento-order-import-extension.html
 Xtento_ProductExport,1.9.53,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_ProductExport/version/m1,https://www.xtento.com/magento-extensions/magento-product-feed-export-module.html
 Xtento_StockImport,2.8.0,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_StockImport/version/m1,https://www.xtento.com/magento-extensions/magento-stock-inventory-import-module.html
 Xtento_TrackingImport,2.5.4,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_TrackingImport/version/m1,https://www.xtento.com/magento-extensions/magento-tracking-number-import-module.html
+Zendesk_Zendesk,2.4.0,,https://github.com/agnostack/magento_extension/releases/tag/v2.4.0,https://github.com/agnostack/magento_extension
 ?,,/ajax/Showroom/submit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
 ?,,/ajaxcart/cart/deleteBuyBackProgram,Peter O'Callaghan,
 ?,,/appointment/index/index/,Peter O'Callaghan,
