@@ -25,3 +25,8 @@ StripeIntegration_Payments,1.8.8,,,https://marketplace.magento.com/stripe-stripe
 VladimirPopov_WebForms,2.9.18,,https://anothernetsecblog.com/magento-2-extension-security/,
 Wuunder_Wuunderconnector,2.1.2,wuunder/index/parcelshop,https://github.com/wuunder/wuunder-webshopplugin-magento2/issues/32,https://github.com/wuunder/wuunder-webshopplugin-magento2/releases
 Wyomind_PointOfSale,7.2.3,,Kalpesh Mehta,https://www.wyomind.com/magento2/point-of-sale-magento.html#changelog
+Xtento_OrderExport,2.11.3,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderExport/version/m2,https://www.xtento.com/magento-extensions/magento-order-export-module.html
+Xtento_OrderImport,2.1.4,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderImport/version/m2,https://www.xtento.com/magento-extensions/magento-order-import-extension.html
+Xtento_ProductExport,2.12.7,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_ProductExport/version/m2,https://www.xtento.com/magento-extensions/magento-product-feed-export-module.html
+Xtento_StockImport,2.8.4,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_StockImport/version/m2,https://www.xtento.com/magento-extensions/magento-stock-inventory-import-module.html
+Xtento_TrackingImport,2.8.0,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_TrackingImport/version/m2,https://www.xtento.com/magento-extensions/magento-tracking-number-import-module.html
