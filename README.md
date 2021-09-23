@@ -1,6 +1,6 @@
 # Magento Vulnerability Database
 
-List of Magento 1 and 2 integrations with known security issues. **Objective: easily identify insecure 3rd party software in your Magento code base.** See my blog for the rationale: [Bad extensions now main source of Magento hacks & a solution](https://gwillem.gitlab.io/2019/01/29/magento-module-blacklist/)
+List of Magento 1 and 2 integrations with known security issues. **Objective: easily identify insecure 3rd party software in your Magento code base.** See our blog for the rationale: [Bad extensions now main source of Magento hacks & a solution](https://sansec.io/research/magento-module-blacklist)
 
 ![n98-magerun dev:module:security](https://buq.eu/screenshots/kUOyTTWeDIUXUrGU1kqAmqu5.png)
 
@@ -83,8 +83,6 @@ Only security issues that have *verified proof* or are being *actively exploited
 
 Please consider *responsible disclosure* before submitting zero-day vulnerabilities. If no immediate abuse is likely, please notify the vendor first and allow 30 days for a patch & release statement. 
 
-
-
 # FAQ
 
 ### Why a new repository?
@@ -147,4 +145,4 @@ The information and code of this repository is provided free of charge, without 
 
 # Contact
 
-[gwillem@gmail.com](mailto:gwillem@gmail.com?subject=magevulndb)
+[info@sansec.io](mailto:info@sansec.io?subject=magevulndb)
