@@ -71,6 +71,7 @@ Mico_Mupload,2.0.0,/mupload/uploader/save,https://github.com/gwillem/magevulndb/
 _Mirasvit_Helpdesk,1.5.14,,https://mirasvit.com/doc/extension_helpdesk/current/changelog,https://mirasvit.com/magento-extensions/helpdesk.html
 _Mirasvit_SEO,1.3.16,,https://mirasvit.com/doc/extension_seosuite/current/changelog,https://mirasvit.com/magento-extensions/advanced-seo-suite.html
 MW_Affiliate,,mw_aref=,martin@magemojo.com to gwillem@gmail.com,
+MW_FreeGift,,/freegift/cart/gurlgift/,https://github.com/sansecio/magevulndb/issues/88,https://www.mage-world.com/magento-free-gift-extension.html
 Netgo_Gwishlist,,/netgocust/Gwishlist/updategwishlist/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://github.com/wesleyalmd/mageGwishlist/
 Netreviews_Avisverifies,,/AvisVerifies/dialog/index/,https://xn--gran-8qa.fi/magento-1-netreviews-avisverifies-security-flaw/,https://marketplace.magento.com/netreviews-verifiedreviews.html
 Ophira_Qquoteadv,5.4.5,/qquoteadv/download/downloadCustomOption/,https://cart2quote.zendesk.com/hc/en-us/articles/115000616303--FIXED-Security-Vulnerability-in-downloadCustomOptionAction,https://www.cart2quote.com/
