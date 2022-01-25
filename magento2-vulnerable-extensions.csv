@@ -1,4 +1,6 @@
 Name,Fixed in,Relevant URI,Reference,Update URL
+Adyen_Payment,7.3.5,/adyen/progress/result,https://gist.github.com/JeroenBoersma/2052fd24509c7dfefe296f6957ac34fd,https://github.com/Adyen/adyen-magento2/releases/tag/7.3.5
+Adyen_Payment,8.1.1,/adyen/progress/result,https://gist.github.com/JeroenBoersma/2052fd24509c7dfefe296f6957ac34fd,https://github.com/Adyen/adyen-magento2/releases/tag/8.1.1
 Amasty_Adminbookmarks?,1.0.5,,,https://amasty.com/magento-admin-bookmarks-for-magento-2.html
 Amasty_Feed,2.6.7,,,https://amasty.com/product-feed-for-magento-2.html
 Amasty_Gdpr,2.6.0,,https://amasty.com/gdpr-for-magento-2.html,https://amasty.com/gdpr-for-magento-2.html
