@@ -86,6 +86,7 @@ Ves_VendorsCredit,,/vendors/credit_withdraw/;/vendors/credit/withdraw/,https://g
 VladimirPopov_WebForms,2.8.0,/webforms/,,https://mageme.com/magento-form-builder.html
 Webcooking_SimpleBundle,1.6.9,/simplebundle/Cart/add,,https://restaurant.web-cooking.net/marketing/magento-simple-bundle.html
 Webgility,346,/webgility/upgrade.php,https://gwillem.gitlab.io/2018/10/30/webgility-backdoor/,https://marketplace.magento.com/webgility-webgility-ecc.html
+WF_CustomerBalance,,,https://github.com/sansecio/magevulndb/issues/89,
 Wyomind_Elasticsearch,4.9.2,,https://www.wyomind.com/elastic-search-magento.html#changelog,https://www.wyomind.com/elastic-search-magento.html
 Xtento_OrderExport,1.9.51,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderExport/version/m1,https://www.xtento.com/magento-extensions/magento-order-export-module.html
 Xtento_OrderImport,1.1.4,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderImport/version/m1,https://www.xtento.com/magento-extensions/magento-order-import-extension.html
