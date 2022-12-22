@@ -83,6 +83,7 @@ Sm_Megamenu,3.0.1,/megamenu/index/getitems/,,https://www.magentech.com/magento/m
 Smartwave_QuickView,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864
 Sns_Quickview,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://themeforest.net/user/snstheme/portfolio?term=Magento
 TBT_Rewards,1.12.1,/rewards/notifications/unsubscribe/;/rewards/customer/notifications/unsubscribe/,https://support.magerewards.com/article/2326-magerewards-1-12-1-is-now-available,https://www.magerewards.com/
+TIG_Buckaroo3Extended,4.18.0,/buckaroo3extended/checkout/saveData,https://github.com/sansecio/magevulndb/pull/59,https://github.com/sansecio/magevulndb/pull/59
 Ves_Tabshome,,/tabshome/index/ajax/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
 Ves_VendorsCredit,,/vendors/credit_withdraw/;/vendors/credit/withdraw/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://www.vnecoms.com/magento-marketplace/plugins/vendor-credit.html
 VladimirPopov_WebForms,2.8.0,/webforms/,,https://mageme.com/magento-form-builder.html
