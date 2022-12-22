@@ -1,5 +1,6 @@
 Name,Fixed in,Relevant URI,Reference,Update URL
 Addonline_SoColissimo,2.2.1,/socolissimo/ajax/getcitynamebyzipcode/,https://twitter.com/gwillem/status/1121397274041638913,http://www.modules-ecommerce.fr
+AHT_Advancedmedia,,/advancedmedia/index/upload/,https://github.com/sansecio/magevulndb/pull/100,
 Amasty_Acart,1.17.4,,,https://amasty.com/magento-abandoned-cart-email.html
 Amasty_Blog,2.3.4,,,https://amasty.com/magento-blog-pro.html
 Amasty_Customform,1.7.3,,,https://amasty.com/magento-form-builder.html
@@ -19,12 +20,13 @@ Amasty_Stockstatus,3.10.7,,,https://amasty.com/custom-stock-status.html
 Amasty_StoreCredit,1.2.2,,,https://amasty.com/magento-store-credit.html
 Amasty_Sugarcrm?,1.6.6,,,https://amasty.com/magento-sugarcrm-bridge.html
 Amasty_Table,2.5.4,,,https://amasty.com/shipping-table-rates.html
+AppZab_GuestToReg,,/GuestToReg/index/post,https://twitter.com/sansecio/status/1257675676674654209?s=20,
 AW_Advancednewsletter,2.3.5,,https://labs.integrity.pt/advisories/cve-2014-1634/index.html,https://ecommerce.aheadworks.com/magento-extensions/advanced-newsletter.html
 AW_Advancedreports,2.8.2,/advancedreports/chart/tunnel/,https://www.facebook.com/Aheadworks/photos/notice-we-fixed-the-vulnerability-connected-with-php-object-injection-discovered/2126624844064804/,https://ecommerce.aheadworks.com/magento-extensions/advanced-reports.html
 AW_AheadMetrics,,/aheadmetrics/auth/index/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,Abandoned
-AW_Autorelated,,/admin_awautorelated/adminhtml_blocksgrid/massStatus,https://www.alterweb.nl/techtalk/aheadworks-autorelated-security-issue,https://ecommerce.aheadworks.com/magento-extension-updates/automatic-related-products-2.html
+AW_Autorelated,2.5.1,/admin_awautorelated/adminhtml_blocksgrid/massStatus,https://www.alterweb.nl/techtalk/aheadworks-autorelated-security-issue,https://ecommerce.aheadworks.com/magento-extension-updates/automatic-related-products-2.html
 AW_Blog,1.3.18,,https://ecommerce.aheadworks.com/magento-extension-updates/blog.html,https://ecommerce.aheadworks.com/magento-extensions/blog.html
-AW_Followupemail,3.6.6,,https://blog.aheadworks.com/security-issue-follow-up-email-vulnerability/,https://ecommerce.aheadworks.com/magento-extensions/follow-up-email.html
+AW_Followupemail,3.6.7,,http://ka.lpe.sh/2016/11/17/multiple-security-vulnerabilities-aheadworks-follow-up-email-extension/,https://ecommerce.aheadworks.com/magento-extensions/follow-up-email.html
 BL_CustomGrid,0.9.3.0,,https://xn--gran-8qa.fi/magento-1-bl-customgrid-security-flaw/,https://github.com/Niko9911/mage-enhanced-admin-grids/releases/tag/0.9.3.0
 BSS_ReorderProduct,1.2.4,/bssreorderproduct/list/add/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://bsscommerce.com/magento-reorder-product-extension.html
 BusinessKing_OutofStockSubscription,,/outofstocksubscription/,roland@magehost.pro,http://www.businessapplicationking.com/product-out-of-stock-subscription.html
@@ -45,6 +47,7 @@ CommerceExtensions_Wishlistimportexport,0.3.0,/wishlistimportexport/,https://www
 CommerceLab_News,,/clnews/,https://www.magecloud.net/marketplace/extension/news-by-commercelab/,
 CommerceLab_GreatNews,,/clnews/,https://www.magecloud.net/marketplace/extension/news-by-commercelab/,
 CommerceThemes_GuestToReg,,/GuestToReg/index/post/,https://twitter.com/gwillem/status/1065986386795380736,Abandoned
+dealer4dealer_xcore,2.2.1,/api/sales/order/info,https://github.com/dealer4dealer/magento1-soapapi/pull/35,https://github.com/dealer4dealer/magento1-soapapi/pull/35
 EM_Ajaxcart,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://www.emthemes.com/em-ajaxcart.html
 EM_AjaxProducts,1.0.0,/ajaxproducts/index/index,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://www.emthemes.com/free-magento-extensions/ajax-products-load-more-magento-extension.html
 EM_Multideal,,/multidealpro/index/edit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://www.emthemes.com/em-multideal.html
@@ -65,14 +68,17 @@ Magmi,0.7.22,/magmi/,http://magmi.org/magmi-security-issue-solved/,http://wiki.m
 Magpleasure_Common,0.8.13,/admin/magpleasure/ajaxform/save/,https://www.alterweb.nl/techtalk/magpleasure_common-security-issue,Abandoned
 Magpleasure_Filesystem,,,http://www.magpleasure.com/blog/quick-survey-should-we-leave-the-file-system-extension-alive.html,
 MD_Quickview,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,
+Mico_Mupload,2.0.0,/mupload/uploader/save,https://github.com/gwillem/magevulndb/pull/72,https://www.micosolutions.com/upload-ultimate-for-magento
 _Mirasvit_Helpdesk,1.5.14,,https://mirasvit.com/doc/extension_helpdesk/current/changelog,https://mirasvit.com/magento-extensions/helpdesk.html
 _Mirasvit_SEO,1.3.16,,https://mirasvit.com/doc/extension_seosuite/current/changelog,https://mirasvit.com/magento-extensions/advanced-seo-suite.html
 MW_Affiliate,,mw_aref=,martin@magemojo.com to gwillem@gmail.com,
+MW_FreeGift,,/freegift/cart/gurlgift/,https://github.com/sansecio/magevulndb/issues/88,https://www.mage-world.com/magento-free-gift-extension.html
 Netgo_Gwishlist,,/netgocust/Gwishlist/updategwishlist/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,https://github.com/wesleyalmd/mageGwishlist/
-Netreviews_Avisverifies,,/AvisVerifies/dialog/index/,https://xn--gran-8qa.fi/magento-1-netreviews-avisverifies-security-flaw/,https://marketplace.magento.com/netreviews-verifiedreviews.html
-Ophira_Qquoteadv,5.4.5,/qquoteadv/download/downloadCustomOption/,https://cart2quote.zendesk.com/hc/en-us/articles/115000616303--FIXED-Security-Vulnerability-in-downloadCustomOptionAction,https://www.cart2quote.com/
+Netreviews_Avisverifies,2.18.2,/AvisVerifies/dialog/index/,https://xn--gran-8qa.fi/magento-1-netreviews-avisverifies-security-flaw/,https://marketplace.magento.com/netreviews-verifiedreviews.html
+Ophirah_Qquoteadv,5.4.5,/qquoteadv/download/downloadCustomOption/,https://cart2quote.zendesk.com/hc/en-us/articles/115000616303--FIXED-Security-Vulnerability-in-downloadCustomOptionAction,https://www.cart2quote.com/
 PO_Prescription,,/Prescription/amendQuoteItemQty/;/Prescription/strictVerifyById/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
 Raveinfosys_Deleteorder,1.1.3,,https://xn--gran-8qa.fi/magento-1-raveinfosys-deleteorders-security-flaw/,https://marketplace.magento.com/raveinfosys-raveinfosys-deleteorder.html
+Sendinblue_Sendinblue,1.3.0,/sendinblue/ajax/ajaxupdate/,https://github.com/sansecio/magevulndb/issues/96,
 Sm_Megamenu,3.0.1,/megamenu/index/getitems/,,https://www.magentech.com/magento/magento-extensions/item/246-sm-mega-menu-responsive-magento-module
 Smartwave_QuickView,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864
 Sns_Quickview,,,https://magento.com/security/vulnerabilities/sql-injection-vulnerability,https://themeforest.net/user/snstheme/portfolio?term=Magento
@@ -83,6 +89,14 @@ Ves_VendorsCredit,,/vendors/credit_withdraw/;/vendors/credit/withdraw/,https://g
 VladimirPopov_WebForms,2.8.0,/webforms/,,https://mageme.com/magento-form-builder.html
 Webcooking_SimpleBundle,1.6.9,/simplebundle/Cart/add,,https://restaurant.web-cooking.net/marketing/magento-simple-bundle.html
 Webgility,346,/webgility/upgrade.php,https://gwillem.gitlab.io/2018/10/30/webgility-backdoor/,https://marketplace.magento.com/webgility-webgility-ecc.html
+WF_CustomerBalance,,,https://github.com/sansecio/magevulndb/issues/89,
+Wyomind_Elasticsearch,4.9.2,,https://www.wyomind.com/elastic-search-magento.html#changelog,https://www.wyomind.com/elastic-search-magento.html
+Xtento_OrderExport,1.9.51,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderExport/version/m1,https://www.xtento.com/magento-extensions/magento-order-export-module.html
+Xtento_OrderImport,1.1.4,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderImport/version/m1,https://www.xtento.com/magento-extensions/magento-order-import-extension.html
+Xtento_ProductExport,1.9.53,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_ProductExport/version/m1,https://www.xtento.com/magento-extensions/magento-product-feed-export-module.html
+Xtento_StockImport,2.8.0,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_StockImport/version/m1,https://www.xtento.com/magento-extensions/magento-stock-inventory-import-module.html
+Xtento_TrackingImport,2.5.4,,https://www.xtento.com/xtcustom/changelog/show/module/Xtento_TrackingImport/version/m1,https://www.xtento.com/magento-extensions/magento-tracking-number-import-module.html
+Zendesk_Zendesk,2.4.0,,https://github.com/agnostack/magento_extension/releases/tag/v2.4.0,https://github.com/agnostack/magento_extension
 ?,,/ajax/Showroom/submit/,https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/,
 ?,,/ajaxcart/cart/deleteBuyBackProgram,Peter O'Callaghan,
 ?,,/appointment/index/index/,Peter O'Callaghan,
