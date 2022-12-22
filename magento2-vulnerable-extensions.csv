@@ -6,7 +6,7 @@ Amasty_Storelocator,1.4.7,,Francis M. Gallagher,https://amasty.com/store-locator
 Amasty_Storeswitcher?,1.0.13,,,https://amasty.com/store-switcher-for-magento-2.html
 AW_Blog,2.4.6,,https://ecommerce.aheadworks.com/magento-extension-updates/blog,https://ecommerce.aheadworks.com/magento-2-extensions/blog
 Campaigner_Integration,,,Max Chadwick,
-Cardgate_Payment,2.0.24,/cardgate/payment/updatepm,Roger Keulen,https://github.com/cardgate/magento2/releases
+Cardgate_Payment,2.0.24,/cardgate/payment/updatepm,Roger Keulen,https://github.com/cardgate/magento2/releases/tag/v2.0.24
 Fooman_PdfCustomiser,8.1.8,,https://twitter.com/foomanNZ/status/1118496841488748546,
 Fooman_Tcpdf,6.2.25.2,,,https://mailchi.mp/fooman/important-security-update-for-pdf-customiser-3218933
 Mageplaza_LayeredNavigation,,,John Knowles,https://www.mageplaza.com/magento-2-layered-navigation-extension/
@@ -14,4 +14,4 @@ Magestore_Storelocator,1.0.2,,,https://blog.magestore.com/store-locator-extensio
 Magestore_Storepickup,1.2.1,,,https://blog.magestore.com/store-locator-extension-patch/
 Mirasvit_Blog,1.0.21,,,https://github.com/mirasvit/module-blog
 Mirasvit_Giftr,1.2.23,,https://mirasvit.com/docs/module-gift-registry/current/changelog,https://mirasvit.com/magento-2-extensions/gift-registry.html
-MultiSafepay_Connect,1.7.0,,Roger Keulen,https://github.com/MultiSafepay/Magento2Msp
+MultiSafepay_Connect,1.7.0,,Roger Keulen,https://github.com/MultiSafepay/Magento2Msp/releases/tag/1.7.0
