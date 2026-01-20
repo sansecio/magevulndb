@@ -1,6 +1,7 @@
 Name,Fixed in,Relevant URI,Reference,Update URL
 Adyen_Payment,8.1.1,/adyen/process/result,https://gist.github.com/JeroenBoersma/2052fd24509c7dfefe296f6957ac34fd,https://github.com/Adyen/adyen-magento2/releases/tag/8.1.1
 Aheadworks_Layerednav,2.3.1,,https://github.com/sansecio/magevulndb/issues/93,https://aheadworks.com/layered-navigation-extension-for-magento-2#changelog
+Algolia_AlgoliaSearch,3.17.2,,https://github.com/advisories/GHSA-595p-g7xc-c333,https://github.com/algolia/algoliasearch-magento-2
 Amasty_Adminbookmarks?,1.0.5,,,https://amasty.com/magento-admin-bookmarks-for-magento-2.html
 Amasty_Feed,2.6.7,,,https://amasty.com/product-feed-for-magento-2.html
 Amasty_Gdpr,2.6.0,,https://amasty.com/gdpr-for-magento-2.html,https://amasty.com/gdpr-for-magento-2.html
@@ -8,7 +9,6 @@ Amasty_GeoipRedirect,1.0.13,,,https://amasty.com/geoip-redirect-for-magento-2.ht
 Amasty_Shopby,2.12.14,,Francis M. Gallagher,https://amasty.com/improved-layered-navigation-for-magento-2.html
 Amasty_Storelocator,1.4.7,,Francis M. Gallagher,https://amasty.com/store-locator-for-magento-2.html
 Amasty_Storeswitcher?,1.0.13,,,https://amasty.com/store-switcher-for-magento-2.html
-Algolia_AlgoliaSearch,3.17.2,,https://github.com/advisories/GHSA-595p-g7xc-c333,https://github.com/algolia/algoliasearch-magento-2
 AW_Blog,2.4.6,,https://ecommerce.aheadworks.com/magento-extension-updates/blog,https://ecommerce.aheadworks.com/magento-2-extensions/blog
 Bss_MultiWishlist,1.2.0,,https://xn--gran-8qa.fi/bss-multiwishlist-xss-injection/,https://bsscommerce.com/magento-2-multiple-wishlists-extension.html
 BlueFormBuilder_Core,2.0.2,,https://web.archive.org/web/20210320101040/https://anothernetsecblog.com/magento-2-extension-security/,
