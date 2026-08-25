@@ -5,6 +5,9 @@ Algolia_AlgoliaSearch,3.17.2,,https://github.com/advisories/GHSA-595p-g7xc-c333,
 Amasty_Adminbookmarks?,1.0.5,,,https://amasty.com/magento-admin-bookmarks-for-magento-2.html
 Amasty_AdvancedReview,1.17.1,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/advanced-product-reviews-for-magento-2.html
 Amasty_AdvancedReviewGraphQl,1.0.6,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/advanced-product-reviews-for-magento-2.html
+Amasty_Affiliate,2.6.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/affiliate-for-magento-2.html
+Amasty_AffiliateHyva,1.2.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/affiliate-for-magento-2.html
+Amasty_AgeVerification,1.0.3,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/age-verification-for-magento-2.html
 Amasty_AiContentGenerator,6.1.1,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/chatgpt-ai-content-for-magento-2.html
 Amasty_AiContentGeneratorLite,6.3.2,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/chatgpt-ai-content-for-magento-2.html
 Amasty_AiContentGeneratorPro,5.1.3,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/chatgpt-ai-content-for-magento-2.html
@@ -27,7 +30,8 @@ Amasty_Gdpr,2.15.0,,https://sansec.io/research/amasty-mass-disclosure,https://am
 Amasty_GdprCookie,2.18.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/cookie-consent-for-magento-2.html
 Amasty_GdprPro,2.19.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/gdpr-for-magento-2.html
 Amasty_Geoip,1.7.4,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/geo-ip-for-magento-2.html
-Amasty_GeoipRedirect,1.0.13,,,https://amasty.com/geoip-redirect-for-magento-2.html
+Amasty_GeoipRedirect,1.7.4,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/geoip-redirect-for-magento-2.html
+Amasty_GeoipRedirectHyva,1.1.5,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/geoip-redirect-for-magento-2.html
 Amasty_GiftCard,2.16.4,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/gift-card-for-magento-2.html
 Amasty_GiftCardAccount,1.10.3,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/gift-card-for-magento-2.html
 Amasty_GiftCardGraphQl,1.0.11,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/gift-card-for-magento-2.html
@@ -37,6 +41,8 @@ Amasty_ImportCore,1.14.1,,https://sansec.io/research/amasty-mass-disclosure,http
 Amasty_ImportExportCore,1.4.4,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/import-and-export-for-magento-2.html
 Amasty_ImportPro,2.1.2,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/import-and-export-for-magento-2.html
 Amasty_IndexNowGoogle,1.0.2,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/google-indexing-api-for-magento-2.html
+Amasty_InstagramFeed,3.3.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/instagram-feed-for-magento-2.html
+Amasty_InstagramFeedHyva,1.2.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/instagram-feed-for-magento-2.html
 Amasty_MegaMenu,2.5.7,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/mega-menu-for-magento-2.html
 Amasty_MegaMenuPackagePro,2.8.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/mega-menu-for-magento-2.html
 Amasty_MultipleWishlistGraphql,1.0.3,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/multiple-wishlist-for-magento-2.html
@@ -57,8 +63,9 @@ Amasty_ProductAttachment,3.6.0,,https://sansec.io/research/amasty-mass-disclosur
 Amasty_ProductAttachmentLite,3.7.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/product-attachments-for-magento-2.html
 Amasty_ProductExport,2.2.3,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/export-products-for-magento-2.html
 Amasty_ProductImport,2.1.3,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/import-products-for-magento-2.html
-Amasty_Promo,2.18.3,,,https://amasty.com/free-gift-for-magento-2.html
+Amasty_Promo,2.19.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/free-gift-for-magento-2.html
 Amasty_PromoCountdown,1.3.1,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/countdown-timer-for-magento-2.html
+Amasty_PromoReports,1.0.4,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/free-gift-for-magento-2.html
 Amasty_Prot,1.7.2,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/custom-product-option-templates-for-magento-2.html
 Amasty_RecurringPayments,2.5.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/subscriptions-recurring-payments-for-magento-2.html
 Amasty_RecurringPaymentsSubscriptionFunctionality,1.3.1,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/subscriptions-recurring-payments-for-magento-2.html
@@ -89,6 +96,7 @@ Amasty_ShopbyBase,3.1.2,,https://sansec.io/research/amasty-mass-disclosure,https
 Amasty_ShopbyBrand,3.3.3,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/shop-by-brand-for-magento-2.html
 Amasty_ShopByBrandHyvaCompatibility,1.4.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/shop-by-brand-for-magento-2.html
 Amasty_ShopbyQuickConfig,1.1.7,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/premium-custom-layered-navigation-for-magento-2.html
+Amasty_Smtp,2.3.4,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/smtp-email-settings-for-magento-2.html
 Amasty_SocialLogin,2.0.5,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/social-login-for-magento-2.html
 Amasty_SocialLoginLite,1.12.13,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/social-login-for-magento-2.html
 Amasty_SocialLoginPro,2.1.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/social-login-for-magento-2.html
@@ -96,6 +104,7 @@ Amasty_StoreCredit,1.5.2,,https://sansec.io/research/amasty-mass-disclosure,http
 Amasty_Storelocator,1.4.7,,Francis M. Gallagher,https://amasty.com/store-locator-for-magento-2.html
 Amasty_Storeswitcher?,1.0.13,,,https://amasty.com/store-switcher-for-magento-2.html
 Amasty_Stripe,3.3.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/app-for-payments-with-stripe-for-magento-2.html
+Amasty_ThankYouPage,1.5.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/thank-you-page-for-magento-2.html
 Amasty_VisualMerch,3.1.3,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/visual-merchandiser-for-magento-2.html
 Amasty_Xlanding,2.0.4,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/landing-pages-for-magento-2.html
 Amasty_XmlSitemap,2.5.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/xml-google-sitemap-for-magento-2.html
