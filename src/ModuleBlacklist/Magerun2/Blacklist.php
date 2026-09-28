@@ -66,7 +66,7 @@ class Blacklist
         }
 
         if (($handle = fopen(self::BLACKLIST_URL, "r")) !== false) {
-            while (($data = fgetcsv($handle, 1000, ",")) !== false) {
+            while (($data = fgetcsv($handle, 1000, ",", "\"","\\")) !== false) {
                 if ($data[0] === 'Name') {
                     continue;
                 }
