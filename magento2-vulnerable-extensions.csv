@@ -23,6 +23,7 @@ Amasty_AiElasticSearchSynonymsContentGeneratorPro,1.0.2,,https://sansec.io/resea
 Amasty_AiImageGenerator,1.3.2,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/chatgpt-ai-content-for-magento-2.html
 Amasty_AiXlandingContentGenerator,3.2.1,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/chatgpt-ai-content-for-magento-2.html
 Amasty_AiXlandingContentTranslator,1.1.1,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/chatgpt-ai-content-for-magento-2.html
+Amasty_AjaxCartRateLimiter,1.0.1,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/ajax-shopping-cart-for-magento-2.html
 Amasty_AjaxShoppingCartSubscriptionPack,1.12.3,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/ajax-shopping-cart-for-magento-2.html
 Amasty_BannersLite,1.2.9,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/promo-banners-for-magento-2.html
 Amasty_Blog,3.0.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/blog-pro-for-magento-2.html
@@ -46,6 +47,7 @@ Amasty_CustomformGraphQl,1.0.7,,https://sansec.io/research/amasty-mass-disclosur
 Amasty_CustomFormHyva,1.3.1,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/custom-form-for-magento-2.html
 Amasty_CustomFormsPro,1.3.2,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/custom-form-for-magento-2.html
 Amasty_CustomStockStatusMsi,1.0.4,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/custom-stock-status-for-magento-2.html
+Amasty_CustomTabs,1.6.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/product-tabs-for-magento-2.html
 Amasty_DeliveryDateManager,1.2.5,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/delivery-date-manager-for-magento-2.html
 Amasty_EmailUnsubscribe,1.0.2,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/blog-pro-for-magento-2.html
 Amasty_ExitPopup,1.3.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/exit-intent-popup-for-magento-2.html
@@ -90,10 +92,12 @@ Amasty_Orderattr,4.0.0,,https://sansec.io/research/amasty-order-attributes-file-
 Amasty_OrderExport,2.3.3,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/export-orders-for-magento-2.html
 Amasty_OrderImport,2.2.3,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/import-orders-for-magento-2.html
 Amasty_OutofstockHyvaCompatibility,1.1.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/out-of-stock-notification-for-magento-2.html
-Amasty_PageSpeedOptimizer,2.5.0,,,https://amasty.com/google-page-speed-optimizer-for-magento-2.html
+Amasty_PageSpeedOptimizer,2.6.0,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/google-page-speed-optimizer-for-magento-2.html
 Amasty_PageSpeedOptimizerPro,3.9.0,,,https://amasty.com/google-page-speed-optimizer-for-magento-2.html
+Amasty_PageSpeedTools,2.2.1,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/google-page-speed-optimizer-for-magento-2.html
 Amasty_Payrestriction,2.5.4,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/payment-restrictions-for-magento-2.html
 Amasty_PDFCustom,1.7.1,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/pdf-customizer-for-magento-2.html
+Amasty_PixelCore,1.1.2,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/tik-tok-pixel-for-magento-2.html
 Amasty_Preorder,2.1.2,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/pre-order-for-magento-2.html
 Amasty_PreOrderHyvaCheckout,1.0.3,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/pre-order-for-magento-2.html
 Amasty_PreOrderHyvaCompatibility,1.1.2,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/pre-order-for-magento-2.html
