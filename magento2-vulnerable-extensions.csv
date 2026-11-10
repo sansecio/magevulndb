@@ -181,6 +181,7 @@ Amasty_Xnotif,1.20.0,,https://sansec.io/research/amasty-mass-disclosure,https://
 Amasty_Xsearch,1.27.1,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/advanced-search-for-magento-2.html
 Amasty_Yotpo,1.0.6,,https://sansec.io/research/amasty-mass-disclosure,https://amasty.com/improved-sorting-for-magento-2.html
 AW_Blog,2.4.6,,https://ecommerce.aheadworks.com/magento-extension-updates/blog,https://ecommerce.aheadworks.com/magento-2-extensions/blog
+Bazaarvoice_Connector,9.1.11,/bazaarvoice/pixel/test,https://github.com/bazaarvoice/magento2-extension/issues/148,https://github.com/bazaarvoice/magento2-extension/releases/tag/9.1.11
 BlueFormBuilder_Core,2.0.2,,https://web.archive.org/web/20210320101040/https://anothernetsecblog.com/magento-2-extension-security/,
 Bss_MultiWishlist,1.2.0,,https://xn--gran-8qa.fi/bss-multiwishlist-xss-injection/,https://bsscommerce.com/magento-2-multiple-wishlists-extension.html
 Buckaroo_Magento2,2.7.2,,https://github.com/buckaroo-it/Magento2/releases/tag/v2.7.2,https://github.com/buckaroo-it/Magento2/releases/tag/v2.7.2
