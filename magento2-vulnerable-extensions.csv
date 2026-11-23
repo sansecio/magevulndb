@@ -217,7 +217,7 @@ Mgt_Varnish,1.1.0,/mgtfeed/feed/update,https://sansec.io/research/mgt-varnish-cr
 MiniOrange_IDPSaml,3.0.0,,https://commercemarketplace.adobe.com/miniorange-inc-idpsaml.html,https://commercemarketplace.adobe.com/miniorange-inc-idpsaml.html
 MiniOrange_SCIM,3.0.0,,https://commercemarketplace.adobe.com/miniorange-inc-scim.html,https://commercemarketplace.adobe.com/miniorange-inc-scim.html
 MiniOrange_SF,2.0.1,,https://commercemarketplace.adobe.com/miniorange-inc-miniorange-sf-sso.html,https://commercemarketplace.adobe.com/miniorange-inc-miniorange-sf-sso.html
-Mirasvit_Blog,1.0.21,,,https://github.com/mirasvit/module-blog
+Mirasvit_Blog,,,https://github.com/mirasvit/module-blog/commit/5186abea670d611f2929bcc9011442268a165af2,https://github.com/mirasvit/module-blog
 Mirasvit_CacheWarmer,1.11.12,,https://sansec.io/research/mirasvit-cache-warmer-object-injection,https://mirasvit.com/magento-2-extensions/full-page-cache-warmer.html
 Mirasvit_Giftr,1.2.23,,https://mirasvit.com/docs/module-gift-registry/current/changelog,https://mirasvit.com/magento-2-extensions/gift-registry.html
 Mirasvit_SearchUltimate,2.9.3,,https://mirasvit.com/manual/magento-2-search-ultimate/changelog,https://mirasvit.com/magento-2-extensions/elastic-search-ultimate.html
