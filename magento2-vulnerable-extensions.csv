@@ -205,6 +205,7 @@ Hexasoft_IP2LocationCountryBlocker,1.2.0,,https://commercemarketplace.adobe.com/
 Klaviyo_Reclaim,3.0.0,reclaim/checkout/cart,https://gist.github.com/JeroenBoersma/f5864a45e3df63b198a57abdff366df2,https://github.com/klaviyo/magento2-klaviyo/releases
 Lof_ChatSystem,1.0.3,,https://web.archive.org/web/20210320101040/https://anothernetsecblog.com/magento-2-extension-security/,
 Lof_Formbuilder,1.1.2,,https://web.archive.org/web/20210320101040/https://anothernetsecblog.com/magento-2-extension-security/,
+Magefan_BlogGraphQl,2.3.1,,https://github.com/magefan/module-blog-graph-ql/commit/853c5c64a169b53c509c3e1bd3919ec89bb567a3,https://github.com/magefan/module-blog-graph-ql/releases/tag/2.3.1
 Magefan_LoginAsCustomer,2.2.3,,https://github.com/magefan/module-login-as-customer/commit/1da0bcef0f811a27aa1783c1e9e3595aa065f4e9,https://github.com/magefan/module-login-as-customer/releases/tag/2.2.3
 Magento_CustomAttributeSerializable,0.4.0,,https://sansec.io/research/sessionreaper,https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27397
 MageOS_PageBuilderTemplateImportExport,1.9.0,/pagebuildertemplateie/template/,https://github.com/mage-os/module-pagebuilder-template-import-export/security/advisories/GHSA-hrj3-88v2-6wjx,https://github.com/mage-os/module-pagebuilder-template-import-export/releases/tag/1.9.0
