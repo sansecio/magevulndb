@@ -1,0 +1,8 @@
+module: WeltPixel_ProductFeed
+update_url: 'https://docs.weltpixel.com/ProductFeed/User-Guide-WeltPixel-Product-Feed.html'
+advisories:
+  - id: MVD-2026-0139
+    title: 'WeltPixel_ProductFeed vulnerability, fixed in 1.17.5'
+    published: '2026-09-17'
+    reference: 'https://weltpixel.com/blogs/magento/magento-security-update-september-2026-weltpixel-1-17-5'
+    affected: '<1.17.5'

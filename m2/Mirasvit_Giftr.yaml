@@ -1,0 +1,8 @@
+module: Mirasvit_Giftr
+update_url: 'https://mirasvit.com/magento-2-extensions/gift-registry.html'
+advisories:
+  - id: MVD-2019-0034
+    title: 'Mirasvit_Giftr vulnerability, fixed in 1.2.23'
+    published: '2019-06-20'
+    reference: 'https://mirasvit.com/docs/module-gift-registry/current/changelog'
+    affected: '<1.2.23'

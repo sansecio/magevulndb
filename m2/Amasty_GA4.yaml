@@ -1,0 +1,8 @@
+module: Amasty_GA4
+update_url: 'https://amasty.com/google-tag-manager-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0188
+    title: 'Amasty_GA4 vulnerability, fixed in 3.3.0'
+    published: '2026-10-03'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<3.3.0'

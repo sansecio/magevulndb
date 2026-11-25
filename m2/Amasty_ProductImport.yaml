@@ -1,0 +1,8 @@
+module: Amasty_ProductImport
+update_url: 'https://amasty.com/import-products-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0086
+    title: 'Amasty_ProductImport vulnerability, fixed in 2.1.3'
+    published: '2026-08-13'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.1.3'

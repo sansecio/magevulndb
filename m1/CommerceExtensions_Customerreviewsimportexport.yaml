@@ -1,0 +1,10 @@
+module: CommerceExtensions_Customerreviewsimportexport
+update_url: 'https://www.commerceextensions.com/import-export-bulk-customer-reviews-csv-xml.html'
+advisories:
+  - id: MVD-2019-0012
+    title: 'CommerceExtensions_Customerreviewsimportexport vulnerability, fixed in 0.3.0'
+    published: '2019-04-23'
+    uri:
+      - /customerreviewsimportexport/
+    reference: 'https://www.alterweb.nl/techtalk/commerce-extensions-import-export-security-issue'
+    affected: '<0.3.0'

@@ -1,0 +1,9 @@
+module: AHT_Advancedmedia
+advisories:
+  - id: MVD-2022-0007
+    title: 'AHT_Advancedmedia vulnerability, unpatched'
+    published: '2022-11-01'
+    uri:
+      - /advancedmedia/index/upload/
+    reference: 'https://github.com/sansecio/magevulndb/pull/100'
+    affected: '*'

@@ -1,0 +1,8 @@
+module: Raveinfosys_Deleteorder
+update_url: 'https://marketplace.magento.com/raveinfosys-raveinfosys-deleteorder.html'
+advisories:
+  - id: MVD-2019-0036
+    title: 'Raveinfosys_Deleteorder vulnerability, fixed in 1.1.3'
+    published: '2019-07-15'
+    reference: 'https://xn--gran-8qa.fi/magento-1-raveinfosys-deleteorders-security-flaw/'
+    affected: '<1.1.3'

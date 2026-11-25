@@ -1,0 +1,8 @@
+module: Amasty_Ccpa
+update_url: 'https://amasty.com/california-consumer-privacy-act-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0183
+    title: 'Amasty_Ccpa vulnerability, fixed in 1.3.11'
+    published: '2026-10-03'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.3.11'

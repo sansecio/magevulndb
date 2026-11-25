@@ -1,0 +1,8 @@
+module: Xtento_ProductExport
+update_url: 'https://www.xtento.com/magento-extensions/magento-product-feed-export-module.html'
+advisories:
+  - id: MVD-2021-0005
+    title: 'Xtento_ProductExport vulnerability, fixed in 1.9.53'
+    published: '2021-01-14'
+    reference: 'https://www.xtento.com/xtcustom/changelog/show/module/Xtento_ProductExport/version/m1'
+    affected: '<1.9.53'

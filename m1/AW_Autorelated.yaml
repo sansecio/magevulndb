@@ -1,0 +1,10 @@
+module: AW_Autorelated
+update_url: 'https://ecommerce.aheadworks.com/magento-extension-updates/automatic-related-products-2.html'
+advisories:
+  - id: MVD-2019-0007
+    title: 'AW_Autorelated vulnerability, fixed in 2.5.1'
+    published: '2019-03-22'
+    uri:
+      - /admin_awautorelated/adminhtml_blocksgrid/massStatus
+    reference: 'https://www.alterweb.nl/techtalk/aheadworks-autorelated-security-issue'
+    affected: '<2.5.1'

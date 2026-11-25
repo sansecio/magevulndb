@@ -1,0 +1,8 @@
+module: Amasty_CustomTabs
+update_url: 'https://amasty.com/product-tabs-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0214
+    title: 'Amasty_CustomTabs vulnerability, fixed in 1.6.0'
+    published: '2026-10-19'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.6.0'

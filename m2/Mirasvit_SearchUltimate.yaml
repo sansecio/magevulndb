@@ -1,0 +1,8 @@
+module: Mirasvit_SearchUltimate
+update_url: 'https://mirasvit.com/magento-2-extensions/elastic-search-ultimate.html'
+advisories:
+  - id: MVD-2026-0230
+    title: 'Mirasvit_SearchUltimate vulnerability, fixed in 2.9.3'
+    published: '2026-11-19'
+    reference: 'https://mirasvit.com/manual/magento-2-search-ultimate/changelog'
+    affected: '<2.9.3'

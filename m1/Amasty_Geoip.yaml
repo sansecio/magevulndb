@@ -1,0 +1,8 @@
+module: Amasty_Geoip
+update_url: 'https://amasty.com/'
+advisories:
+  - id: MVD-2018-0001
+    title: 'Amasty_Geoip vulnerability, fixed in 1.1.6'
+    published: '2018-12-05'
+    credit: 'pavel.barbarich@amasty.com to gwillem@gmail.com'
+    affected: '<1.1.6'

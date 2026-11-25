@@ -1,0 +1,10 @@
+module: dealer4dealer_xcore
+update_url: 'https://github.com/dealer4dealer/magento1-soapapi/pull/35'
+advisories:
+  - id: MVD-2021-0013
+    title: 'dealer4dealer_xcore vulnerability, fixed in 2.2.1'
+    published: '2021-01-14'
+    uri:
+      - /api/sales/order/info
+    reference: 'https://github.com/dealer4dealer/magento1-soapapi/pull/35'
+    affected: '<2.2.1'

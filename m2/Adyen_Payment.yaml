@@ -1,0 +1,10 @@
+module: Adyen_Payment
+update_url: 'https://github.com/Adyen/adyen-magento2/releases/tag/8.1.1'
+advisories:
+  - id: MVD-2022-0002
+    title: 'Adyen_Payment vulnerability, fixed in 8.1.1'
+    published: '2022-02-02'
+    uri:
+      - /adyen/process/result
+    reference: 'https://gist.github.com/JeroenBoersma/2052fd24509c7dfefe296f6957ac34fd'
+    affected: '<8.1.1'

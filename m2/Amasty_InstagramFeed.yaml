@@ -1,0 +1,8 @@
+module: Amasty_InstagramFeed
+update_url: 'https://amasty.com/instagram-feed-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0100
+    title: 'Amasty_InstagramFeed vulnerability, fixed in 3.3.0'
+    published: '2026-08-25'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<3.3.0'

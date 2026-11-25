@@ -1,0 +1,8 @@
+module: Smartwave_QuickView
+update_url: 'https://themeforest.net/item/porto-ultimate-responsive-magento-theme/9725864'
+advisories:
+  - id: MVD-2018-0032
+    title: 'Smartwave_QuickView vulnerability, unpatched'
+    published: '2018-12-05'
+    reference: 'https://magento.com/security/vulnerabilities/sql-injection-vulnerability'
+    affected: '*'

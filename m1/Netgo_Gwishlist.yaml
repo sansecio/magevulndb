@@ -1,0 +1,10 @@
+module: Netgo_Gwishlist
+update_url: 'https://github.com/wesleyalmd/mageGwishlist/'
+advisories:
+  - id: MVD-2018-0030
+    title: 'Netgo_Gwishlist vulnerability, unpatched'
+    published: '2018-12-05'
+    uri:
+      - /netgocust/Gwishlist/updategwishlist/
+    reference: 'https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/'
+    affected: '*'

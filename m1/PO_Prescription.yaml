@@ -1,0 +1,10 @@
+module: PO_Prescription
+advisories:
+  - id: MVD-2018-0031
+    title: 'PO_Prescription vulnerability, unpatched'
+    published: '2018-12-05'
+    uri:
+      - /Prescription/amendQuoteItemQty/
+      - /Prescription/strictVerifyById/
+    reference: 'https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/'
+    affected: '*'

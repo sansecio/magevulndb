@@ -1,0 +1,8 @@
+module: WeltPixel_GoogleAutomatedDiscounts
+update_url: 'https://docs.weltpixel.com/GoogleAutomatedDiscounts/User-Guide-WeltPixel-Google-Automated-Discounts.html'
+advisories:
+  - id: MVD-2026-0128
+    title: 'WeltPixel_GoogleAutomatedDiscounts vulnerability, fixed in 1.17.5'
+    published: '2026-09-17'
+    reference: 'https://weltpixel.com/blogs/magento/magento-security-update-september-2026-weltpixel-1-17-5'
+    affected: '<1.17.5'

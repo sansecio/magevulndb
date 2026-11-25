@@ -1,0 +1,8 @@
+module: Amasty_MegaMenu
+update_url: 'https://amasty.com/mega-menu-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0015
+    title: 'Amasty_MegaMenu vulnerability, fixed in 2.5.8'
+    published: '2026-07-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.5.8'

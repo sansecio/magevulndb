@@ -1,0 +1,8 @@
+module: Amasty_ExportPro
+update_url: 'https://amasty.com/export-orders-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0051
+    title: 'Amasty_ExportPro vulnerability, fixed in 2.2.2'
+    published: '2026-08-07'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.2.2'

@@ -1,0 +1,7 @@
+module: MageWorx_Locations
+update_url: 'https://www.mageworx.com/magento-2-store-locator-and-pickup.html'
+advisories:
+  - id: MVD-2024-0002
+    title: 'MageWorx_Locations vulnerability, fixed in 1.9.7'
+    published: '2024-07-31'
+    affected: '<1.9.7'

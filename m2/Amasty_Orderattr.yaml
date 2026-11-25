@@ -1,0 +1,8 @@
+module: Amasty_Orderattr
+update_url: 'https://amasty.com/order-attributes-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0003
+    title: 'Amasty_Orderattr vulnerability, fixed in 4.0.0'
+    published: '2026-06-12'
+    reference: 'https://sansec.io/research/amasty-order-attributes-file-upload'
+    affected: '<4.0.0'

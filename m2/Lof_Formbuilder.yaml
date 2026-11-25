@@ -1,0 +1,7 @@
+module: Lof_Formbuilder
+advisories:
+  - id: MVD-2020-0006
+    title: 'Lof_Formbuilder vulnerability, fixed in 1.1.2'
+    published: '2020-05-28'
+    reference: 'https://web.archive.org/web/20210320101040/https://anothernetsecblog.com/magento-2-extension-security/'
+    affected: '<1.1.2'

@@ -1,0 +1,8 @@
+module: Magefan_LoginAsCustomer
+update_url: 'https://github.com/magefan/module-login-as-customer/releases/tag/2.2.3'
+advisories:
+  - id: MVD-2020-0001
+    title: 'Magefan_LoginAsCustomer vulnerability, fixed in 2.2.3'
+    published: '2020-02-14'
+    reference: 'https://github.com/magefan/module-login-as-customer/commit/1da0bcef0f811a27aa1783c1e9e3595aa065f4e9'
+    affected: '<2.2.3'

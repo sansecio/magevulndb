@@ -1,0 +1,8 @@
+module: Amasty_AiContentTranslator
+update_url: 'https://amasty.com/chatgpt-ai-content-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0158
+    title: 'Amasty_AiContentTranslator vulnerability, fixed in 1.0.2'
+    published: '2026-09-17'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.0.2'

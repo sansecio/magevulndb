@@ -1,0 +1,9 @@
+module: Webcooking_SimpleBundle
+update_url: 'https://restaurant.web-cooking.net/marketing/magento-simple-bundle.html'
+advisories:
+  - id: MVD-2018-0038
+    title: 'Webcooking_SimpleBundle vulnerability, fixed in 1.6.9'
+    published: '2018-12-05'
+    uri:
+      - /simplebundle/Cart/add
+    affected: '<1.6.9'

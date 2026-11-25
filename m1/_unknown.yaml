@@ -1,0 +1,44 @@
+module: '?'
+advisories:
+  - id: MVD-2018-0040
+    title: 'Unidentified module, /ajax/Showroom/submit/'
+    published: '2018-12-05'
+    uri:
+      - /ajax/Showroom/submit/
+    reference: 'https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/'
+    affected: '*'
+  - id: MVD-2018-0041
+    title: 'Unidentified module, /ajaxcart/cart/deleteBuyBackProgram'
+    published: '2018-12-05'
+    uri:
+      - /ajaxcart/cart/deleteBuyBackProgram
+    credit: "Peter O'Callaghan"
+    affected: '*'
+  - id: MVD-2018-0042
+    title: 'Unidentified module, /appointment/index/index/'
+    published: '2018-12-05'
+    uri:
+      - /appointment/index/index/
+    credit: "Peter O'Callaghan"
+    affected: '*'
+  - id: MVD-2018-0043
+    title: 'Unidentified module, /favourites/index/add/'
+    published: '2018-12-05'
+    uri:
+      - /favourites/index/add/
+    credit: "Peter O'Callaghan"
+    affected: '*'
+  - id: MVD-2018-0044
+    title: 'Unidentified module, /freegift/cart/gurlgift/'
+    published: '2018-12-05'
+    uri:
+      - /freegift/cart/gurlgift/
+    reference: 'https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/'
+    affected: '*'
+  - id: MVD-2018-0045
+    title: 'Unidentified module, /pdffree/Product/pdfsave/'
+    published: '2018-12-05'
+    uri:
+      - /pdffree/Product/pdfsave/
+    credit: "Peter O'Callaghan"
+    affected: '*'

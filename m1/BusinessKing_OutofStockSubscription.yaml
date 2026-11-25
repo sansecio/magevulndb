@@ -1,0 +1,10 @@
+module: BusinessKing_OutofStockSubscription
+update_url: 'http://www.businessapplicationking.com/product-out-of-stock-subscription.html'
+advisories:
+  - id: MVD-2018-0061
+    title: 'BusinessKing_OutofStockSubscription vulnerability, unpatched'
+    published: '2018-12-19'
+    uri:
+      - /outofstocksubscription/
+    credit: roland@magehost.pro
+    affected: '*'

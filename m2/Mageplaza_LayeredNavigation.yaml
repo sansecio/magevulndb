@@ -1,0 +1,8 @@
+module: Mageplaza_LayeredNavigation
+update_url: 'https://www.mageplaza.com/magento-2-layered-navigation-extension/'
+advisories:
+  - id: MVD-2019-0030
+    title: 'Mageplaza_LayeredNavigation vulnerability, fixed in 2.3.6'
+    published: '2019-06-17'
+    reference: 'https://www.mageplaza.com/releases/layered-navigation/'
+    affected: '<2.3.6'

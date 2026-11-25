@@ -1,0 +1,8 @@
+module: Sns_Quickview
+update_url: 'https://themeforest.net/user/snstheme/portfolio?term=Magento'
+advisories:
+  - id: MVD-2018-0033
+    title: 'Sns_Quickview vulnerability, unpatched'
+    published: '2018-12-05'
+    reference: 'https://magento.com/security/vulnerabilities/sql-injection-vulnerability'
+    affected: '*'

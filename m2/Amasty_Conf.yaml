@@ -1,0 +1,8 @@
+module: Amasty_Conf
+update_url: 'https://amasty.com/color-swatches-pro-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0093
+    title: 'Amasty_Conf vulnerability, fixed in 2.11.1'
+    published: '2026-08-13'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.11.1'

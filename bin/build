@@ -1,0 +1,37 @@
+#!/usr/bin/env php
+<?php
+
+// Builds dist/magevulndb.json and the advisory-only composer repository in dist/composer/.
+// Usage: bin/build [--base-url=https://sansecio.github.io/magevulndb] [--out=dist]
+
+declare(strict_types=1);
+
+use MageVulnDb\Builder;
+use MageVulnDb\Loader;
+use MageVulnDb\Validator;
+
+require dirname(__DIR__) . '/vendor/autoload.php';
+
+$opts = getopt('', ['base-url:', 'out:']) + ['base-url' => 'https://sansecio.github.io/magevulndb', 'out' => 'dist'];
+$root = dirname(__DIR__);
+
+[$files, $errors] = (new Loader())->load($root);
+$errors = [...$errors, ...(new Validator())->validate($files)];
+if ($errors) {
+    fwrite(STDERR, implode("\n", $errors) . "\nrun bin/validate\n");
+    exit(1);
+}
+
+$builder = new Builder();
+$write = function (string $path, array $data): void {
+    is_dir(dirname($path)) || mkdir(dirname($path), 0o777, true);
+    file_put_contents($path, json_encode($data, JSON_THROW_ON_ERROR | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . "\n");
+};
+
+$out = $opts['out'];
+$write("$out/magevulndb.json", $builder->json($files, new DateTimeImmutable()));
+$repo = $builder->composerRepository($files, $opts['base-url']);
+foreach ($repo as $path => $data) {
+    $write("$out/composer/$path", $data);
+}
+printf("%s/magevulndb.json: %d modules; %s/composer: %d packages\n", $out, count($files), $out, count($repo) - 1);

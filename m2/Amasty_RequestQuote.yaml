@@ -1,0 +1,8 @@
+module: Amasty_RequestQuote
+update_url: 'https://amasty.com/request-a-quote-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0018
+    title: 'Amasty_RequestQuote vulnerability, fixed in 2.12.5'
+    published: '2026-07-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.12.5'

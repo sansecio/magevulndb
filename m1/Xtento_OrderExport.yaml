@@ -1,0 +1,8 @@
+module: Xtento_OrderExport
+update_url: 'https://www.xtento.com/magento-extensions/magento-order-export-module.html'
+advisories:
+  - id: MVD-2021-0003
+    title: 'Xtento_OrderExport vulnerability, fixed in 1.9.51'
+    published: '2021-01-14'
+    reference: 'https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderExport/version/m1'
+    affected: '<1.9.51'

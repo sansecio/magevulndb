@@ -1,0 +1,8 @@
+module: Amasty_Stockstatus
+update_url: 'https://amasty.com/custom-stock-status-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0177
+    title: 'Amasty_Stockstatus vulnerability, fixed in 2.7.3'
+    published: '2026-09-17'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.7.3'

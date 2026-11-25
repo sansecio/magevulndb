@@ -1,0 +1,7 @@
+module: Amasty_Followup
+update_url: 'https://amasty.com/magento-follow-up-email.html'
+advisories:
+  - id: MVD-2018-0051
+    title: 'Amasty_Followup vulnerability, fixed in 1.8.2'
+    published: '2018-12-10'
+    affected: '<1.8.2'

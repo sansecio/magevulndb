@@ -1,0 +1,10 @@
+module: IWD_StoreLocator
+update_url: 'https://www.iwdagency.com/dealer-store-locator-m1.html'
+advisories:
+  - id: MVD-2019-0002
+    title: 'IWD_StoreLocator vulnerability, fixed in 1.8.11'
+    published: '2019-01-29'
+    uri:
+      - /storelocator/json/search/
+    reference: 'http://www.iwdagency.com/help/dealer-store-locator/m1-store-locator-changelog'
+    affected: '<1.8.11'

@@ -1,0 +1,8 @@
+module: Afterpay_Afterpay
+update_url: 'https://github.com/afterpay/afterpay-magento-2/releases/tag/v5.4.7'
+advisories:
+  - id: MVD-2026-0227
+    title: 'Afterpay_Afterpay vulnerability, fixed in 5.4.7'
+    published: '2026-11-09'
+    reference: 'https://github.com/afterpay/afterpay-magento-2/releases/tag/v5.4.7'
+    affected: '<5.4.7'

@@ -1,0 +1,11 @@
+module: Ves_VendorsCredit
+update_url: 'https://www.vnecoms.com/magento-marketplace/plugins/vendor-credit.html'
+advisories:
+  - id: MVD-2018-0036
+    title: 'Ves_VendorsCredit vulnerability, unpatched'
+    published: '2018-12-05'
+    uri:
+      - /vendors/credit_withdraw/
+      - /vendors/credit/withdraw/
+    reference: 'https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/'
+    affected: '*'

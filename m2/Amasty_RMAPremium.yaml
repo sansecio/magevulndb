@@ -1,0 +1,8 @@
+module: Amasty_RMAPremium
+update_url: 'https://amasty.com/rma-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0194
+    title: 'Amasty_RMAPremium vulnerability, fixed in 1.5.0'
+    published: '2026-10-03'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.5.0'

@@ -1,0 +1,8 @@
+module: HE_TwoFactorAuth
+update_url: 'https://github.com/nexcess/magento-sentry-two-factor-authentication'
+advisories:
+  - id: MVD-2018-0020
+    title: 'HE_TwoFactorAuth vulnerability, fixed in 1.0.5'
+    published: '2018-12-05'
+    reference: 'https://github.com/nexcess/magento-sentry-two-factor-authentication/pull/28/commits/c34a60fe013c1d0ea77fba74ce705dcec5d95cba'
+    affected: '<1.0.5'

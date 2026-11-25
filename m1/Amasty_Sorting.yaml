@@ -1,0 +1,7 @@
+module: Amasty_Sorting
+update_url: 'https://amasty.com/improved-sorting.html'
+advisories:
+  - id: MVD-2018-0058
+    title: 'Amasty_Sorting vulnerability, fixed in 1.4.9'
+    published: '2018-12-11'
+    affected: '<1.4.9'

@@ -1,0 +1,8 @@
+module: Amasty_Preorder
+update_url: 'https://amasty.com/pre-order-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0171
+    title: 'Amasty_Preorder vulnerability, fixed in 2.1.2'
+    published: '2026-09-17'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.1.2'

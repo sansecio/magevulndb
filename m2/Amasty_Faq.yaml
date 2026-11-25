@@ -1,0 +1,8 @@
+module: Amasty_Faq
+update_url: 'https://amasty.com/faq-and-product-questions-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0184
+    title: 'Amasty_Faq vulnerability, fixed in 2.16.0'
+    published: '2026-10-03'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.16.0'

@@ -1,0 +1,8 @@
+module: WeltPixel_GoogleCards
+update_url: 'https://docs.weltpixel.com/RichSnippets/User-Guide-WeltPixel-Rich-Snippets-Schema.html'
+advisories:
+  - id: MVD-2026-0129
+    title: 'WeltPixel_GoogleCards vulnerability, fixed in 1.17.5'
+    published: '2026-09-17'
+    reference: 'https://weltpixel.com/blogs/magento/magento-security-update-september-2026-weltpixel-1-17-5'
+    affected: '<1.17.5'

@@ -1,0 +1,7 @@
+module: Fooman_TcpdfLib
+update_url: 'https://mailchi.mp/fooman/important-security-update-for-pdf-customiser'
+advisories:
+  - id: MVD-2018-0019
+    title: 'Fooman_TcpdfLib vulnerability, fixed in 6.2'
+    published: '2018-12-05'
+    affected: '<6.2'

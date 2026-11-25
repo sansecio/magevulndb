@@ -1,0 +1,119 @@
+#!/usr/bin/env php
+<?php
+
+// One-off: converts the legacy CSVs to m1/ and m2/ YAML files. Dates come from the commit that first added each row.
+// Usage: bin/migrate-csv [--verify]   (--verify only checks that every CSV row survives in the YAML files)
+
+declare(strict_types=1);
+
+use MageVulnDb\CsvMigrator;
+use MageVulnDb\Loader;
+use MageVulnDb\Validator;
+use Symfony\Component\Yaml\Yaml;
+
+require dirname(__DIR__) . '/vendor/autoload.php';
+
+const CSVS = ['m1' => 'magento1-vulnerable-extensions.csv', 'm2' => 'magento2-vulnerable-extensions.csv'];
+
+$root = dirname(__DIR__);
+chdir($root);
+
+function readRows(string $platform, string $file): array
+{
+    $rows = [];
+    $h = fopen($file, 'r');
+    fgetcsv($h, 0, ',', '"', ''); // header
+    for ($line = 2; ($r = fgetcsv($h, 0, ',', '"', '')) !== false; ++$line) {
+        if ($r === [null]) {
+            continue;
+        }
+        $r = array_map(trim(...), array_pad($r, 5, ''));
+        $rows[] = [$platform, $line, ...$r];
+    }
+
+    return $rows;
+}
+
+function git(string ...$args): string
+{
+    $cmd = 'git ' . implode(' ', array_map(escapeshellarg(...), $args));
+    exec($cmd, $out, $rc);
+    if ($rc !== 0) {
+        fwrite(STDERR, "failed: $cmd\n");
+        exit(1);
+    }
+
+    return implode("\n", $out);
+}
+
+/** @return array<string, array{0: string, 1: int}> rowKey => [date first added, commit ordinal] */
+function firstAdded(): array
+{
+    if (trim(git('rev-parse', '--is-shallow-repository')) !== 'false') {
+        fwrite(STDERR, "shallow clone, run git fetch --unshallow\n");
+        exit(1);
+    }
+    $ordinal = array_flip(explode("\n", git('rev-list', '--reverse', '--topo-order', 'HEAD')));
+    $added = [];
+    foreach (CSVS as $platform => $file) {
+        $commit = null;
+        foreach (explode("\n", git('log', '--reverse', '--topo-order', '-p', '-U0', '--format=@@@COMMIT %H %as', '--', $file)) as $l) {
+            if (str_starts_with($l, '@@@COMMIT ')) {
+                [, $hash, $date] = explode(' ', $l);
+                $commit = [$date, $ordinal[$hash]];
+            } elseif (str_starts_with($l, '+') && !str_starts_with($l, '+++')) {
+                $r = str_getcsv(substr($l, 1), ',', '"', '');
+                $key = CsvMigrator::rowKey($platform, trim($r[0]), trim($r[2] ?? ''));
+                $added[$key] ??= $commit;
+            }
+        }
+    }
+
+    return $added;
+}
+
+$rows = array_merge(...array_map(readRows(...), array_keys(CSVS), CSVS));
+
+if (in_array('--verify', $argv, true)) {
+    [$files, $errors] = (new Loader())->load($root);
+    $errors = [...$errors, ...(new Validator())->validate($files)];
+    $count = array_sum(array_map(fn ($f) => count($f['advisories']), $files));
+    if ($count !== count($rows)) {
+        $errors[] = sprintf('%d CSV rows but %d advisories', count($rows), $count);
+    }
+    foreach ($rows as [$platform, $line, $name, $fixed, $uri, $reference, $update]) {
+        $module = ltrim(rtrim($name, '?'), '_');
+        $path = $platform . '/' . ($name === '?' ? Validator::UNKNOWN_FILE : "$module.yaml");
+        $f = $files[$path] ?? null;
+        $advs = array_values(array_filter($f['advisories'] ?? [], fn ($a) => $name !== '?' || implode(';', $a['uri'] ?? []) === $uri));
+        $adv = $advs[0] ?? [];
+        $got = [
+            $f['module'] ?? null,
+            $adv['affected'] ?? null,
+            implode(';', $adv['uri'] ?? []),
+            $adv['reference'] ?? $adv['credit'] ?? '',
+            ($f['abandoned'] ?? false) ? 'Abandoned' : ($f['update_url'] ?? ''),
+            str_starts_with($name, '_') ? 'nonstandard' : null,
+        ];
+        $want = [
+            $name === '?' ? '?' : $module,
+            $fixed === '' ? '*' : "<$fixed",
+            implode(';', array_filter(array_map(trim(...), explode(';', $uri)), strlen(...))),
+            $reference,
+            $update,
+            $f['version_scheme'] ?? null,
+        ];
+        if ($got !== $want) {
+            $errors[] = "{$platform} line $line ($name): want " . json_encode($want) . ' got ' . json_encode($got);
+        }
+    }
+    fwrite(STDERR, implode("\n", $errors) . ($errors ? "\n" : ''));
+    printf("%d rows checked, %d errors\n", count($rows), count($errors));
+    exit($errors ? 1 : 0);
+}
+
+foreach ((new CsvMigrator())->migrate($rows, firstAdded()) as $path => $data) {
+    @mkdir(dirname($path));
+    file_put_contents($path, Yaml::dump($data, 10, 2, Yaml::DUMP_COMPACT_NESTED_MAPPING | Yaml::DUMP_EMPTY_ARRAY_AS_SEQUENCE));
+}
+echo "done\n";

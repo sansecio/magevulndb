@@ -1,0 +1,10 @@
+module: Mico_Mupload
+update_url: 'https://www.micosolutions.com/upload-ultimate-for-magento'
+advisories:
+  - id: MVD-2020-0002
+    title: 'Mico_Mupload vulnerability, fixed in 2.0.0'
+    published: '2020-03-12'
+    uri:
+      - /mupload/uploader/save
+    reference: 'https://github.com/gwillem/magevulndb/pull/72'
+    affected: '<2.0.0'

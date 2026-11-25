@@ -1,0 +1,7 @@
+module: Fooman_Tcpdf
+update_url: 'https://mailchi.mp/fooman/important-security-update-for-pdf-customiser-3218933'
+advisories:
+  - id: MVD-2019-0029
+    title: 'Fooman_Tcpdf vulnerability, fixed in 6.2.25.2'
+    published: '2019-06-17'
+    affected: '<6.2.25.2'

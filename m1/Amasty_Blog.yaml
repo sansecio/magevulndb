@@ -1,0 +1,7 @@
+module: Amasty_Blog
+update_url: 'https://amasty.com/magento-blog-pro.html'
+advisories:
+  - id: MVD-2018-0052
+    title: 'Amasty_Blog vulnerability, fixed in 2.3.4'
+    published: '2018-12-11'
+    affected: '<2.3.4'

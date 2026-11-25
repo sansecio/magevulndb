@@ -1,0 +1,9 @@
+module: AppZab_GuestToReg
+advisories:
+  - id: MVD-2020-0003
+    title: 'AppZab_GuestToReg vulnerability, unpatched'
+    published: '2020-05-05'
+    uri:
+      - /GuestToReg/index/post
+    reference: 'https://twitter.com/sansecio/status/1257675676674654209?s=20'
+    affected: '*'

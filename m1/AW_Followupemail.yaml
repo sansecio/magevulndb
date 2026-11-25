@@ -1,0 +1,8 @@
+module: AW_Followupemail
+update_url: 'https://ecommerce.aheadworks.com/magento-extensions/follow-up-email.html'
+advisories:
+  - id: MVD-2018-0007
+    title: 'AW_Followupemail vulnerability, fixed in 3.6.7'
+    published: '2018-12-05'
+    reference: 'http://ka.lpe.sh/2016/11/17/multiple-security-vulnerabilities-aheadworks-follow-up-email-extension/'
+    affected: '<3.6.7'

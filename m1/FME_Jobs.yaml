@@ -1,0 +1,8 @@
+module: FME_Jobs
+update_url: 'https://www.fmeextensions.com/magento-open-jobs-manager.html'
+advisories:
+  - id: MVD-2018-0017
+    title: 'FME_Jobs vulnerability, unpatched'
+    published: '2018-12-05'
+    credit: 'Ryan Hoerr'
+    affected: '*'

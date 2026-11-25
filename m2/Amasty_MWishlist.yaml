@@ -1,0 +1,8 @@
+module: Amasty_MWishlist
+update_url: 'https://amasty.com/multiple-wishlist-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0075
+    title: 'Amasty_MWishlist vulnerability, fixed in 2.2.2'
+    published: '2026-08-07'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.2.2'

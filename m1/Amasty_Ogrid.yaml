@@ -1,0 +1,7 @@
+module: Amasty_Ogrid
+update_url: 'https://amasty.com/extended-order-grid.html'
+advisories:
+  - id: MVD-2018-0049
+    title: 'Amasty_Ogrid vulnerability, fixed in 1.10.4'
+    published: '2018-12-10'
+    affected: '<1.10.4'

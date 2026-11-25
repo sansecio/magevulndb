@@ -1,0 +1,8 @@
+module: Amasty_GdprPro
+update_url: 'https://amasty.com/gdpr-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0014
+    title: 'Amasty_GdprPro vulnerability, fixed in 2.19.2'
+    published: '2026-07-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.19.2'

@@ -1,0 +1,8 @@
+module: WeltPixel_GA4BingSS
+update_url: 'https://docs.weltpixel.com/BingUETAddon/User-Guide-WeltPixel-Bing-UET-Addon.html'
+advisories:
+  - id: MVD-2026-0119
+    title: 'WeltPixel_GA4BingSS vulnerability, fixed in 1.17.5'
+    published: '2026-09-17'
+    reference: 'https://weltpixel.com/blogs/magento/magento-security-update-september-2026-weltpixel-1-17-5'
+    affected: '<1.17.5'

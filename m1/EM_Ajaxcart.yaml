@@ -1,0 +1,8 @@
+module: EM_Ajaxcart
+update_url: 'https://www.emthemes.com/em-ajaxcart.html'
+advisories:
+  - id: MVD-2018-0012
+    title: 'EM_Ajaxcart vulnerability, unpatched'
+    published: '2018-12-05'
+    reference: 'https://magento.com/security/vulnerabilities/sql-injection-vulnerability'
+    affected: '*'

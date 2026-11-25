@@ -1,0 +1,8 @@
+module: Hexasoft_FraudLabsProSmsVerification
+update_url: 'https://commercemarketplace.adobe.com/hexasoft-module-fraudlabsprosmsverification.html'
+advisories:
+  - id: MVD-2025-0003
+    title: 'Hexasoft_FraudLabsProSmsVerification vulnerability, fixed in 1.4.1'
+    published: '2025-08-07'
+    reference: 'https://commercemarketplace.adobe.com/hexasoft-module-fraudlabsprosmsverification.html'
+    affected: '<1.4.1'

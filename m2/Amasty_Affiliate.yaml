@@ -1,0 +1,8 @@
+module: Amasty_Affiliate
+update_url: 'https://amasty.com/affiliate-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0096
+    title: 'Amasty_Affiliate vulnerability, fixed in 2.6.2'
+    published: '2026-08-25'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.6.2'

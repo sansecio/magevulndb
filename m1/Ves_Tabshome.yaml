@@ -1,0 +1,9 @@
+module: Ves_Tabshome
+advisories:
+  - id: MVD-2018-0035
+    title: 'Ves_Tabshome vulnerability, unpatched'
+    published: '2018-12-05'
+    uri:
+      - /tabshome/index/ajax/
+    reference: 'https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/'
+    affected: '*'

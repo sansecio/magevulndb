@@ -1,0 +1,8 @@
+module: Amasty_PixelCore
+update_url: 'https://amasty.com/tik-tok-pixel-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0216
+    title: 'Amasty_PixelCore vulnerability, fixed in 1.1.2'
+    published: '2026-10-19'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.1.2'

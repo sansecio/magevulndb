@@ -1,0 +1,20 @@
+#!/usr/bin/env php
+<?php
+
+// Validates m1/*.yaml and m2/*.yaml. Exits 1 and prints one line per error.
+
+declare(strict_types=1);
+
+use MageVulnDb\Loader;
+use MageVulnDb\Validator;
+
+require dirname(__DIR__) . '/vendor/autoload.php';
+
+[$files, $errors] = (new Loader())->load(dirname(__DIR__));
+$errors = [...$errors, ...(new Validator())->validate($files)];
+foreach ($errors as $e) {
+    // GitHub Actions annotation: file:message
+    echo getenv('GITHUB_ACTIONS') ? '::error file=' . strtok($e, ':') . '::' . $e : $e, "\n";
+}
+printf("%d files, %d errors\n", count($files), count($errors));
+exit($errors ? 1 : 0);

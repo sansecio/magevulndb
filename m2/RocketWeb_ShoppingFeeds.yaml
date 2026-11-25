@@ -1,0 +1,8 @@
+module: RocketWeb_ShoppingFeeds
+update_url: 'https://commercemarketplace.adobe.com/rocketweb-module-google-shopping.html'
+advisories:
+  - id: MVD-2025-0001
+    title: 'RocketWeb_ShoppingFeeds vulnerability, fixed in 2.3.1'
+    published: '2025-07-31'
+    reference: 'https://commercemarketplace.adobe.com/rocketweb-module-google-shopping.html'
+    affected: '<2.3.1'

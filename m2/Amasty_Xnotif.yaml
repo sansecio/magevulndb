@@ -1,0 +1,8 @@
+module: Amasty_Xnotif
+update_url: 'https://amasty.com/out-of-stock-notification-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0024
+    title: 'Amasty_Xnotif vulnerability, fixed in 1.20.0'
+    published: '2026-07-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.20.0'

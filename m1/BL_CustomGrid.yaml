@@ -1,0 +1,8 @@
+module: BL_CustomGrid
+update_url: 'https://github.com/Niko9911/mage-enhanced-admin-grids/releases/tag/0.9.3.0'
+advisories:
+  - id: MVD-2019-0038
+    title: 'BL_CustomGrid vulnerability, fixed in 0.9.3.0'
+    published: '2019-08-05'
+    reference: 'https://xn--gran-8qa.fi/magento-1-bl-customgrid-security-flaw/'
+    affected: '<0.9.3.0'

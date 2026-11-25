@@ -1,0 +1,7 @@
+module: Amasty_StoreCredit
+update_url: 'https://amasty.com/magento-store-credit.html'
+advisories:
+  - id: MVD-2018-0059
+    title: 'Amasty_StoreCredit vulnerability, fixed in 1.2.2'
+    published: '2018-12-11'
+    affected: '<1.2.2'

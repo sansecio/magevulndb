@@ -1,0 +1,8 @@
+module: Facebook_AdsExtension
+update_url: 'https://github.com/facebookincubator/facebook-for-magento'
+advisories:
+  - id: MVD-2019-0035
+    title: 'Facebook_AdsExtension vulnerability, fixed in 2.6.3'
+    published: '2019-07-12'
+    reference: 'https://github.com/facebookincubator/facebook-for-magento/releases/tag/v2.6.3'
+    affected: '<2.6.3'

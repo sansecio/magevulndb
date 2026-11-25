@@ -1,0 +1,8 @@
+module: Amasty_Sugarcrm
+notes: 'Module name unconfirmed.'
+update_url: 'https://amasty.com/magento-sugarcrm-bridge.html'
+advisories:
+  - id: MVD-2018-0060
+    title: 'Amasty_Sugarcrm vulnerability, fixed in 1.6.6'
+    published: '2018-12-11'
+    affected: '<1.6.6'

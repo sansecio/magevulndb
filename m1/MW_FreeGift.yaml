@@ -1,0 +1,10 @@
+module: MW_FreeGift
+update_url: 'https://www.mage-world.com/magento-free-gift-extension.html'
+advisories:
+  - id: MVD-2021-0017
+    title: 'MW_FreeGift vulnerability, unpatched'
+    published: '2021-10-11'
+    uri:
+      - /freegift/cart/gurlgift/
+    reference: 'https://github.com/sansecio/magevulndb/issues/88'
+    affected: '*'

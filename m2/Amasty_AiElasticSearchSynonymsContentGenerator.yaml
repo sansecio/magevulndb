@@ -1,0 +1,8 @@
+module: Amasty_AiElasticSearchSynonymsContentGenerator
+update_url: 'https://amasty.com/elasticsearch-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0204
+    title: 'Amasty_AiElasticSearchSynonymsContentGenerator vulnerability, fixed in 1.1.2'
+    published: '2026-10-05'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.1.2'

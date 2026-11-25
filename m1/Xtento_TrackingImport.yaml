@@ -1,0 +1,8 @@
+module: Xtento_TrackingImport
+update_url: 'https://www.xtento.com/magento-extensions/magento-tracking-number-import-module.html'
+advisories:
+  - id: MVD-2021-0007
+    title: 'Xtento_TrackingImport vulnerability, fixed in 2.5.4'
+    published: '2021-01-14'
+    reference: 'https://www.xtento.com/xtcustom/changelog/show/module/Xtento_TrackingImport/version/m1'
+    affected: '<2.5.4'

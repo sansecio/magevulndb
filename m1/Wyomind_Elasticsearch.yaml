@@ -1,0 +1,8 @@
+module: Wyomind_Elasticsearch
+update_url: 'https://www.wyomind.com/elastic-search-magento.html'
+advisories:
+  - id: MVD-2020-0010
+    title: 'Wyomind_Elasticsearch vulnerability, fixed in 4.9.2'
+    published: '2020-07-22'
+    reference: 'https://www.wyomind.com/elastic-search-magento.html#changelog'
+    affected: '<4.9.2'

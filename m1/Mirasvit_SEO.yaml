@@ -1,0 +1,9 @@
+module: Mirasvit_SEO
+version_scheme: nonstandard
+update_url: 'https://mirasvit.com/magento-extensions/advanced-seo-suite.html'
+advisories:
+  - id: MVD-2018-0028
+    title: 'Mirasvit_SEO vulnerability, fixed in 1.3.16'
+    published: '2018-12-05'
+    reference: 'https://mirasvit.com/doc/extension_seosuite/current/changelog'
+    affected: '<1.3.16'

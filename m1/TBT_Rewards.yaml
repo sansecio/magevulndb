@@ -1,0 +1,11 @@
+module: TBT_Rewards
+update_url: 'https://www.magerewards.com/'
+advisories:
+  - id: MVD-2018-0034
+    title: 'TBT_Rewards vulnerability, fixed in 1.12.1'
+    published: '2018-12-05'
+    uri:
+      - /rewards/notifications/unsubscribe/
+      - /rewards/customer/notifications/unsubscribe/
+    reference: 'https://support.magerewards.com/article/2326-magerewards-1-12-1-is-now-available'
+    affected: '<1.12.1'

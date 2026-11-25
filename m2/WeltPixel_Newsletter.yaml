@@ -1,0 +1,8 @@
+module: WeltPixel_Newsletter
+update_url: 'https://docs.weltpixel.com/Newsletter/User-Guide-WeltPixel-Newsletter-Popup-Magento2.html'
+advisories:
+  - id: MVD-2026-0137
+    title: 'WeltPixel_Newsletter vulnerability, fixed in 1.17.5'
+    published: '2026-09-17'
+    reference: 'https://weltpixel.com/blogs/magento/magento-security-update-september-2026-weltpixel-1-17-5'
+    affected: '<1.17.5'

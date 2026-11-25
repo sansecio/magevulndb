@@ -1,0 +1,8 @@
+module: Amasty_MegaMenuLite
+update_url: 'https://amasty.com/mega-menu-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0190
+    title: 'Amasty_MegaMenuLite vulnerability, fixed in 1.5.10'
+    published: '2026-10-03'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.5.10'

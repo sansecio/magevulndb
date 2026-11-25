@@ -1,0 +1,8 @@
+module: Amasty_Rma
+update_url: 'https://amasty.com/magento-rma.html'
+advisories:
+  - id: MVD-2018-0003
+    title: 'Amasty_Rma vulnerability, fixed in 1.3.11'
+    published: '2018-12-05'
+    reference: 'https://www.getastra.com/blog/cms/magento-security/vulnerability-magento-rma-extension/'
+    affected: '<1.3.11'

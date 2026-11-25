@@ -1,0 +1,8 @@
+module: Campaigner_Integration
+update_url: 'https://knowledge.campaigner.com/article/407-magento-extensions'
+advisories:
+  - id: MVD-2019-0027
+    title: 'Campaigner_Integration vulnerability, fixed in 2.0.8'
+    published: '2019-06-17'
+    credit: 'Max Chadwick (unsafe unserialize in public controller)'
+    affected: '<2.0.8'

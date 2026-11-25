@@ -1,0 +1,10 @@
+module: Ophirah_Qquoteadv
+update_url: 'https://www.cart2quote.com/'
+advisories:
+  - id: MVD-2022-0006
+    title: 'Ophirah_Qquoteadv vulnerability, fixed in 5.4.5'
+    published: '2022-09-07'
+    uri:
+      - /qquoteadv/download/downloadCustomOption/
+    reference: 'https://cart2quote.zendesk.com/hc/en-us/articles/115000616303--FIXED-Security-Vulnerability-in-downloadCustomOptionAction'
+    affected: '<5.4.5'

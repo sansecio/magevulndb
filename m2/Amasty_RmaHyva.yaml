@@ -1,0 +1,8 @@
+module: Amasty_RmaHyva
+update_url: 'https://amasty.com/rma-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0072
+    title: 'Amasty_RmaHyva vulnerability, fixed in 1.4.0'
+    published: '2026-08-07'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.4.0'

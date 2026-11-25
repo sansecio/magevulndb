@@ -1,0 +1,10 @@
+module: Webkul_OrderApproval
+update_url: 'https://store.webkul.com/magento2-order-approval.html'
+advisories:
+  - id: MVD-2025-0011
+    title: 'Webkul_OrderApproval vulnerability, fixed in 2.0.5-p2'
+    published: '2025-11-20'
+    uri:
+      - /graphql
+    reference: 'https://www.linkedin.com/feed/update/urn:li:activity:7395473540659191809/'
+    affected: '<2.0.5-p2'

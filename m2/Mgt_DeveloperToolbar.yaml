@@ -1,0 +1,10 @@
+module: Mgt_DeveloperToolbar
+update_url: 'https://www.mgt.io/docs/mgt-developer-toolbar/magento2/installation'
+advisories:
+  - id: MVD-2025-0013
+    title: 'Mgt_DeveloperToolbar vulnerability, fixed in 1.0.5'
+    published: '2025-12-16'
+    uri:
+      - /mgtfeed/feed/update
+    reference: 'https://sansec.io/research/mgt-varnish-critical-vulnerability'
+    affected: '<1.0.5'

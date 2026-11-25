@@ -1,0 +1,8 @@
+module: Amasty_Rules
+update_url: 'https://amasty.com/special-promotions-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0028
+    title: 'Amasty_Rules vulnerability, fixed in 2.17.4'
+    published: '2026-07-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.17.4'

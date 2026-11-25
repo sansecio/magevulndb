@@ -1,0 +1,8 @@
+module: Amasty_OrderImport
+update_url: 'https://amasty.com/import-orders-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0060
+    title: 'Amasty_OrderImport vulnerability, fixed in 2.2.3'
+    published: '2026-08-07'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.2.3'

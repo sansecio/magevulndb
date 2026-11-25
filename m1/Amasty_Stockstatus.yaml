@@ -1,0 +1,7 @@
+module: Amasty_Stockstatus
+update_url: 'https://amasty.com/custom-stock-status.html'
+advisories:
+  - id: MVD-2018-0046
+    title: 'Amasty_Stockstatus vulnerability, fixed in 3.10.7'
+    published: '2018-12-10'
+    affected: '<3.10.7'

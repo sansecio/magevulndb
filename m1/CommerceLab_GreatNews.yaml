@@ -1,0 +1,9 @@
+module: CommerceLab_GreatNews
+advisories:
+  - id: MVD-2019-0006
+    title: 'CommerceLab_GreatNews vulnerability, unpatched'
+    published: '2019-03-01'
+    uri:
+      - /clnews/
+    reference: 'https://www.magecloud.net/marketplace/extension/news-by-commercelab/'
+    affected: '*'

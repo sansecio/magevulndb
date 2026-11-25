@@ -1,0 +1,10 @@
+module: CommerceExtensions_Categoriesimportexport
+update_url: 'https://www.commerceextensions.com/magento-bulk-categories-import-export-csv-xml.html'
+advisories:
+  - id: MVD-2019-0009
+    title: 'CommerceExtensions_Categoriesimportexport vulnerability, fixed in 0.2.0'
+    published: '2019-03-27'
+    uri:
+      - /categoriesimportexport/
+    reference: 'https://www.alterweb.nl/techtalk/commerce-extensions-import-export-security-issue'
+    affected: '<0.2.0'

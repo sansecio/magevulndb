@@ -1,0 +1,10 @@
+module: Cardgate_Payment
+update_url: 'https://github.com/cardgate/magento2/releases'
+advisories:
+  - id: MVD-2019-0039
+    title: 'Cardgate_Payment vulnerability, fixed in 2.0.31'
+    published: '2019-09-02'
+    uri:
+      - /cardgate/payment/callback
+    reference: 'https://github.com/cardgate/magento2/issues/54'
+    affected: '<2.0.31'

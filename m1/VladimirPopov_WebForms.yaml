@@ -1,0 +1,9 @@
+module: VladimirPopov_WebForms
+update_url: 'https://mageme.com/magento-form-builder.html'
+advisories:
+  - id: MVD-2018-0037
+    title: 'VladimirPopov_WebForms vulnerability, fixed in 2.8.0'
+    published: '2018-12-05'
+    uri:
+      - /webforms/
+    affected: '<2.8.0'

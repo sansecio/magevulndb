@@ -1,0 +1,8 @@
+module: Aheadworks_Layerednav
+update_url: 'https://aheadworks.com/layered-navigation-extension-for-magento-2#changelog'
+advisories:
+  - id: MVD-2022-0003
+    title: 'Aheadworks_Layerednav vulnerability, fixed in 2.3.1'
+    published: '2022-03-15'
+    reference: 'https://github.com/sansecio/magevulndb/issues/93'
+    affected: '<2.3.1'

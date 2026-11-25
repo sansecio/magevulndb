@@ -1,0 +1,8 @@
+module: Amasty_Cart
+update_url: 'https://amasty.com/ajax-shopping-cart-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0012
+    title: 'Amasty_Cart vulnerability, fixed in 1.11.6'
+    published: '2026-07-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.11.6'

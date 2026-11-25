@@ -1,0 +1,8 @@
+module: Amasty_OrderExport
+update_url: 'https://amasty.com/export-orders-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0059
+    title: 'Amasty_OrderExport vulnerability, fixed in 2.3.3'
+    published: '2026-08-07'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.3.3'

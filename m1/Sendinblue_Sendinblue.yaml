@@ -1,0 +1,9 @@
+module: Sendinblue_Sendinblue
+advisories:
+  - id: MVD-2022-0005
+    title: 'Sendinblue_Sendinblue vulnerability, fixed in 1.3.0'
+    published: '2022-08-02'
+    uri:
+      - /sendinblue/ajax/ajaxupdate/
+    reference: 'https://github.com/sansecio/magevulndb/issues/96'
+    affected: '<1.3.0'

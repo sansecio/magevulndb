@@ -1,0 +1,7 @@
+module: WF_CustomerBalance
+advisories:
+  - id: MVD-2022-0001
+    title: 'WF_CustomerBalance vulnerability, unpatched'
+    published: '2022-01-25'
+    reference: 'https://github.com/sansecio/magevulndb/issues/89'
+    affected: '*'

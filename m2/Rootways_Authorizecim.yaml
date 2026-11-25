@@ -1,0 +1,10 @@
+module: Rootways_Authorizecim
+update_url: 'https://www.rootways.com/magento-2-authorize-net-cim-extension'
+advisories:
+  - id: MVD-2026-0229
+    title: 'Rootways_Authorizecim vulnerability, fixed in 4.1.5'
+    published: '2026-11-17'
+    uri:
+      - /rootways_authorizecim/applepay/index
+    reference: 'https://sansec.io/research/rootways-authorize-net-apple-pay-ssrf'
+    affected: '<4.1.5'

@@ -1,0 +1,10 @@
+module: Bazaarvoice_Connector
+update_url: 'https://github.com/bazaarvoice/magento2-extension/releases/tag/9.1.11'
+advisories:
+  - id: MVD-2026-0228
+    title: 'Bazaarvoice_Connector vulnerability, fixed in 9.1.11'
+    published: '2026-11-10'
+    uri:
+      - /bazaarvoice/pixel/test
+    reference: 'https://github.com/bazaarvoice/magento2-extension/issues/148'
+    affected: '<9.1.11'

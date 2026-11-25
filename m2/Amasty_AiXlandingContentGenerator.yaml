@@ -1,0 +1,8 @@
+module: Amasty_AiXlandingContentGenerator
+update_url: 'https://amasty.com/chatgpt-ai-content-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0159
+    title: 'Amasty_AiXlandingContentGenerator vulnerability, fixed in 3.2.1'
+    published: '2026-09-17'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<3.2.1'

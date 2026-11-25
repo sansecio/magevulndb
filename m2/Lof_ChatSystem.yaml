@@ -1,0 +1,7 @@
+module: Lof_ChatSystem
+advisories:
+  - id: MVD-2020-0005
+    title: 'Lof_ChatSystem vulnerability, fixed in 1.0.3'
+    published: '2020-05-28'
+    reference: 'https://web.archive.org/web/20210320101040/https://anothernetsecblog.com/magento-2-extension-security/'
+    affected: '<1.0.3'

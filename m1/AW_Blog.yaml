@@ -1,0 +1,8 @@
+module: AW_Blog
+update_url: 'https://ecommerce.aheadworks.com/magento-extensions/blog.html'
+advisories:
+  - id: MVD-2018-0006
+    title: 'AW_Blog vulnerability, fixed in 1.3.18'
+    published: '2018-12-05'
+    reference: 'https://ecommerce.aheadworks.com/magento-extension-updates/blog.html'
+    affected: '<1.3.18'

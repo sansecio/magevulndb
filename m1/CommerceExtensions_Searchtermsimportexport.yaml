@@ -1,0 +1,10 @@
+module: CommerceExtensions_Searchtermsimportexport
+update_url: 'https://www.commerceextensions.com/import-export-bulk-search-terms-csv-xml.html'
+advisories:
+  - id: MVD-2019-0015
+    title: 'CommerceExtensions_Searchtermsimportexport vulnerability, fixed in 0.3.0'
+    published: '2019-04-23'
+    uri:
+      - /searchtermsimportexport/
+    reference: 'https://www.alterweb.nl/techtalk/commerce-extensions-import-export-security-issue'
+    affected: '<0.3.0'

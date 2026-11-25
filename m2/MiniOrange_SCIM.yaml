@@ -1,0 +1,8 @@
+module: MiniOrange_SCIM
+update_url: 'https://commercemarketplace.adobe.com/miniorange-inc-scim.html'
+advisories:
+  - id: MVD-2025-0005
+    title: 'MiniOrange_SCIM vulnerability, fixed in 3.0.0'
+    published: '2025-08-08'
+    reference: 'https://commercemarketplace.adobe.com/miniorange-inc-scim.html'
+    affected: '<3.0.0'

@@ -1,0 +1,8 @@
+module: Amasty_RulesPro
+update_url: 'https://amasty.com/special-promotions-pro-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0029
+    title: 'Amasty_RulesPro vulnerability, fixed in 2.20.1'
+    published: '2026-07-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.20.1'

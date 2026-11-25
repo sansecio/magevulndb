@@ -1,0 +1,8 @@
+module: Amasty_AgeVerification
+update_url: 'https://amasty.com/age-verification-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0098
+    title: 'Amasty_AgeVerification vulnerability, fixed in 1.0.3'
+    published: '2026-08-25'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.0.3'

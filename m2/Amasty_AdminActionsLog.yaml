@@ -1,0 +1,8 @@
+module: Amasty_AdminActionsLog
+update_url: 'https://amasty.com/admin-actions-log-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0179
+    title: 'Amasty_AdminActionsLog vulnerability, fixed in 2.8.1'
+    published: '2026-10-03'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.8.1'

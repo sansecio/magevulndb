@@ -1,0 +1,8 @@
+module: Amasty_CompanyAccount
+update_url: 'https://amasty.com/b2b-company-account-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0034
+    title: 'Amasty_CompanyAccount vulnerability, fixed in 2.10.3'
+    published: '2026-07-03'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.10.3'

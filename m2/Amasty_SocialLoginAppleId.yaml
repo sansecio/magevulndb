@@ -1,0 +1,8 @@
+module: Amasty_SocialLoginAppleId
+update_url: 'https://amasty.com/social-login-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0196
+    title: 'Amasty_SocialLoginAppleId vulnerability, fixed in 3.0.0'
+    published: '2026-10-03'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<3.0.0'

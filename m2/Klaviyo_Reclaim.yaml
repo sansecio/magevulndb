@@ -1,0 +1,10 @@
+module: Klaviyo_Reclaim
+update_url: 'https://github.com/klaviyo/magento2-klaviyo/releases'
+advisories:
+  - id: MVD-2021-0015
+    title: 'Klaviyo_Reclaim vulnerability, fixed in 3.0.0'
+    published: '2021-05-26'
+    uri:
+      - reclaim/checkout/cart
+    reference: 'https://gist.github.com/JeroenBoersma/f5864a45e3df63b198a57abdff366df2'
+    affected: '<3.0.0'

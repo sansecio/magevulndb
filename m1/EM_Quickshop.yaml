@@ -1,0 +1,10 @@
+module: EM_Quickshop
+update_url: 'https://www.emthemes.com/em-quickshop.html'
+advisories:
+  - id: MVD-2018-0016
+    title: 'EM_Quickshop vulnerability, unpatched'
+    published: '2018-12-05'
+    uri:
+      - /quickshop/index/view/
+    reference: 'https://magento.com/security/vulnerabilities/sql-injection-vulnerability'
+    affected: '*'

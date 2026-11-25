@@ -1,0 +1,8 @@
+module: CustomGento_ChildProductData
+update_url: 'https://commercemarketplace.adobe.com/customgento-module-child-product-data.html'
+advisories:
+  - id: MVD-2026-0212
+    title: 'CustomGento_ChildProductData vulnerability, fixed in 1.4.2'
+    published: '2026-10-12'
+    reference: 'https://commercemarketplace.adobe.com/customgento-module-child-product-data.html#product.info.details.release_notes'
+    affected: '<1.4.2'

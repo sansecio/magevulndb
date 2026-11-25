@@ -1,0 +1,7 @@
+module: Fooman_PdfCustomiser
+advisories:
+  - id: MVD-2019-0028
+    title: 'Fooman_PdfCustomiser vulnerability, fixed in 8.1.8'
+    published: '2019-06-17'
+    reference: 'https://twitter.com/foomanNZ/status/1118496841488748546'
+    affected: '<8.1.8'

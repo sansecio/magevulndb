@@ -1,0 +1,10 @@
+module: CommerceExtensions_Productrelationsimportexport
+update_url: 'https://www.commerceextensions.com/magento-import-export-product-related-products-cross-sells-and-upsells.html'
+advisories:
+  - id: MVD-2019-0014
+    title: 'CommerceExtensions_Productrelationsimportexport vulnerability, fixed in 0.2.0'
+    published: '2019-04-23'
+    uri:
+      - /productrelationsimportexport/
+    reference: 'https://www.alterweb.nl/techtalk/commerce-extensions-import-export-security-issue'
+    affected: '<0.2.0'

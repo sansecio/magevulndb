@@ -1,0 +1,8 @@
+module: Amasty_Followup
+update_url: 'https://amasty.com/follow-up-email-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0013
+    title: 'Amasty_Followup vulnerability, fixed in 1.5.0'
+    published: '2026-07-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.5.0'

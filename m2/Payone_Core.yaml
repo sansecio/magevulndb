@@ -1,0 +1,8 @@
+module: Payone_Core
+update_url: 'https://github.com/PAYONE-GmbH/magento-2/releases/tag/v3.5.0'
+advisories:
+  - id: MVD-2022-0004
+    title: 'Payone_Core vulnerability, fixed in 3.5.0'
+    published: '2022-06-21'
+    reference: 'https://github.com/PAYONE-GmbH/magento-2/releases/tag/v3.5.0'
+    affected: '<3.5.0'

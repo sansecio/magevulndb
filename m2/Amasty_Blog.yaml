@@ -1,0 +1,8 @@
+module: Amasty_Blog
+update_url: 'https://amasty.com/blog-pro-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0182
+    title: 'Amasty_Blog vulnerability, fixed in 3.0.0'
+    published: '2026-10-03'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<3.0.0'

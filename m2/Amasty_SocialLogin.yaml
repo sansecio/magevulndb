@@ -1,0 +1,8 @@
+module: Amasty_SocialLogin
+update_url: 'https://amasty.com/social-login-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0031
+    title: 'Amasty_SocialLogin vulnerability, fixed in 2.0.5'
+    published: '2026-07-02'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.0.5'

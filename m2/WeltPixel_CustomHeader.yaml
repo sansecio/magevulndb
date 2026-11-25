@@ -1,0 +1,8 @@
+module: WeltPixel_CustomHeader
+update_url: 'https://docs.weltpixel.com/PearlTheme/User-Guide-WeltPixel-Pearl-Theme-Magento2.html#change-log'
+advisories:
+  - id: MVD-2026-0113
+    title: 'WeltPixel_CustomHeader vulnerability, fixed in 1.17.5'
+    published: '2026-09-17'
+    reference: 'https://weltpixel.com/blogs/magento/magento-security-update-september-2026-weltpixel-1-17-5'
+    affected: '<1.17.5'

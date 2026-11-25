@@ -1,0 +1,9 @@
+module: Glace_Easyforms
+advisories:
+  - id: MVD-2018-0063
+    title: 'Glace_Easyforms vulnerability, unpatched'
+    published: '2018-12-20'
+    uri:
+      - /js/easyforms/upload/
+    credit: roland@magehost.pro
+    affected: '*'

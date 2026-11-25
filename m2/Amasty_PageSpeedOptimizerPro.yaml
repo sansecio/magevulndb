@@ -1,0 +1,7 @@
+module: Amasty_PageSpeedOptimizerPro
+update_url: 'https://amasty.com/google-page-speed-optimizer-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0004
+    title: 'Amasty_PageSpeedOptimizerPro vulnerability, fixed in 3.9.0'
+    published: '2026-06-30'
+    affected: '<3.9.0'

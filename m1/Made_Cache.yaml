@@ -1,0 +1,10 @@
+module: Made_Cache
+update_url: 'https://github.com/madepeople/Made_Cache'
+advisories:
+  - id: MVD-2018-0022
+    title: 'Made_Cache vulnerability, fixed in 1.5.2'
+    published: '2018-12-05'
+    uri:
+      - /madecache/varnish/esi/
+    reference: 'https://github.com/madepeople/Made_Cache/commit/bbea7a966cf52114337891dffe67a5af97afa34f'
+    affected: '<1.5.2'

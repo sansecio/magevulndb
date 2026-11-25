@@ -1,0 +1,8 @@
+module: Wyomind_PointOfSale
+update_url: 'https://www.wyomind.com/magento2/point-of-sale-magento.html#changelog'
+advisories:
+  - id: MVD-2020-0011
+    title: 'Wyomind_PointOfSale vulnerability, fixed in 7.2.3'
+    published: '2020-10-23'
+    credit: 'Kalpesh Mehta'
+    affected: '<7.2.3'

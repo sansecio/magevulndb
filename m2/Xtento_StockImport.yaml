@@ -1,0 +1,8 @@
+module: Xtento_StockImport
+update_url: 'https://www.xtento.com/magento-extensions/magento-stock-inventory-import-module.html'
+advisories:
+  - id: MVD-2021-0011
+    title: 'Xtento_StockImport vulnerability, fixed in 2.8.4'
+    published: '2021-01-14'
+    reference: 'https://www.xtento.com/xtcustom/changelog/show/module/Xtento_StockImport/version/m2'
+    affected: '<2.8.4'

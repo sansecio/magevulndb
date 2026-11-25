@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/sansecio/magevulndb/schema/module.schema.json",
+  "title": "MageVulnDB module",
+  "description": "One Magento module (m1/ or m2/) and its known vulnerabilities.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["module", "advisories"],
+  "properties": {
+    "module": {
+      "description": "Module name as registered in code (n98-magerun dev:module:list). '?' only in _unknown.yaml.",
+      "type": "string",
+      "pattern": "^([A-Za-z0-9]+(_[A-Za-z0-9]+)*|\\?)$"
+    },
+    "composer": {
+      "description": "Composer package names this module ships under.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]([_.-]?[a-z0-9]+)*/[a-z0-9](([_.]|-{1,2})?[a-z0-9]+)*$"
+      }
+    },
+    "update_url": {"type": "string", "format": "uri", "pattern": "^https?://"},
+    "abandoned": {"description": "The vendor no longer maintains the module.", "type": "boolean"},
+    "version_scheme": {
+      "description": "nonstandard: the installed version (config.xml/module.xml) does not match vendor releases. Scanners match by name and skip the version comparison.",
+      "enum": ["nonstandard"]
+    },
+    "notes": {"type": "string", "minLength": 1},
+    "advisories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/definitions/advisory"}
+    }
+  },
+  "definitions": {
+    "advisory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "published", "affected"],
+      "properties": {
+        "id": {"description": "Stable, never reused.", "type": "string", "pattern": "^MVD-[0-9]{4}-[0-9]{4,}$"},
+        "title": {"type": "string", "minLength": 1},
+        "published": {"type": "string", "format": "date", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+        "cve": {"type": "string", "pattern": "^CVE-[0-9]{4}-[0-9]{4,}$"},
+        "cvss": {"description": "Full CVSS 3.1 or 4.0 vector.", "type": "string", "pattern": "^CVSS:(3\\.1|4\\.0)/"},
+        "known_exploited": {"type": "boolean"},
+        "uri": {
+          "description": "Request paths that hit the vulnerable code, for log analysis.",
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "reference": {"type": "string", "format": "uri", "pattern": "^https?://"},
+        "credit": {"description": "Researcher or source when there is no reference URL.", "type": "string", "minLength": 1},
+        "affected": {"description": "Composer version constraint of vulnerable versions. '*' when unpatched.", "type": "string", "minLength": 1}
+      }
+    }
+  }
+}

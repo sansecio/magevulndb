@@ -1,0 +1,10 @@
+module: EM_AjaxProducts
+update_url: 'https://www.emthemes.com/free-magento-extensions/ajax-products-load-more-magento-extension.html'
+advisories:
+  - id: MVD-2018-0013
+    title: 'EM_AjaxProducts vulnerability, fixed in 1.0.0'
+    published: '2018-12-05'
+    uri:
+      - /ajaxproducts/index/index
+    reference: 'https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/'
+    affected: '<1.0.0'

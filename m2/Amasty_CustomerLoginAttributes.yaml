@@ -1,0 +1,8 @@
+module: Amasty_CustomerLoginAttributes
+update_url: 'https://amasty.com/customer-attributes-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0225
+    title: 'Amasty_CustomerLoginAttributes vulnerability, fixed in 1.2.8'
+    published: '2026-11-02'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.2.8'

@@ -1,0 +1,8 @@
+module: Amasty_CommonRules
+update_url: 'https://amasty.com/shipping-restrictions-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0218
+    title: 'Amasty_CommonRules vulnerability, fixed in 2.5.5'
+    published: '2026-11-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.5.5'

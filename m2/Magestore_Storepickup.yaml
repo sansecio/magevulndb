@@ -1,0 +1,7 @@
+module: Magestore_Storepickup
+update_url: 'https://blog.magestore.com/store-locator-extension-patch/'
+advisories:
+  - id: MVD-2019-0032
+    title: 'Magestore_Storepickup vulnerability, fixed in 1.2.1'
+    published: '2019-06-17'
+    affected: '<1.2.1'

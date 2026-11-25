@@ -1,0 +1,8 @@
+module: AW_Blog
+update_url: 'https://ecommerce.aheadworks.com/magento-2-extensions/blog'
+advisories:
+  - id: MVD-2019-0026
+    title: 'AW_Blog vulnerability, fixed in 2.4.6'
+    published: '2019-06-17'
+    reference: 'https://ecommerce.aheadworks.com/magento-extension-updates/blog'
+    affected: '<2.4.6'

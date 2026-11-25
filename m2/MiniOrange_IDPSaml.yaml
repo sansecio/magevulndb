@@ -1,0 +1,8 @@
+module: MiniOrange_IDPSaml
+update_url: 'https://commercemarketplace.adobe.com/miniorange-inc-idpsaml.html'
+advisories:
+  - id: MVD-2025-0004
+    title: 'MiniOrange_IDPSaml vulnerability, fixed in 3.0.0'
+    published: '2025-08-08'
+    reference: 'https://commercemarketplace.adobe.com/miniorange-inc-idpsaml.html'
+    affected: '<3.0.0'

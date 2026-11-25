@@ -1,0 +1,8 @@
+module: Startbutton_SBGateway
+update_url: 'https://commercemarketplace.adobe.com/startbutton-module-sbgateway.html'
+advisories:
+  - id: MVD-2025-0010
+    title: 'Startbutton_SBGateway vulnerability, fixed in 1.0.1'
+    published: '2025-09-17'
+    reference: 'https://commercemarketplace.adobe.com/startbutton-module-sbgateway.html'
+    affected: '<1.0.1'

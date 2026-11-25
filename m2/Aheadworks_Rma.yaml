@@ -1,0 +1,8 @@
+module: Aheadworks_Rma
+update_url: 'https://ecommerce.aheadworks.com/magento-2-extensions/rma'
+advisories:
+  - id: MVD-2026-0231
+    title: 'Aheadworks_Rma vulnerability, fixed in 1.10.5'
+    published: '2026-11-19'
+    reference: 'https://ecommerce.aheadworks.com/magento-extension-updates/rma'
+    affected: '<1.10.5'

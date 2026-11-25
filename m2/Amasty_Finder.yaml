@@ -1,0 +1,8 @@
+module: Amasty_Finder
+update_url: 'https://amasty.com/product-parts-finder-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0052
+    title: 'Amasty_Finder vulnerability, fixed in 1.15.0'
+    published: '2026-08-07'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.15.0'

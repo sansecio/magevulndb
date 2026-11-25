@@ -1,0 +1,8 @@
+module: Amasty_AcartHyvaCheckoutCompatibility
+update_url: 'https://amasty.com/abandoned-cart-email-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0155
+    title: 'Amasty_AcartHyvaCheckoutCompatibility vulnerability, fixed in 1.0.1'
+    published: '2026-09-17'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.0.1'

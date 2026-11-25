@@ -1,0 +1,8 @@
+module: Amasty_MegaMenuPackagePro
+update_url: 'https://amasty.com/mega-menu-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0016
+    title: 'Amasty_MegaMenuPackagePro vulnerability, fixed in 2.8.1'
+    published: '2026-07-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.8.1'

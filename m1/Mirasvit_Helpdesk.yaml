@@ -1,0 +1,9 @@
+module: Mirasvit_Helpdesk
+version_scheme: nonstandard
+update_url: 'https://mirasvit.com/magento-extensions/helpdesk.html'
+advisories:
+  - id: MVD-2018-0027
+    title: 'Mirasvit_Helpdesk vulnerability, fixed in 1.5.14'
+    published: '2018-12-05'
+    reference: 'https://mirasvit.com/doc/extension_helpdesk/current/changelog'
+    affected: '<1.5.14'

@@ -1,0 +1,8 @@
+module: Amasty_Storelocator
+update_url: 'https://amasty.com/store-locator-for-magento-2.html'
+advisories:
+  - id: MVD-2019-0024
+    title: 'Amasty_Storelocator vulnerability, fixed in 1.4.7'
+    published: '2019-06-17'
+    credit: 'Francis M. Gallagher'
+    affected: '<1.4.7'

@@ -1,0 +1,8 @@
+module: Magestore_AffiliatePlus
+update_url: 'https://www.magestore.com/affiliateplus.html'
+advisories:
+  - id: MVD-2019-0001
+    title: 'Magestore_AffiliatePlus vulnerability, fixed in 4.5'
+    published: '2019-01-17'
+    reference: 'https://www.getastra.com/blog/cms/magento-module-xss-affiliate-plus-update/'
+    affected: '<4.5'

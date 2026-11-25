@@ -1,0 +1,8 @@
+module: Alekseon_AlekseonEav
+update_url: 'https://github.com/Alekseon/AlekseonEav'
+advisories:
+  - id: MVD-2026-0233
+    title: 'Alekseon_AlekseonEav vulnerability, fixed in 101.2.28'
+    published: '2026-11-23'
+    reference: 'https://github.com/Alekseon/AlekseonEav/commit/ecf9ee1a7934d697b268f50cc340fe658863efd2'
+    affected: '<101.2.28'

@@ -1,0 +1,10 @@
+module: Netreviews_Avisverifies
+update_url: 'https://marketplace.magento.com/netreviews-verifiedreviews.html'
+advisories:
+  - id: MVD-2019-0037
+    title: 'Netreviews_Avisverifies vulnerability, fixed in 2.18.2'
+    published: '2019-07-21'
+    uri:
+      - /AvisVerifies/dialog/index/
+    reference: 'https://xn--gran-8qa.fi/magento-1-netreviews-avisverifies-security-flaw/'
+    affected: '<2.18.2'

@@ -1,0 +1,8 @@
+module: Amasty_Smtp
+update_url: 'https://amasty.com/smtp-email-settings-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0103
+    title: 'Amasty_Smtp vulnerability, fixed in 2.3.4'
+    published: '2026-08-25'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.3.4'

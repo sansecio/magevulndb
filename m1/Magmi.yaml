@@ -1,0 +1,10 @@
+module: Magmi
+update_url: 'http://wiki.magmi.org/index.php?title=Magmi_Wiki'
+advisories:
+  - id: MVD-2018-0024
+    title: 'Magmi vulnerability, fixed in 0.7.22'
+    published: '2018-12-05'
+    uri:
+      - /magmi/
+    reference: 'http://magmi.org/magmi-security-issue-solved/'
+    affected: '<0.7.22'

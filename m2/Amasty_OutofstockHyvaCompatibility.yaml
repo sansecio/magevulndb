@@ -1,0 +1,8 @@
+module: Amasty_OutofstockHyvaCompatibility
+update_url: 'https://amasty.com/out-of-stock-notification-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0017
+    title: 'Amasty_OutofstockHyvaCompatibility vulnerability, fixed in 1.1.0'
+    published: '2026-07-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.1.0'

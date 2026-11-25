@@ -1,0 +1,10 @@
+module: Mageplaza_Blog
+update_url: 'https://github.com/mageplaza/magento-2-blog/releases/tag/v4.3.4'
+advisories:
+  - id: MVD-2026-0226
+    title: 'Mageplaza_Blog vulnerability, fixed in 4.3.4'
+    published: '2026-11-04'
+    uri:
+      - /mpblog/post/view
+    reference: 'https://www.ionix.io/threat-center/cve-2026-79322/'
+    affected: '<4.3.4'

@@ -1,0 +1,9 @@
+module: Sm_Megamenu
+update_url: 'https://www.magentech.com/magento/magento-extensions/item/246-sm-mega-menu-responsive-magento-module'
+advisories:
+  - id: MVD-2018-0064
+    title: 'Sm_Megamenu vulnerability, fixed in 3.0.1'
+    published: '2018-12-23'
+    uri:
+      - /megamenu/index/getitems/
+    affected: '<3.0.1'

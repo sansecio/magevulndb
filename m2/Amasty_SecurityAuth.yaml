@@ -1,0 +1,8 @@
+module: Amasty_SecurityAuth
+update_url: 'https://amasty.com/two-factor-authentication-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0223
+    title: 'Amasty_SecurityAuth vulnerability, fixed in 1.1.9'
+    published: '2026-11-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.1.9'

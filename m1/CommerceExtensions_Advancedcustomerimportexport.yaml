@@ -1,0 +1,10 @@
+module: CommerceExtensions_Advancedcustomerimportexport
+update_url: 'https://www.commerceextensions.com/advanced-customer-import-export-csv-xml.html'
+advisories:
+  - id: MVD-2019-0008
+    title: 'CommerceExtensions_Advancedcustomerimportexport vulnerability, fixed in 0.3.0'
+    published: '2019-03-27'
+    uri:
+      - /advancedcustomerimportexport/
+    reference: 'https://www.alterweb.nl/techtalk/commerce-extensions-import-export-security-issue'
+    affected: '<0.3.0'

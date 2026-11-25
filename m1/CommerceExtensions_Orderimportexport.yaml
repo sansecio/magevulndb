@@ -1,0 +1,10 @@
+module: CommerceExtensions_Orderimportexport
+update_url: 'https://www.commerceextensions.com/magento-import-export-orders-to-csv.html'
+advisories:
+  - id: MVD-2019-0013
+    title: 'CommerceExtensions_Orderimportexport vulnerability, fixed in 0.2.0'
+    published: '2019-04-23'
+    uri:
+      - /orderimportexport/
+    reference: 'https://www.alterweb.nl/techtalk/commerce-extensions-import-export-security-issue'
+    affected: '<0.2.0'

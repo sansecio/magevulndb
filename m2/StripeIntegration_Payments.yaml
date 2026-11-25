@@ -1,0 +1,8 @@
+module: StripeIntegration_Payments
+update_url: 'https://github.com/stripe/stripe-magento2-releases/blob/master/stripe-magento2-4.4.2.tgz'
+advisories:
+  - id: MVD-2020-0008
+    title: 'StripeIntegration_Payments vulnerability, fixed in 4.4.2'
+    published: '2020-07-09'
+    reference: 'https://github.com/stripe/stripe-magento2-releases/blob/master/CHANGELOG.md#442---2025-04-11'
+    affected: '<4.4.2'

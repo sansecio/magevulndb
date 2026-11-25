@@ -1,0 +1,10 @@
+module: FME_Productattachments
+update_url: 'https://www.fmeextensions.com/magento-product-attachments-file-uploads-extension.html'
+advisories:
+  - id: MVD-2018-0018
+    title: 'FME_Productattachments vulnerability, fixed in 2.5.3'
+    published: '2018-12-05'
+    uri:
+      - productattachments/index/download
+    reference: 'https://steveperrycreative.com/fme-product-attachment-2-5-2-magento-1-extension-vulnerability/'
+    affected: '<2.5.3'

@@ -1,0 +1,8 @@
+module: Amasty_InstagramFeedHyva
+update_url: 'https://amasty.com/instagram-feed-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0101
+    title: 'Amasty_InstagramFeedHyva vulnerability, fixed in 1.2.0'
+    published: '2026-08-25'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.2.0'

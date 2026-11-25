@@ -1,0 +1,7 @@
+module: Amasty_GeoipRedirect
+update_url: 'https://amasty.com/magento-geoip-redirect.html'
+advisories:
+  - id: MVD-2018-0002
+    title: 'Amasty_GeoipRedirect vulnerability, fixed in 1.0.23'
+    published: '2018-12-05'
+    affected: '<1.0.23'

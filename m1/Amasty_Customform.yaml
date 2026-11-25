@@ -1,0 +1,7 @@
+module: Amasty_Customform
+update_url: 'https://amasty.com/magento-form-builder.html'
+advisories:
+  - id: MVD-2018-0050
+    title: 'Amasty_Customform vulnerability, fixed in 1.7.3'
+    published: '2018-12-10'
+    affected: '<1.7.3'

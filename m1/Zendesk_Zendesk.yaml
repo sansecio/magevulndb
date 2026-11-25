@@ -1,0 +1,8 @@
+module: Zendesk_Zendesk
+update_url: 'https://github.com/agnostack/magento_extension'
+advisories:
+  - id: MVD-2021-0001
+    title: 'Zendesk_Zendesk vulnerability, fixed in 2.4.0'
+    published: '2021-01-14'
+    reference: 'https://github.com/agnostack/magento_extension/releases/tag/v2.4.0'
+    affected: '<2.4.0'

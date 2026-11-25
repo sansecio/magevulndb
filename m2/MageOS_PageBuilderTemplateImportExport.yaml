@@ -1,0 +1,10 @@
+module: MageOS_PageBuilderTemplateImportExport
+update_url: 'https://github.com/mage-os/module-pagebuilder-template-import-export/releases/tag/1.9.0'
+advisories:
+  - id: MVD-2026-0047
+    title: 'MageOS_PageBuilderTemplateImportExport vulnerability, fixed in 1.9.0'
+    published: '2026-08-05'
+    uri:
+      - /pagebuildertemplateie/template/
+    reference: 'https://github.com/mage-os/module-pagebuilder-template-import-export/security/advisories/GHSA-hrj3-88v2-6wjx'
+    affected: '<1.9.0'

@@ -1,0 +1,8 @@
+module: Amasty_XlandingGraphQl
+update_url: 'https://amasty.com/landing-pages-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0202
+    title: 'Amasty_XlandingGraphQl vulnerability, fixed in 2.0.3'
+    published: '2026-10-03'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.0.3'

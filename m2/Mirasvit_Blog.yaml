@@ -1,0 +1,7 @@
+module: Mirasvit_Blog
+update_url: 'https://github.com/mirasvit/module-blog'
+advisories:
+  - id: MVD-2019-0033
+    title: 'Mirasvit_Blog vulnerability, fixed in 1.0.21'
+    published: '2019-06-20'
+    affected: '<1.0.21'

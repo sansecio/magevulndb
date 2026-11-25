@@ -1,0 +1,8 @@
+module: Amasty_Shopby
+update_url: 'https://amasty.com/improved-layered-navigation-for-magento-2.html'
+advisories:
+  - id: MVD-2019-0023
+    title: 'Amasty_Shopby vulnerability, fixed in 4.1.3'
+    published: '2019-06-17'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<4.1.3'

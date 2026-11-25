@@ -1,0 +1,7 @@
+module: Amasty_Loyalty
+update_url: 'https://amasty.com/magento-loyalty-program.html'
+advisories:
+  - id: MVD-2018-0055
+    title: 'Amasty_Loyalty vulnerability, fixed in 1.14.2'
+    published: '2018-12-11'
+    affected: '<1.14.2'

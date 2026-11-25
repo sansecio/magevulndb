@@ -1,0 +1,9 @@
+module: ConnectPOS_Core
+advisories:
+  - id: MVD-2023-0001
+    title: 'ConnectPOS_Core vulnerability, fixed in 23.09.03'
+    published: '2023-09-06'
+    uri:
+      - /rest/V2/connectpos
+    reference: 'https://github.com/sansecio/magevulndb/pull/107'
+    affected: '<23.09.03'

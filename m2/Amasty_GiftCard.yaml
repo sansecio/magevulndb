@@ -1,0 +1,8 @@
+module: Amasty_GiftCard
+update_url: 'https://amasty.com/gift-card-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0045
+    title: 'Amasty_GiftCard vulnerability, fixed in 2.16.4'
+    published: '2026-07-16'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.16.4'

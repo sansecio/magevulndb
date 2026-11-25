@@ -1,0 +1,8 @@
+module: Magento_CustomAttributeSerializable
+update_url: 'https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27397'
+advisories:
+  - id: MVD-2025-0008
+    title: 'Magento_CustomAttributeSerializable vulnerability, fixed in 0.4.0'
+    published: '2025-09-09'
+    reference: 'https://sansec.io/research/sessionreaper'
+    affected: '<0.4.0'

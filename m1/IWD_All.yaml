@@ -1,0 +1,10 @@
+module: IWD_All
+update_url: 'https://www.iwdagency.com/help/getting-started/installing-iwd-all'
+advisories:
+  - id: MVD-2018-0021
+    title: 'IWD_All vulnerability, fixed in 2.2.4'
+    published: '2018-12-05'
+    uri:
+      - iwdall/adminhtml_support/send
+    credit: 'Max Chadwick'
+    affected: '<2.2.4'

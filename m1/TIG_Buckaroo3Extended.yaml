@@ -1,0 +1,10 @@
+module: TIG_Buckaroo3Extended
+update_url: 'https://github.com/sansecio/magevulndb/pull/59'
+advisories:
+  - id: MVD-2022-0008
+    title: 'TIG_Buckaroo3Extended vulnerability, fixed in 4.18.0'
+    published: '2022-12-22'
+    uri:
+      - /buckaroo3extended/checkout/saveData
+    reference: 'https://github.com/sansecio/magevulndb/pull/59'
+    affected: '<4.18.0'

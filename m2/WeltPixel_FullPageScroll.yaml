@@ -1,0 +1,8 @@
+module: WeltPixel_FullPageScroll
+update_url: 'https://docs.weltpixel.com/FullPageScroll/User-Guide-WeltPixel-Full-Page-Scroll-Magento2.html'
+advisories:
+  - id: MVD-2026-0117
+    title: 'WeltPixel_FullPageScroll vulnerability, fixed in 1.17.5'
+    published: '2026-09-17'
+    reference: 'https://weltpixel.com/blogs/magento/magento-security-update-september-2026-weltpixel-1-17-5'
+    affected: '<1.17.5'

@@ -1,0 +1,8 @@
+module: Amasty_PriceHistory
+update_url: 'https://amasty.com/omnibus-price-tracker-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0039
+    title: 'Amasty_PriceHistory vulnerability, fixed in 1.7.2'
+    published: '2026-07-03'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.7.2'

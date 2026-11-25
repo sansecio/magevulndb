@@ -1,0 +1,10 @@
+module: Mirasvit_Profiler
+update_url: 'https://github.com/mirasvit/module-profiler'
+advisories:
+  - id: MVD-2026-0232
+    title: 'Mirasvit_Profiler vulnerability, unpatched'
+    published: '2026-11-23'
+    uri:
+      - /profiler/
+    reference: 'https://github.com/mirasvit/module-profiler/commit/b31b2be417da4e0a2acfd4cf8da80710dc67584f'
+    affected: '*'

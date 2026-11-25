@@ -1,0 +1,31 @@
+{
+    "name": "sansecio/magevulndb",
+    "description": "Validation and build tooling for the Magento vulnerable extensions database",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.4",
+        "composer/semver": "^3.6",
+        "justinrainbow/json-schema": "^6.15",
+        "rootshell/cvss-calculator": "^1.5",
+        "symfony/yaml": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {"MageVulnDb\\": "tools/src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"MageVulnDb\\Tests\\": "tools/tests/"}
+    },
+    "config": {
+        "platform": {"php": "8.4.99"},
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit",
+        "validate-db": "php bin/validate",
+        "build-db": "php bin/build"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.4"
+    }
+}

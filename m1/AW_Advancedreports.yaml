@@ -1,0 +1,10 @@
+module: AW_Advancedreports
+update_url: 'https://ecommerce.aheadworks.com/magento-extensions/advanced-reports.html'
+advisories:
+  - id: MVD-2019-0004
+    title: 'AW_Advancedreports vulnerability, fixed in 2.8.2'
+    published: '2019-02-15'
+    uri:
+      - /advancedreports/chart/tunnel/
+    reference: 'https://www.facebook.com/Aheadworks/photos/notice-we-fixed-the-vulnerability-connected-with-php-object-injection-discovered/2126624844064804/'
+    affected: '<2.8.2'

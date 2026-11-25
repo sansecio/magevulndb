@@ -1,0 +1,8 @@
+module: WeltPixel_QuickCart
+update_url: 'https://docs.weltpixel.com/QuickCart/User-Guide-WeltPixel-Quick-Cart-Magento2.html'
+advisories:
+  - id: MVD-2026-0142
+    title: 'WeltPixel_QuickCart vulnerability, fixed in 1.17.5'
+    published: '2026-09-17'
+    reference: 'https://weltpixel.com/blogs/magento/magento-security-update-september-2026-weltpixel-1-17-5'
+    affected: '<1.17.5'

@@ -1,0 +1,8 @@
+module: Bss_MultiWishlist
+update_url: 'https://bsscommerce.com/magento-2-multiple-wishlists-extension.html'
+advisories:
+  - id: MVD-2019-0040
+    title: 'Bss_MultiWishlist vulnerability, fixed in 1.2.0'
+    published: '2019-12-11'
+    reference: 'https://xn--gran-8qa.fi/bss-multiwishlist-xss-injection/'
+    affected: '<1.2.0'

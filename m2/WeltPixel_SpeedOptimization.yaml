@@ -1,0 +1,8 @@
+module: WeltPixel_SpeedOptimization
+update_url: 'https://docs.weltpixel.com/SpeedOptimization/User-Guide-WeltPixel-Speed-Optimization-Magento2.html'
+advisories:
+  - id: MVD-2026-0150
+    title: 'WeltPixel_SpeedOptimization vulnerability, fixed in 1.17.5'
+    published: '2026-09-17'
+    reference: 'https://weltpixel.com/blogs/magento/magento-security-update-september-2026-weltpixel-1-17-5'
+    affected: '<1.17.5'

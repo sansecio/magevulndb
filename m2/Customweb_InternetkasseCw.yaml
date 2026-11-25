@@ -1,0 +1,7 @@
+module: Customweb_InternetkasseCw
+advisories:
+  - id: MVD-2021-0002
+    title: 'Customweb_InternetkasseCw vulnerability, fixed in 4.0.339'
+    published: '2021-01-14'
+    reference: 'https://www.sellxed.com/shop/en/eur/software/changelog/index/magento-s-internetkasse-zahlungs-extension.html'
+    affected: '<4.0.339'

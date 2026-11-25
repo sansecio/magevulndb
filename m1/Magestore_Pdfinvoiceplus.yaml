@@ -1,0 +1,8 @@
+module: Magestore_Pdfinvoiceplus
+update_url: 'https://www.magestore.com/magento-pdf-invoice-extension.html'
+advisories:
+  - id: MVD-2018-0023
+    title: 'Magestore_Pdfinvoiceplus vulnerability, fixed in 2.4'
+    published: '2018-12-05'
+    reference: 'https://www.getastra.com/blog/cms/magento-security/high-risk-vulnerability-pdf-invoice-plus-magento-extension-vulnerability/'
+    affected: '<2.4'

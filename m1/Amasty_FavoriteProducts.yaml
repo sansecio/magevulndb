@@ -1,0 +1,8 @@
+module: Amasty_FavoriteProducts
+notes: 'Module name unconfirmed.'
+update_url: 'https://amasty.com/favorite-products.html'
+advisories:
+  - id: MVD-2018-0053
+    title: 'Amasty_FavoriteProducts vulnerability, fixed in 1.2.10'
+    published: '2018-12-11'
+    affected: '<1.2.10'

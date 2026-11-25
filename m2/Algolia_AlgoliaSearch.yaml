@@ -1,0 +1,8 @@
+module: Algolia_AlgoliaSearch
+update_url: 'https://github.com/algolia/algoliasearch-magento-2'
+advisories:
+  - id: MVD-2026-0001
+    title: 'Algolia_AlgoliaSearch vulnerability, fixed in 3.17.2'
+    published: '2026-01-20'
+    reference: 'https://github.com/advisories/GHSA-595p-g7xc-c333'
+    affected: '<3.17.2'

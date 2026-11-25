@@ -1,0 +1,8 @@
+module: Amasty_Promo
+update_url: 'https://amasty.com/free-gift-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0023
+    title: 'Amasty_Promo vulnerability, fixed in 2.19.0'
+    published: '2026-07-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.19.0'

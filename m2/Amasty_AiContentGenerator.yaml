@@ -1,0 +1,8 @@
+module: Amasty_AiContentGenerator
+update_url: 'https://amasty.com/chatgpt-ai-content-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0008
+    title: 'Amasty_AiContentGenerator vulnerability, fixed in 6.1.1'
+    published: '2026-07-01'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<6.1.1'

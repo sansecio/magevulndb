@@ -1,0 +1,8 @@
+module: Amasty_RegenerateUrlRewrites
+update_url: 'https://amasty.com/url-rewrites-regenerator-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0066
+    title: 'Amasty_RegenerateUrlRewrites vulnerability, fixed in 1.2.0'
+    published: '2026-08-07'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.2.0'

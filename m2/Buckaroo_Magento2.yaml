@@ -1,0 +1,8 @@
+module: Buckaroo_Magento2
+update_url: 'https://github.com/buckaroo-it/Magento2/releases/tag/v2.7.2'
+advisories:
+  - id: MVD-2026-0211
+    title: 'Buckaroo_Magento2 vulnerability, fixed in 2.7.2'
+    published: '2026-10-06'
+    reference: 'https://github.com/buckaroo-it/Magento2/releases/tag/v2.7.2'
+    affected: '<2.7.2'

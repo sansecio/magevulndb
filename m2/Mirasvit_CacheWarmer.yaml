@@ -1,0 +1,8 @@
+module: Mirasvit_CacheWarmer
+update_url: 'https://mirasvit.com/magento-2-extensions/full-page-cache-warmer.html'
+advisories:
+  - id: MVD-2020-0012
+    title: 'Mirasvit_CacheWarmer vulnerability, fixed in 1.11.12'
+    published: '2020-12-02'
+    reference: 'https://sansec.io/research/mirasvit-cache-warmer-object-injection'
+    affected: '<1.11.12'

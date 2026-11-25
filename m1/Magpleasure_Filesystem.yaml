@@ -1,0 +1,7 @@
+module: Magpleasure_Filesystem
+advisories:
+  - id: MVD-2018-0025
+    title: 'Magpleasure_Filesystem vulnerability, unpatched'
+    published: '2018-12-05'
+    reference: 'http://www.magpleasure.com/blog/quick-survey-should-we-leave-the-file-system-extension-alive.html'
+    affected: '*'

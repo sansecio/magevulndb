@@ -1,0 +1,8 @@
+module: MiniOrange_SF
+update_url: 'https://commercemarketplace.adobe.com/miniorange-inc-miniorange-sf-sso.html'
+advisories:
+  - id: MVD-2025-0009
+    title: 'MiniOrange_SF vulnerability, fixed in 2.0.1'
+    published: '2025-09-15'
+    reference: 'https://commercemarketplace.adobe.com/miniorange-inc-miniorange-sf-sso.html'
+    affected: '<2.0.1'

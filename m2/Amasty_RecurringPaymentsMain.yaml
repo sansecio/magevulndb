@@ -1,0 +1,8 @@
+module: Amasty_RecurringPaymentsMain
+update_url: 'https://amasty.com/subscriptions-recurring-payments-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0153
+    title: 'Amasty_RecurringPaymentsMain vulnerability, fixed in 2.5.0'
+    published: '2026-09-17'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<2.5.0'

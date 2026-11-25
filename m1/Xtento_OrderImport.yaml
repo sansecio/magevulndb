@@ -1,0 +1,8 @@
+module: Xtento_OrderImport
+update_url: 'https://www.xtento.com/magento-extensions/magento-order-import-extension.html'
+advisories:
+  - id: MVD-2021-0004
+    title: 'Xtento_OrderImport vulnerability, fixed in 1.1.4'
+    published: '2021-01-14'
+    reference: 'https://www.xtento.com/xtcustom/changelog/show/module/Xtento_OrderImport/version/m1'
+    affected: '<1.1.4'

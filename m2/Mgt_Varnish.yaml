@@ -1,0 +1,10 @@
+module: Mgt_Varnish
+update_url: 'https://www.mgt-commerce.com/mgt-varnish-cache-for-magento-performance'
+advisories:
+  - id: MVD-2025-0012
+    title: 'Mgt_Varnish vulnerability, fixed in 1.1.0'
+    published: '2025-12-15'
+    uri:
+      - /mgtfeed/feed/update
+    reference: 'https://sansec.io/research/mgt-varnish-critical-vulnerability'
+    affected: '<1.1.0'

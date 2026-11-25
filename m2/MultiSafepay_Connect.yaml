@@ -1,0 +1,8 @@
+module: MultiSafepay_Connect
+update_url: 'https://github.com/MultiSafepay/Magento2Msp/releases/tag/1.7.0'
+advisories:
+  - id: MVD-2022-0009
+    title: 'MultiSafepay_Connect vulnerability, fixed in 1.7.0'
+    published: '2022-12-22'
+    reference: 'https://github.com/sansecio/magevulndb/pull/59'
+    affected: '<1.7.0'

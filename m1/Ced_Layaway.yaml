@@ -1,0 +1,10 @@
+module: Ced_Layaway
+abandoned: true
+advisories:
+  - id: MVD-2018-0010
+    title: 'Ced_Layaway vulnerability, unpatched'
+    published: '2018-12-05'
+    uri:
+      - /layaway/view/add/
+    reference: 'https://gwillem.gitlab.io/2018/10/23/magecart-extension-0days/'
+    affected: '*'

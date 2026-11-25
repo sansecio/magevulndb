@@ -1,0 +1,7 @@
+module: Amasty_Acart
+update_url: 'https://amasty.com/magento-abandoned-cart-email.html'
+advisories:
+  - id: MVD-2018-0047
+    title: 'Amasty_Acart vulnerability, fixed in 1.17.4'
+    published: '2018-12-10'
+    affected: '<1.17.4'

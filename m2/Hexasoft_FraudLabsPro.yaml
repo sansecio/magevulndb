@@ -1,0 +1,8 @@
+module: Hexasoft_FraudLabsPro
+update_url: 'https://commercemarketplace.adobe.com/hexasoft-module-fraudlabspro.html'
+advisories:
+  - id: MVD-2025-0002
+    title: 'Hexasoft_FraudLabsPro vulnerability, fixed in 2.7.5'
+    published: '2025-08-07'
+    reference: 'https://github.com/fraudlabspro/magento2/commit/97b7258045627cfd67cd9018409ee685d5c070b0'
+    affected: '<2.7.5'

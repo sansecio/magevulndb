@@ -1,0 +1,10 @@
+module: CommerceExtensions_Urlrewritesimportexport
+update_url: 'https://www.commerceextensions.com/import-export-bulk-magento-url-rewrites-csv-xml.html'
+advisories:
+  - id: MVD-2019-0018
+    title: 'CommerceExtensions_Urlrewritesimportexport vulnerability, fixed in 0.3.0'
+    published: '2019-04-23'
+    uri:
+      - /urlrewritesimportexport/
+    reference: 'https://www.alterweb.nl/techtalk/commerce-extensions-import-export-security-issue'
+    affected: '<0.3.0'

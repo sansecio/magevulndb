@@ -1,0 +1,8 @@
+module: Amasty_ExportCore
+update_url: 'https://amasty.com/import-and-export-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0081
+    title: 'Amasty_ExportCore vulnerability, fixed in 1.14.6'
+    published: '2026-08-13'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.14.6'

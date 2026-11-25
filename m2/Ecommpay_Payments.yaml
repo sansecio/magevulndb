@@ -1,0 +1,8 @@
+module: Ecommpay_Payments
+update_url: 'https://github.com/ITECOMMPAY/ecommpay-magento2/releases/tag/v2.2.1'
+advisories:
+  - id: MVD-2025-0006
+    title: 'Ecommpay_Payments vulnerability, fixed in 2.2.1'
+    published: '2025-08-22'
+    reference: 'https://github.com/ITECOMMPAY/ecommpay-magento2/commit/8c9754fb93b45f7cb8ea62aca7fff38f0735771a'
+    affected: '<2.2.1'

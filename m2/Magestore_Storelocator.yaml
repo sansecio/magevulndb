@@ -1,0 +1,7 @@
+module: Magestore_Storelocator
+update_url: 'https://blog.magestore.com/store-locator-extension-patch/'
+advisories:
+  - id: MVD-2019-0031
+    title: 'Magestore_Storelocator vulnerability, fixed in 1.0.2'
+    published: '2019-06-17'
+    affected: '<1.0.2'

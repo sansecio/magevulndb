@@ -1,0 +1,8 @@
+module: Amasty_Prot
+update_url: 'https://amasty.com/custom-product-option-templates-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0076
+    title: 'Amasty_Prot vulnerability, fixed in 1.7.2'
+    published: '2026-08-07'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.7.2'

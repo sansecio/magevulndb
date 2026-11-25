@@ -1,0 +1,8 @@
+module: Amasty_CompanyAccountQuote
+update_url: 'https://amasty.com/request-a-quote-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0164
+    title: 'Amasty_CompanyAccountQuote vulnerability, fixed in 1.2.2'
+    published: '2026-09-17'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.2.2'

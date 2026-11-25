@@ -1,0 +1,7 @@
+module: Amasty_Feed
+update_url: 'https://amasty.com/product-feed-for-magento-2.html'
+advisories:
+  - id: MVD-2021-0016
+    title: 'Amasty_Feed vulnerability, fixed in 2.6.7'
+    published: '2021-09-27'
+    affected: '<2.6.7'

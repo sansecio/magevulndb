@@ -1,0 +1,8 @@
+module: Amasty_Conditions
+update_url: 'https://amasty.com/custom-options-conditions-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0048
+    title: 'Amasty_Conditions vulnerability, fixed in 1.6.1'
+    published: '2026-08-07'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.6.1'

@@ -1,0 +1,8 @@
+module: Hexasoft_IP2LocationCountryBlocker
+update_url: 'https://commercemarketplace.adobe.com/hexasoft-ip2location-countryblocker.html'
+advisories:
+  - id: MVD-2025-0007
+    title: 'Hexasoft_IP2LocationCountryBlocker vulnerability, fixed in 1.2.0'
+    published: '2025-09-02'
+    reference: 'https://commercemarketplace.adobe.com/hexasoft-ip2location-countryblocker.html'
+    affected: '<1.2.0'

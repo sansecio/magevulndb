@@ -1,0 +1,8 @@
+module: Amasty_AdvancedReviewGraphQl
+update_url: 'https://amasty.com/advanced-product-reviews-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0030
+    title: 'Amasty_AdvancedReviewGraphQl vulnerability, fixed in 1.0.6'
+    published: '2026-07-02'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.0.6'

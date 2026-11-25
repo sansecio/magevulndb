@@ -1,0 +1,8 @@
+module: Amasty_Feed
+update_url: 'https://amasty.com/product-feed.html'
+advisories:
+  - id: MVD-2018-0048
+    title: 'Amasty_Feed vulnerability, fixed in 3.3.4'
+    published: '2018-12-10'
+    reference: 'https://amasty.com/blog/update-amasty-product-feed-extension/'
+    affected: '<3.3.4'

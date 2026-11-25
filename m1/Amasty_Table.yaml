@@ -1,0 +1,7 @@
+module: Amasty_Table
+update_url: 'https://amasty.com/shipping-table-rates.html'
+advisories:
+  - id: MVD-2019-0003
+    title: 'Amasty_Table vulnerability, fixed in 2.5.4'
+    published: '2019-02-08'
+    affected: '<2.5.4'

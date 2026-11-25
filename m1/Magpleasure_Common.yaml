@@ -1,0 +1,10 @@
+module: Magpleasure_Common
+abandoned: true
+advisories:
+  - id: MVD-2018-0062
+    title: 'Magpleasure_Common vulnerability, fixed in 0.8.13'
+    published: '2018-12-19'
+    uri:
+      - /admin/magpleasure/ajaxform/save/
+    reference: 'https://www.alterweb.nl/techtalk/magpleasure_common-security-issue'
+    affected: '<0.8.13'

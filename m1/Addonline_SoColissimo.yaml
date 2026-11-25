@@ -1,0 +1,10 @@
+module: Addonline_SoColissimo
+update_url: 'http://www.modules-ecommerce.fr'
+advisories:
+  - id: MVD-2019-0020
+    title: 'Addonline_SoColissimo vulnerability, fixed in 2.2.1'
+    published: '2019-04-25'
+    uri:
+      - /socolissimo/ajax/getcitynamebyzipcode/
+    reference: 'https://twitter.com/gwillem/status/1121397274041638913'
+    affected: '<2.2.1'

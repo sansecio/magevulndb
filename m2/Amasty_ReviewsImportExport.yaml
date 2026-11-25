@@ -1,0 +1,8 @@
+module: Amasty_ReviewsImportExport
+update_url: 'https://amasty.com/import-export-add-on-for-advanced-product-reviews-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0088
+    title: 'Amasty_ReviewsImportExport vulnerability, fixed in 1.1.1'
+    published: '2026-08-13'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<1.1.1'

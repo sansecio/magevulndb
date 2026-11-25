@@ -1,0 +1,8 @@
+module: WeltPixel_GA4OpenAISS
+update_url: 'https://docs.weltpixel.com/OpenAIAdsAddon/User-Guide-WeltPixel-OpenAI-Ads-Addon.html'
+advisories:
+  - id: MVD-2026-0122
+    title: 'WeltPixel_GA4OpenAISS vulnerability, fixed in 1.17.5'
+    published: '2026-09-17'
+    reference: 'https://weltpixel.com/blogs/magento/magento-security-update-september-2026-weltpixel-1-17-5'
+    affected: '<1.17.5'

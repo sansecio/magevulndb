@@ -1,0 +1,9 @@
+module: CommerceExtensions_GuestToReg
+advisories:
+  - id: MVD-2024-0001
+    title: 'CommerceExtensions_GuestToReg vulnerability, unpatched'
+    published: '2024-01-12'
+    uri:
+      - /GuestToReg/index/post
+    reference: 'https://twitter.com/gwillem/status/1065986386795380736'
+    affected: '*'

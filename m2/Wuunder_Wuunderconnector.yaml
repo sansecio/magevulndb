@@ -1,0 +1,10 @@
+module: Wuunder_Wuunderconnector
+update_url: 'https://github.com/wuunder/wuunder-webshopplugin-magento2/releases'
+advisories:
+  - id: MVD-2020-0009
+    title: 'Wuunder_Wuunderconnector vulnerability, fixed in 2.1.2'
+    published: '2020-07-09'
+    uri:
+      - wuunder/index/parcelshop
+    reference: 'https://github.com/wuunder/wuunder-webshopplugin-magento2/issues/32'
+    affected: '<2.1.2'

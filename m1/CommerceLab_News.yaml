@@ -1,0 +1,9 @@
+module: CommerceLab_News
+advisories:
+  - id: MVD-2019-0005
+    title: 'CommerceLab_News vulnerability, unpatched'
+    published: '2019-03-01'
+    uri:
+      - /clnews/
+    reference: 'https://www.magecloud.net/marketplace/extension/news-by-commercelab/'
+    affected: '*'

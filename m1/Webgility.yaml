@@ -1,0 +1,10 @@
+module: Webgility
+update_url: 'https://marketplace.magento.com/webgility-webgility-ecc.html'
+advisories:
+  - id: MVD-2018-0039
+    title: 'Webgility vulnerability, fixed in 346'
+    published: '2018-12-05'
+    uri:
+      - /webgility/upgrade.php
+    reference: 'https://gwillem.gitlab.io/2018/10/30/webgility-backdoor/'
+    affected: '<346'

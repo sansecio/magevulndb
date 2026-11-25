@@ -1,0 +1,8 @@
+module: Amasty_ShopbyBrand
+update_url: 'https://amasty.com/shop-by-brand-for-magento-2.html'
+advisories:
+  - id: MVD-2026-0091
+    title: 'Amasty_ShopbyBrand vulnerability, fixed in 3.3.2'
+    published: '2026-08-13'
+    reference: 'https://sansec.io/research/amasty-mass-disclosure'
+    affected: '<3.3.2'

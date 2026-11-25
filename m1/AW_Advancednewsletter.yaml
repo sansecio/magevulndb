@@ -1,0 +1,8 @@
+module: AW_Advancednewsletter
+update_url: 'https://ecommerce.aheadworks.com/magento-extensions/advanced-newsletter.html'
+advisories:
+  - id: MVD-2018-0004
+    title: 'AW_Advancednewsletter vulnerability, fixed in 2.3.5'
+    published: '2018-12-05'
+    reference: 'https://labs.integrity.pt/advisories/cve-2014-1634/index.html'
+    affected: '<2.3.5'

@@ -1,0 +1,7 @@
+module: VladimirPopov_WebForms
+advisories:
+  - id: MVD-2020-0007
+    title: 'VladimirPopov_WebForms vulnerability, fixed in 2.9.18'
+    published: '2020-05-28'
+    reference: 'https://web.archive.org/web/20210320101040/https://anothernetsecblog.com/magento-2-extension-security/'
+    affected: '<2.9.18'

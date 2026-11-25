@@ -1,0 +1,8 @@
+module: WeltPixel_InstagramWidget
+update_url: 'https://docs.weltpixel.com/InstagramWidget/User-Guide-WeltPixel-Instagram-Widget-Advanced-Magento2.html'
+advisories:
+  - id: MVD-2026-0131
+    title: 'WeltPixel_InstagramWidget vulnerability, fixed in 1.17.5'
+    published: '2026-09-17'
+    reference: 'https://weltpixel.com/blogs/magento/magento-security-update-september-2026-weltpixel-1-17-5'
+    affected: '<1.17.5'
