@@ -1,4 +1,6 @@
 module: Amasty_CustomStockStatusMsi
+composer:
+  - amasty/custom-stock-status-msi
 update_url: 'https://amasty.com/custom-stock-status-for-magento-2.html'
 advisories:
   - id: MVD-2026-0169

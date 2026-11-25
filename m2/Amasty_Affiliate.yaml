@@ -1,4 +1,6 @@
 module: Amasty_Affiliate
+composer:
+  - amasty/affiliate
 update_url: 'https://amasty.com/affiliate-for-magento-2.html'
 advisories:
   - id: MVD-2026-0096

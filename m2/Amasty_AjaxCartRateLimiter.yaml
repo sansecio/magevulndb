@@ -1,4 +1,6 @@
 module: Amasty_AjaxCartRateLimiter
+composer:
+  - amasty/module-ajax-cart-rate-limiter
 update_url: 'https://amasty.com/ajax-shopping-cart-for-magento-2.html'
 advisories:
   - id: MVD-2026-0213

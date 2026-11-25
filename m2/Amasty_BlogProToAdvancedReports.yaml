@@ -1,4 +1,6 @@
 module: Amasty_BlogProToAdvancedReports
+composer:
+  - amasty/module-blog-pro-to-advanced-reports
 update_url: 'https://amasty.com/blog-pro-for-magento-2.html'
 advisories:
   - id: MVD-2026-0209

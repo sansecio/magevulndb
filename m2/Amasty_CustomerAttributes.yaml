@@ -1,4 +1,6 @@
 module: Amasty_CustomerAttributes
+composer:
+  - amasty/module-customer-attributes
 update_url: 'https://amasty.com/customer-attributes-for-magento-2.html'
 advisories:
   - id: MVD-2026-0219

@@ -1,4 +1,6 @@
 module: Amasty_AdvancedSearchMultiStore
+composer:
+  - amasty/module-advanced-search-multi-store
 update_url: 'https://amasty.com/advanced-search-for-magento-2.html'
 advisories:
   - id: MVD-2026-0180

@@ -1,4 +1,6 @@
 module: Amasty_CompanyAccountQuote
+composer:
+  - amasty/module-company-account-quote
 update_url: 'https://amasty.com/request-a-quote-for-magento-2.html'
 advisories:
   - id: MVD-2026-0164

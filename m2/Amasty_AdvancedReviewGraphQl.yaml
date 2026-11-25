@@ -1,4 +1,6 @@
 module: Amasty_AdvancedReviewGraphQl
+composer:
+  - amasty/advanced-review-graphql
 update_url: 'https://amasty.com/advanced-product-reviews-for-magento-2.html'
 advisories:
   - id: MVD-2026-0030

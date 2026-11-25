@@ -1,4 +1,6 @@
 module: Amasty_FreeGiftLite
+composer:
+  - amasty/module-free-gift-lite-package
 update_url: 'https://amasty.com/free-gift-for-magento-2.html'
 advisories:
   - id: MVD-2026-0026

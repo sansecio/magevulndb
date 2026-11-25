@@ -1,4 +1,6 @@
 module: Amasty_AcartSubscriptionFunctionality
+composer:
+  - amasty/module-abandoned-cart-email-subscription-functionality
 update_url: 'https://amasty.com/abandoned-cart-email-for-magento-2.html'
 advisories:
   - id: MVD-2026-0156

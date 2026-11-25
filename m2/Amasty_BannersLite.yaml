@@ -1,4 +1,6 @@
 module: Amasty_BannersLite
+composer:
+  - amasty/module-banners-lite
 update_url: 'https://amasty.com/promo-banners-for-magento-2.html'
 advisories:
   - id: MVD-2026-0022

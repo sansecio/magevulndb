@@ -1,4 +1,6 @@
 module: Amasty_ExitPopup
+composer:
+  - amasty/module-exit-popup
 update_url: 'https://amasty.com/exit-intent-popup-for-magento-2.html'
 advisories:
   - id: MVD-2026-0050

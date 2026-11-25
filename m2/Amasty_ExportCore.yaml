@@ -1,4 +1,6 @@
 module: Amasty_ExportCore
+composer:
+  - amasty/module-export-core
 update_url: 'https://amasty.com/import-and-export-for-magento-2.html'
 advisories:
   - id: MVD-2026-0081

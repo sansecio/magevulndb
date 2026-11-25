@@ -1,4 +1,6 @@
 module: Amasty_CustomerImport
+composer:
+  - amasty/module-customer-import
 update_url: 'https://amasty.com/import-customers-for-magento-2.html'
 advisories:
   - id: MVD-2026-0080

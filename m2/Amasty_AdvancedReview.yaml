@@ -1,4 +1,6 @@
 module: Amasty_AdvancedReview
+composer:
+  - amasty/advanced-review
 update_url: 'https://amasty.com/advanced-product-reviews-for-magento-2.html'
 advisories:
   - id: MVD-2026-0044

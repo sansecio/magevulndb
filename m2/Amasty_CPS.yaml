@@ -1,4 +1,6 @@
 module: Amasty_CPS
+composer:
+  - amasty/custom_product_sorting
 update_url: 'https://amasty.com/custom-product-sorting-add-on-for-shop-by-brand-for-magento-2.html'
 advisories:
   - id: MVD-2026-0049

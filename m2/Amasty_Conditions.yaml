@@ -1,4 +1,6 @@
 module: Amasty_Conditions
+composer:
+  - amasty/module-advanced-conditions
 update_url: 'https://amasty.com/custom-options-conditions-for-magento-2.html'
 advisories:
   - id: MVD-2026-0048

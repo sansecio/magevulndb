@@ -1,4 +1,6 @@
 module: Amasty_ExportPro
+composer:
+  - amasty/module-export-pro
 update_url: 'https://amasty.com/export-orders-for-magento-2.html'
 advisories:
   - id: MVD-2026-0051

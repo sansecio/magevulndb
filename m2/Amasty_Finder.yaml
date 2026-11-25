@@ -1,4 +1,6 @@
 module: Amasty_Finder
+composer:
+  - amasty/finder
 update_url: 'https://amasty.com/product-parts-finder-for-magento-2.html'
 advisories:
   - id: MVD-2026-0052

@@ -1,4 +1,6 @@
 module: Amasty_Followup
+composer:
+  - amasty/followup
 update_url: 'https://amasty.com/follow-up-email-for-magento-2.html'
 advisories:
   - id: MVD-2026-0013

@@ -1,4 +1,6 @@
 module: Amasty_DeliveryDateManager
+composer:
+  - amasty/module-delivery-date-manager
 update_url: 'https://amasty.com/delivery-date-manager-for-magento-2.html'
 advisories:
   - id: MVD-2026-0170

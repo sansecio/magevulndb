@@ -1,4 +1,6 @@
 module: Amasty_BlogApi
+composer:
+  - amasty/module-blog-api
 update_url: 'https://amasty.com/blog-pro-for-magento-2.html'
 advisories:
   - id: MVD-2026-0206

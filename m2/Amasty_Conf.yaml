@@ -1,4 +1,6 @@
 module: Amasty_Conf
+composer:
+  - amasty/color-swatches-pro
 update_url: 'https://amasty.com/color-swatches-pro-for-magento-2.html'
 advisories:
   - id: MVD-2026-0093

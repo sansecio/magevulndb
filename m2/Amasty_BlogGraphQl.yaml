@@ -1,4 +1,6 @@
 module: Amasty_BlogGraphQl
+composer:
+  - amasty/blog-graphql
 update_url: 'https://amasty.com/blog-pro-for-magento-2.html'
 advisories:
   - id: MVD-2026-0207

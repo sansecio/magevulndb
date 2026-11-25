@@ -1,4 +1,6 @@
 module: Amasty_Customform
+composer:
+  - amasty/module-magento-custom-form
 update_url: 'https://amasty.com/custom-form-for-magento-2.html'
 advisories:
   - id: MVD-2026-0165

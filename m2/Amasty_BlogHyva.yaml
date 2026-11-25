@@ -1,4 +1,6 @@
 module: Amasty_BlogHyva
+composer:
+  - amasty/module-blog-hyva
 update_url: 'https://amasty.com/blog-pro-for-magento-2.html'
 advisories:
   - id: MVD-2026-0208

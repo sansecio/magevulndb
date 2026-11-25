@@ -1,4 +1,6 @@
 module: Amasty_Ccpa
+composer:
+  - amasty/module-ccpa
 update_url: 'https://amasty.com/california-consumer-privacy-act-for-magento-2.html'
 advisories:
   - id: MVD-2026-0183

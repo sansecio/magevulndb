@@ -1,4 +1,6 @@
 module: Amasty_FaqHyva
+composer:
+  - amasty/module-faq-hyva
 update_url: 'https://amasty.com/faq-and-product-questions-for-magento-2.html'
 advisories:
   - id: MVD-2026-0186

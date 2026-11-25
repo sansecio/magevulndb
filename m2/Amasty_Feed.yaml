@@ -1,4 +1,6 @@
 module: Amasty_Feed
+composer:
+  - amasty/feed
 update_url: 'https://amasty.com/product-feed-for-magento-2.html'
 advisories:
   - id: MVD-2021-0016

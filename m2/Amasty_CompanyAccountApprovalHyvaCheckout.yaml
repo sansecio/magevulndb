@@ -1,4 +1,6 @@
 module: Amasty_CompanyAccountApprovalHyvaCheckout
+composer:
+  - amasty/module-company-account-approval-hyva-checkout
 update_url: 'https://amasty.com/b2b-company-account-for-magento-2.html'
 advisories:
   - id: MVD-2026-0163

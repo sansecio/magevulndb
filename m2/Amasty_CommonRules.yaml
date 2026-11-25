@@ -1,4 +1,6 @@
 module: Amasty_CommonRules
+composer:
+  - amasty/system-common-rules
 update_url: 'https://amasty.com/shipping-restrictions-for-magento-2.html'
 advisories:
   - id: MVD-2026-0218

@@ -1,4 +1,6 @@
 module: Amasty_CustomformGraphQl
+composer:
+  - amasty/module-magento-custom-form-graphql
 update_url: 'https://amasty.com/custom-form-for-magento-2.html'
 advisories:
   - id: MVD-2026-0166

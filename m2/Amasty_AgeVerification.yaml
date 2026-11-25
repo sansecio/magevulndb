@@ -1,4 +1,6 @@
 module: Amasty_AgeVerification
+composer:
+  - amasty/module-age-verification
 update_url: 'https://amasty.com/age-verification-for-magento-2.html'
 advisories:
   - id: MVD-2026-0098

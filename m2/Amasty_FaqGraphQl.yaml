@@ -1,4 +1,6 @@
 module: Amasty_FaqGraphQl
+composer:
+  - amasty/module-faq-graphql
 update_url: 'https://amasty.com/faq-and-product-questions-for-magento-2.html'
 advisories:
   - id: MVD-2026-0185

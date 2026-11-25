@@ -1,4 +1,6 @@
 module: Amasty_AiContentTranslator
+composer:
+  - amasty/module-ai-content-translator
 update_url: 'https://amasty.com/chatgpt-ai-content-for-magento-2.html'
 advisories:
   - id: MVD-2026-0158

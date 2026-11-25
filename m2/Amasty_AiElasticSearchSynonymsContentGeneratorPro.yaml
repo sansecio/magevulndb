@@ -1,4 +1,6 @@
 module: Amasty_AiElasticSearchSynonymsContentGeneratorPro
+composer:
+  - amasty/module-ai-elastic-search-synonyms-content-generator-pro
 update_url: 'https://amasty.com/elasticsearch-for-magento-2.html'
 advisories:
   - id: MVD-2026-0205

@@ -1,4 +1,6 @@
 module: Amasty_AffiliateHyva
+composer:
+  - amasty/module-affiliate-hyva
 update_url: 'https://amasty.com/affiliate-for-magento-2.html'
 advisories:
   - id: MVD-2026-0097

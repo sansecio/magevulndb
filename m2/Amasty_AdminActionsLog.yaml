@@ -1,4 +1,6 @@
 module: Amasty_AdminActionsLog
+composer:
+  - amasty/adminactionslog
 update_url: 'https://amasty.com/admin-actions-log-for-magento-2.html'
 advisories:
   - id: MVD-2026-0179

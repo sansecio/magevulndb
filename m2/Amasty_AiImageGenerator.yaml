@@ -1,4 +1,6 @@
 module: Amasty_AiImageGenerator
+composer:
+  - amasty/module-ai-image-generator
 update_url: 'https://amasty.com/chatgpt-ai-content-for-magento-2.html'
 advisories:
   - id: MVD-2026-0181

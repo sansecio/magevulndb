@@ -1,4 +1,6 @@
 module: Amasty_AiContentGeneratorPro
+composer:
+  - amasty/module-ai-content-generator-pro
 update_url: 'https://amasty.com/chatgpt-ai-content-for-magento-2.html'
 advisories:
   - id: MVD-2026-0010

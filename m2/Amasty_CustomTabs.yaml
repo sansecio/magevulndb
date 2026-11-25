@@ -1,4 +1,6 @@
 module: Amasty_CustomTabs
+composer:
+  - amasty/product-tabs
 update_url: 'https://amasty.com/product-tabs-for-magento-2.html'
 advisories:
   - id: MVD-2026-0214

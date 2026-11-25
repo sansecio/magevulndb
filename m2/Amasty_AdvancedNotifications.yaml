@@ -1,4 +1,6 @@
 module: Amasty_AdvancedNotifications
+composer:
+  - amasty/module-advanced-notifications
 update_url: 'https://amasty.com/abandoned-cart-email-for-magento-2.html'
 advisories:
   - id: MVD-2026-0157
