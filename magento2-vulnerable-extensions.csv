@@ -228,6 +228,7 @@ MultiSafepay_Connect,1.7.0,,https://github.com/sansecio/magevulndb/pull/59,https
 Payone_Core,3.5.0,,https://github.com/PAYONE-GmbH/magento-2/releases/tag/v3.5.0,https://github.com/PAYONE-GmbH/magento-2/releases/tag/v3.5.0
 RocketWeb_ShoppingFeeds,2.3.1,,https://commercemarketplace.adobe.com/rocketweb-module-google-shopping.html,https://commercemarketplace.adobe.com/rocketweb-module-google-shopping.html
 Rootways_Authorizecim,4.1.5,/rootways_authorizecim/applepay/index,https://sansec.io/research/rootways-authorize-net-apple-pay-ssrf,https://www.rootways.com/magento-2-authorize-net-cim-extension
+RunAsRoot_PrometheusExporter,4.4.0,,https://github.com/run-as-root/magento2-prometheus-exporter/security/advisories/GHSA-f839-c954-vr6x,https://github.com/run-as-root/magento2-prometheus-exporter/releases/tag/4.4.0
 Startbutton_SBGateway,1.0.1,,https://commercemarketplace.adobe.com/startbutton-module-sbgateway.html,https://commercemarketplace.adobe.com/startbutton-module-sbgateway.html
 StripeIntegration_Payments,4.4.2,,https://github.com/stripe/stripe-magento2-releases/blob/master/CHANGELOG.md#442---2025-04-11,https://github.com/stripe/stripe-magento2-releases/blob/master/stripe-magento2-4.4.2.tgz
 VladimirPopov_WebForms,2.9.18,,https://web.archive.org/web/20210320101040/https://anothernetsecblog.com/magento-2-extension-security/,
